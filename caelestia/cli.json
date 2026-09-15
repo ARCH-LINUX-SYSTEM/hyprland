@@ -1,0 +1,8 @@
+{
+  "theme": {
+    "enableHypr": true,
+    "enableGtk": true,
+    "enableQt": true,
+    "enableTerm": true
+  }
+}

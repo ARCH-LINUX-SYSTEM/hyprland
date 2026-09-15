@@ -28,27 +28,33 @@ vars.keybinds = {
     -- See README.md "Phim tat va IPC" for the full list of shortcut names.
     { key = mainMod .. " + SUPER_L", action = hl.dsp.global("caelestia:launcher"), opts = { release = true } }, -- Tap SUPER alone
     { key = mainMod .. " + SPACE",   action = hl.dsp.global("caelestia:utilities") }, -- Utilities popup (toggles, incl. wallpaper)
-    { key = mainMod .. " + W",       action = hl.dsp.global("caelestia:wallpaperToggle") }, -- Toggle wallpaper on/off
-    { key = mainMod .. " + SHIFT + W", action = hl.dsp.exec_cmd("caelestia wallpaper -r") }, -- Random wallpaper
+    { key = mainMod .. " + H",       action = hl.dsp.global("caelestia:wallpaperToggle") }, -- Toggle wallpaper on/off (was SUPER+W, moved to free up WASD for focus/swap)
+    { key = mainMod .. " + SHIFT + H", action = hl.dsp.exec_cmd("caelestia wallpaper -r") }, -- Random wallpaper (was SUPER+SHIFT+W)
     { key = mainMod .. " + I",       action = hl.dsp.global("caelestia:nexus") },
     { key = mainMod .. " + E",       action = hl.dsp.global("caelestia:settings") }, -- Settings popup (giong nut Mo cai dat trong popup bar)
-    { key = mainMod .. " + D",       action = hl.dsp.global("caelestia:dashboard") },
-    { key = mainMod .. " + A",       action = hl.dsp.global("caelestia:sidebar") },
+    { key = mainMod .. " + G",       action = hl.dsp.global("caelestia:dashboard") }, -- was SUPER+D, moved to free up WASD for focus/swap
+    { key = mainMod .. " + F",       action = hl.dsp.global("caelestia:sidebar") }, -- was SUPER+A, moved to free up WASD for focus/swap
     { key = mainMod .. " + X",       action = hl.dsp.global("caelestia:session") },
     { key = mainMod .. " + L",       action = hl.dsp.global("caelestia:lock") },
     { key = mainMod .. " + T",       action = hl.dsp.global("caelestia:themeToggle") }, -- Toggle dark/light
 
-    -- Move focus with mainMod + arrow keys
-    { key = mainMod .. " + left",  action = hl.dsp.focus({ direction = "left" }) },
-    { key = mainMod .. " + right", action = hl.dsp.focus({ direction = "right" }) },
-    { key = mainMod .. " + up",    action = hl.dsp.focus({ direction = "up" }) },
-    { key = mainMod .. " + down",  action = hl.dsp.focus({ direction = "down" }) },
+    -- Move focus with mainMod + WASD (A=left, D=right, W=up, S=down)
+    { key = mainMod .. " + A", action = hl.dsp.focus({ direction = "left" }) },
+    { key = mainMod .. " + D", action = hl.dsp.focus({ direction = "right" }) },
+    { key = mainMod .. " + W", action = hl.dsp.focus({ direction = "up" }) },
+    { key = mainMod .. " + S", action = hl.dsp.focus({ direction = "down" }) },
 
-    -- Example special workspace (scratchpad)
-    { key = mainMod .. " + S", action = hl.dsp.workspace.toggle_special("magic") },
+    -- Swap window position with mainMod + SHIFT + WASD
+    { key = mainMod .. " + SHIFT + A", action = hl.dsp.window.swap({ direction = "left" }) },
+    { key = mainMod .. " + SHIFT + D", action = hl.dsp.window.swap({ direction = "right" }) },
+    { key = mainMod .. " + SHIFT + W", action = hl.dsp.window.swap({ direction = "up" }) },
+    { key = mainMod .. " + SHIFT + S", action = hl.dsp.window.swap({ direction = "down" }) },
 
-    -- Screenshot vung chon (giong Win+Shift+S)
-    { key = mainMod .. " + SHIFT + S", action = hl.dsp.exec_cmd("caelestia screenshot -r slurp -f") },
+    -- Example special workspace (scratchpad) -- was SUPER+S, moved to free up WASD for focus/swap
+    { key = mainMod .. " + N", action = hl.dsp.workspace.toggle_special("magic") },
+
+    -- Screenshot vung chon (giong Win+Shift+S) -- was SUPER+SHIFT+S, moved to free up WASD for focus/swap
+    { key = mainMod .. " + SHIFT + N", action = hl.dsp.exec_cmd("caelestia screenshot -r slurp -f") },
 
     -- Quay man hinh: nhan de bat dau, nhan lai de dung (toggle)
     { key = mainMod .. " + SHIFT + R", action = hl.dsp.exec_cmd("caelestia record") },

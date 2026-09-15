@@ -3,12 +3,12 @@ hl.config({
         gaps_in  = 5,
         gaps_out = 20,
 
-        border_size = 2,
+        border_size = 3,
 
         col = {
-            -- Mau theo scheme "caelestia" (inversePrimary/outlineVariant)
-            active_border   = "rgba(336764ee)",
-            inactive_border = "rgba(3f4a49aa)",
+            -- Active: xanh duong noi bat. Inactive: xam mo.
+            active_border   = "rgba(33ccffee)",
+            inactive_border = "rgba(44444488)",
         },
 
         -- Set to true to enable resizing windows by clicking and dragging on borders and gaps

@@ -1,0 +1,62 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        },
+        "wallpaperTheming": {
+            "managed": true,
+            "terminalGenerationProps": {
+                "forceDarkMode": false
+            }
+        }
+    },
+    "background": {
+        "centeredWallpaper": false,
+        "visualiser": {
+            "autoHide": false,
+            "blur": true,
+            "enabled": true
+        },
+        "wallpaperEnabled": true
+    },
+    "configVersion": 3,
+    "general": {
+        "battery": {
+            "hibernateDelay": 6
+        },
+        "showOverFullscreen": true
+    },
+    "hyprland": {
+        "enabled": true
+    },
+    "lock": {
+        "enabled": true,
+        "recolourLogo": true
+    },
+    "nexus": {
+        "useSystemFileDialog": true
+    },
+    "overview": {
+        "style": "niri"
+    },
+    "paths": {
+        "wallpaperDir": "~/caelestia/assets/pictures"
+    },
+    "regionSelector": {
+        "annotation": {
+            "useSatty": true
+        }
+    },
+    "search": {
+        "imageSearch": {
+            "useCircleSelection": true
+        }
+    },
+    "services": {
+        "pauseWallpaperOnBattery": true,
+        "pauseWallpaperOnWindowOverlap": false
+    },
+    "time": {
+        "secondPrecision": true
+    }
+}

@@ -72,3 +72,40 @@ hl.window_rule({
     keep_aspect_ratio = true,
     move              = "(monitor_w*0.98-window_w) (monitor_h*0.97-window_h)",
 })
+
+-- Caelestia Nexus settings window: float, center and pin it on top so it
+-- never gets tiled or hidden behind other windows/workspaces.
+-- Split into two rules: pin must be applied after the window is already
+-- floating, same ordering requirement as float-then-center.
+hl.window_rule({
+    name  = "caelestia-nexus-float",
+    match = {
+        class = [[^io\.github\.conlongnhong\.caelestia-shell-aw$]],
+        title = [[^Nexus]],
+    },
+
+    float  = true,
+    center = true,
+})
+
+hl.window_rule({
+    name  = "caelestia-nexus-pin",
+    match = {
+        class = [[^io\.github\.conlongnhong\.caelestia-shell-aw$]],
+        title = [[^Nexus]],
+    },
+
+    pin = true,
+})
+
+hl.window_rule({
+    name  = "diag-kitty-test",
+    match = { title = [[^NexusTestXYZ]] },
+    float = true,
+})
+
+hl.window_rule({
+    name  = "diag-nexus-class-only",
+    match = { class = [[^io\.github\.conlongnhong\.caelestia-shell-aw$]] },
+    float = true,
+})
