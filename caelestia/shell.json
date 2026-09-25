@@ -20,13 +20,53 @@
         "wallpaperEnabled": true
     },
     "configVersion": 3,
+    "dock": {
+        "enabled": false,
+        "hoverToReveal": true,
+        "monochromeIcons": false,
+        "pinnedApps": [
+            "brave-browser",
+            "kitty",
+            "cursor",
+            "thunar",
+            "@caelestia-nexus"
+        ],
+        "pinnedOnStartup": false,
+        "showAppsButton": false,
+        "showBackground": true,
+        "showMedia": true,
+        "showPinButton": false
+    },
     "general": {
         "battery": {
-            "hibernateDelay": 6
+            "criticalLevel": 20,
+            "hibernateDelay": 60
+        },
+        "idle": {
+            "timeouts": [
+                {
+                    "idleAction": "lock",
+                    "timeout": 3600
+                },
+                {
+                    "idleAction": "dpms off",
+                    "returnAction": "dpms on",
+                    "timeout": 7500
+                },
+                {
+                    "idleAction": [
+                        "suspendThenHibernate"
+                    ],
+                    "timeout": 9000
+                }
+            ]
         },
         "showOverFullscreen": true
     },
     "hyprland": {
+        "autostartApps": {
+            "enabled": true
+        },
         "enabled": true
     },
     "lock": {
@@ -34,7 +74,11 @@
         "recolourLogo": true
     },
     "nexus": {
-        "useSystemFileDialog": true
+        "useSystemFileDialog": true,
+        "wallpaperChangeInterval": 0
+    },
+    "osd": {
+        "enableMicrophone": false
     },
     "overview": {
         "style": "niri"
@@ -53,7 +97,7 @@
         }
     },
     "services": {
-        "pauseWallpaperOnBattery": true,
+        "pauseWallpaperOnBattery": false,
         "pauseWallpaperOnWindowOverlap": false
     },
     "time": {

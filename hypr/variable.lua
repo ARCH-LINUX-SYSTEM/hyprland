@@ -27,10 +27,9 @@ vars.keybinds = {
     -- Caelestia Shell global shortcuts (requires xdg-desktop-portal-hyprland)
     -- See README.md "Phim tat va IPC" for the full list of shortcut names.
     { key = mainMod .. " + SUPER_L", action = hl.dsp.global("caelestia:launcher"), opts = { release = true } }, -- Tap SUPER alone
-    { key = mainMod .. " + SPACE",   action = hl.dsp.global("caelestia:utilities") }, -- Utilities popup (toggles, incl. wallpaper)
+    { key = mainMod .. " + SPACE",   action = hl.dsp.global("caelestia:nexus") }, -- Utilities popup (toggles, incl. wallpaper)
     { key = mainMod .. " + H",       action = hl.dsp.global("caelestia:wallpaperToggle") }, -- Toggle wallpaper on/off (was SUPER+W, moved to free up WASD for focus/swap)
     { key = mainMod .. " + SHIFT + H", action = hl.dsp.exec_cmd("caelestia wallpaper -r") }, -- Random wallpaper (was SUPER+SHIFT+W)
-    { key = mainMod .. " + I",       action = hl.dsp.global("caelestia:nexus") },
     { key = mainMod .. " + E",       action = hl.dsp.global("caelestia:settings") }, -- Settings popup (giong nut Mo cai dat trong popup bar)
     { key = mainMod .. " + G",       action = hl.dsp.global("caelestia:dashboard") }, -- was SUPER+D, moved to free up WASD for focus/swap
     { key = mainMod .. " + F",       action = hl.dsp.global("caelestia:sidebar") }, -- was SUPER+A, moved to free up WASD for focus/swap

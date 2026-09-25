@@ -3,7 +3,6 @@ if not status is-interactive
 end
 
 # Files
-alias ls "eza --icons --group-directories-first -1"
 alias ll "eza --icons --group-directories-first -lah"
 alias la "eza --icons --group-directories-first -a"
 alias lla "eza --icons --group-directories-first -la"
@@ -23,6 +22,8 @@ alias gw 'git switch'
 alias gwt 'git switch main'
 alias gb 'git branch'
 alias gbd 'git branch -d'
+alias bs 'bun start:dev'
+abbr  bs 'bun start:dev'
 
 # Docker
 alias d docker

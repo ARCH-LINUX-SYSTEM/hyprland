@@ -73,6 +73,20 @@ hl.gesture({
     action = "workspace"
 })
 
+
+----------------
+---- CURSOR ----
+----------------
+
+-- Prevents the mouse cursor from jumping to the center of a window whenever
+-- it gets focused via a dispatcher (e.g. clicking a running app's icon in
+-- the Caelestia dock, or the window switcher).
+hl.config({
+    cursor = {
+        no_warps = true,
+    },
+})
+
 -- Example per-device config
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
 hl.device({

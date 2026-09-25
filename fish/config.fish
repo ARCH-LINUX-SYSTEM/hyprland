@@ -1,37 +1,34 @@
-# check status interactive của shell : khi mở kiity/fish => interactive , nhưng khi thực thị script có thể không phải
-# check tồn tại file local.config thì reload không thì bỏ qua
-
+# Start ssh-agent if needed
 if not set -q SSH_AUTH_SOCK
-    eval (ssh-agent -c | string collect)
+    eval (ssh-agent -c | string collect) >/dev/null
 end
 
-# Add SSH keys
-if test -f ~/.ssh/id_ed25519_backlog
-    ssh-add --apple-use-keychain ~/.ssh/id_ed25519_backlog 2>/dev/null
-end
+# Add SSH keys silently on success
+find ~/.ssh \
+    -name 'id_ed25519*' \
+    ! -name '*.pub' \
+    -exec ssh-add {} + 2>/dev/null
 
+# Restart exited Podman containers silently on success
+podman ps \
+    --filter status=exited \
+    --format '{{.Names}}' |
+    xargs -r podman restart 2>/dev/null
+
+# Interactive shell configuration
 if status is-interactive
-    # nạp tất cả module trong fish/config/ (alias, env, tools, ...)
     for f in $__fish_config_dir/config/*.fish
         source $f
     end
 
     set -l local_config "$HOME/.config/fish/local.config"
 
-    # Auto load SSH keys
-    for key in \
-        ~/.ssh/id_ed25519_gitlab \
-        ~/.ssh/id_ed25519_github
-
-        if test -f $key
-            ssh-add $key 2>/dev/null
-        end
+    # local config
+    if test -f $local_config
+        source $local_config
     end
 end
-# bun
+
+# Bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
-
-# >>> railway initialize >>>
-source "$HOME/.railway/env.fish"
-# <<< railway initialize <<<
