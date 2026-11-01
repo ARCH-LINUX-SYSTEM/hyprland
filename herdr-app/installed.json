@@ -1,6 +1,6 @@
 {
   "agents": {
-    "main.js": "d575f5a009815e57",
+    "main.js": "84a79bd99454ded3",
     "mod.json": "c1d087260ba7b076"
   },
   "changes": {
@@ -59,7 +59,7 @@
     "mod.json": "4f60f6ff15f11c9b"
   },
   "picker": {
-    "main.js": "ad0acd46cb16c983",
+    "main.js": "1f40d82fe24387e8",
     "mod.json": "e83a267b6fca8488"
   },
   "prompt": {
@@ -376,7 +376,7 @@
     "x.svg": "b371ad85aff6b5ff"
   },
   "workspace-status": {
-    "main.js": "a56e0cbd4eb2df9c",
+    "main.js": "fd4655b33806d999",
     "mod.json": "433fbf9dfa3e359a"
   },
   "worktree": {

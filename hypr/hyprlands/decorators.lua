@@ -48,3 +48,11 @@ hl.layer_rule({
     blur  = true,
     ignore_alpha = 0.15,
 })
+
+-- Dock kieu macOS (Quantum Shell, namespace quantum-dock): kinh mo trong suot
+hl.layer_rule({
+    name  = "blur-quantum-dock",
+    match = { namespace = "^quantum-dock$" },
+    blur  = true,
+    ignore_alpha = 0.2,
+})

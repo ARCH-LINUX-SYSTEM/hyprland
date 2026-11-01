@@ -1,7 +1,8 @@
 {
-  "zoom": 1.0,
+  "zoom": 1,
   "sounds": {
     "enabled": true
   },
-  "minimum_contrast": 1.0
+  "minimum_contrast": 1,
+  "ui_font": "DejaVu Sans Mono"
 }

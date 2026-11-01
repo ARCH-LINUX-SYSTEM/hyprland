@@ -6,7 +6,7 @@ import { layout, run, props, closeOverlay, shared, setShared } from "herdr";
 
 const ID = "sidebar";
 const MIN = 44;        // the narrowest the sidebar can be (rail)
-const MS = 240;        // duration
+const MS = 420;        // duration
 const STEP = 16;       // ms per frame
 
 function find(node, id) {

@@ -18,11 +18,23 @@ local function quantum(args)
     return hl.dsp.exec_cmd(os.getenv("HOME") .. "/.local/bin/caelth ipc-if dev " .. args)
 end
 
+local terminal_classes = { ["kitty"] = true, ["herdr-app"] = true }
+function cael_clip(k)
+    local w = hl.get_active_window()
+    local cls = w and w.class or ""
+    local mods = terminal_classes[cls] and "CTRL SHIFT" or "CTRL"
+    hl.dispatch(hl.dsp.send_shortcut({ mods = mods, key = k }))
+end
+
 -- Each entry: { key = "<bind string>", action = <hl.dsp dispatcher>, opts = <optional hl.bind opts> }
 -- Consumed by hyprlands/keybinds.lua, which just loops over this list and calls hl.bind.
 vars.keybinds = {
-    { key = mainMod .. " + Q", action = hl.dsp.exec_cmd(vars.terminal) },
-    { key = mainMod .. " + C", action = hl.dsp.window.close() },
+    { key = mainMod .. " + RETURN", action = hl.dsp.exec_cmd(vars.terminal) },
+    { key = mainMod .. " + Q", action = hl.dsp.window.close() },
+    -- Copy/Paste kieu macOS: SUPER+C / SUPER+V gui Ctrl+C / Ctrl+V cho cua so dang focus.
+    -- Terminal (kitty, herdr) dung Ctrl+Shift+C/V de Ctrl+C van la ngat tien trinh.
+    { key = mainMod .. " + C", action = function() cael_clip("c") end },
+    { key = mainMod .. " + V", action = function() cael_clip("v") end },
     { key = mainMod .. " + M", action = hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'") },
     { key = mainMod .. " + E", action = hl.dsp.exec_cmd(vars.fileManager) },
     { key = "CTRL + SHIFT + Escape", action = hl.dsp.exec_cmd(os.getenv("HOME") .. "/.local/bin/quantum-taskmgr") }, -- Task Manager (nhu Windows)

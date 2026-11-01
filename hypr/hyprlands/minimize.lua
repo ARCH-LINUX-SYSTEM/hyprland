@@ -46,20 +46,48 @@ local function no_warp(fn)
     if not ok then error(err) end
 end
 
+-- Dich thu nho = mot o nho nam GON trong dai dock o day man hinh (khong de cua so to chong len dock)
+local DOCK_W, DOCK_H, DOCK_BOTTOM = 72, 44, 72   -- DOCK_BOTTOM: khoang cach tu day man hinh, nam tren pill dock (khong chong len dock)
+
 local function dock_rect(w)
     local m = w.monitor
     if type(m) ~= "table" and type(m) ~= "userdata" then m = hl.get_active_monitor and hl.get_active_monitor() end
     local scale = (m and m.scale and m.scale > 0) and m.scale or 1
     local mx, my = m and m.x or 0, m and m.y or 0
     local mw, mh = (m and m.width or 1920) / scale, (m and m.height or 1080) / scale
-    local tw = math.max(80, math.floor(w.size.x * MINI_W))
-    local th = math.max(50, math.floor(w.size.y * MINI_W))
-    return math.floor(mx + mw / 2 - tw / 2), math.floor(my + mh - th - 8), tw, th
+    local tw, th = DOCK_W, DOCK_H
+    return math.floor(mx + mw / 2 - tw / 2), math.floor(my + mh - th - DOCK_BOTTOM), tw, th
 end
 
 local function set_geom(sel, x, y, ww, hh)
     dsp(hl.dsp.window.resize({ x = ww, y = hh, window = sel }))
     dsp(hl.dsp.window.move({ x = x, y = y, window = sel }))
+end
+
+-- Thu nho tung buoc (ease-in) vao o dock: moi buoc la mot lan resize ro rang, khong phu thuoc animation cua Hyprland.
+-- Trong luc chay tat animation cua Hyprland (no_anim) de kich thuoc + do mo cap nhat ngay tung buoc,
+-- cua so van thay ro luc co lai va chi mo han o cuoi. App co kich thuoc toi thieu (vd pavucontrol 294x142)
+-- khong co duoc ve o dock nhung den buoc cuoi da trong suot -> khong con o nho chong len dock.
+local MIN_STEPS = 16
+local function genie_to(sel, x0, y0, w0, h0, x1, y1, w1, h1, done)
+    local i = 0
+    dsp(hl.dsp.window.set_prop({ prop = "no_anim", value = "1", window = sel }))
+    local function step()
+        i = i + 1
+        local t = i / MIN_STEPS
+        local e = t * t
+        set_geom(sel, math.floor(x0 + (x1 - x0) * e), math.floor(y0 + (y1 - y0) * e),
+                 math.floor(w0 + (w1 - w0) * e), math.floor(h0 + (h1 - h0) * e))
+        -- con dam trong nua dau, mo nhanh dan ve 0 o buoc cuoi
+        local a = 1 - t ^ 2.5
+        dsp(hl.dsp.window.set_prop({ prop = "opacity", value = string.format("%.2f", a), window = sel }))
+        if i < MIN_STEPS then
+            hl.timer(step, { timeout = math.floor(ANIM_MS / MIN_STEPS), type = "oneshot" })
+        elseif done then
+            done()
+        end
+    end
+    step()
 end
 
 local function minimize(w)
@@ -72,12 +100,12 @@ local function minimize(w)
     busy[w.address] = true
     saved[w.address] = { x = w.at.x, y = w.at.y, w = w.size.x, h = w.size.y }
     local x, y, tw, th = dock_rect(w)
-    dsp(hl.dsp.window.set_prop({ prop = "opacity", value = "0.0", window = sel }))
-    set_geom(sel, x, y, tw, th)
-    hl.timer(function()
+    genie_to(sel, w.at.x, w.at.y, w.size.x, w.size.y, x, y, tw, th, function()
         busy[w.address] = nil
+        -- no_anim van bat (tu genie_to) luc chuyen sang workspace an: neu khong, hieu ung fade
+        -- cua Hyprland ve lai cua so nho ngay tren dock voi do dam day du -> loe len thanh 1 o nho
         no_warp(function() dsp(hl.dsp.window.move({ workspace = MIN_WS, follow = false, window = sel })) end)
-    end, { timeout = ANIM_MS, type = "oneshot" })
+    end)
 end
 
 local function restore(w)
@@ -98,11 +126,13 @@ local function restore(w)
         hl.timer(function()
             busy[w.address] = nil
             dsp(hl.dsp.window.set_prop({ prop = "opacity", value = "1.0", window = sel }))
+            dsp(hl.dsp.window.set_prop({ prop = "no_anim", value = "0", window = sel }))
             set_geom(sel, g.x, g.y, g.w, g.h)
         end, { timeout = 30, type = "oneshot" })
     else
         -- mat thong tin (vd vua reload config): hien lai va dua ve 75% man hinh neu dang nho
         dsp(hl.dsp.window.set_prop({ prop = "opacity", value = "1.0", window = sel }))
+        dsp(hl.dsp.window.set_prop({ prop = "no_anim", value = "0", window = sel }))
         if w.floating and w.size.x < 400 then
             local m = w.monitor
             local scale = (m and m.scale and m.scale > 0) and m.scale or 1
@@ -334,10 +364,11 @@ end
 -- Rule size-3-4-all (rules.lua) dat cua so thuong o 3/4 man hinh; o day cua so nao dang dung
 -- 3/4 (tuc la cua so thuong, khong phai hop thoai / kich thuoc co dinh) thi phong to len full.
 -- Nut xanh / bam dup header -> ve 3/4.
-local OPEN_FULL = true
+local OPEN_FULL = true  -- true: app mo full vung lam viec; cua so Quantum Shell (org.quickshell: Tuy chinh, Acerca...) van mo 3/4
 
 hl.on("window.open", function(w)
-    if not OPEN_FULL or not w or not w.address or (w.class or "") == "" then return end
+    -- Quantum Shell (Tuy chinh, Acerca de...) se queda en 3/4 al abrir: no se phong to
+    if not OPEN_FULL or not w or not w.address or (w.class or "") == "" or w.class == "org.quickshell" then return end
     local addr = w.address
     hl.timer(function()
         local win = find_window(addr)
