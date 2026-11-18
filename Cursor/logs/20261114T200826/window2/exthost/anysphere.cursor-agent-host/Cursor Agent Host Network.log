@@ -1,0 +1,22 @@
+2026-11-14 20:10:07.868 [info] [agent-host] Builtin IDE network platform initialized
+2026-11-14 20:10:07.878 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-14 20:10:07.880 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-14 20:10:07.885 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-14 20:10:07.885 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-14 20:10:07.886 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-14 20:10:10.490 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-14 20:10:10.491 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-14 20:10:10.494 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-14 20:10:10.495 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-14 20:10:10.496 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-14 20:10:36.148 [info] [agent-host] Builtin IDE network platform initialized
+2026-11-14 20:10:36.159 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-14 20:10:36.162 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-14 20:10:36.166 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-14 20:10:36.167 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-14 20:10:36.167 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-14 20:11:25.975 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-14 20:11:25.976 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-14 20:11:25.985 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-14 20:11:25.986 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-14 20:11:25.986 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000

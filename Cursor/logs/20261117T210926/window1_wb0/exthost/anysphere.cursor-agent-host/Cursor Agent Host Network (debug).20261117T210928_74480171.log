@@ -1,0 +1,7 @@
+2026-11-17 21:09:29.725 [info] [KillSwitchGate] agent_host_single_address_dial is now on
+2026-11-17 21:09:29.725 [info] [AiConnectTransportHandler] getInitialValues: auth ready {"hasAccessToken":true}
+2026-11-17 21:09:29.728 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:29.729 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:29.730 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:29.733 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:29.734 [info] [AiConnectTransportHandler] transports rebuilt (init): none -> http2, http1 reason none

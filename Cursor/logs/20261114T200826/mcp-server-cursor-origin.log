@@ -1,0 +1,5 @@
+2026-11-14 20:09:49.117 [info] connecting streamableHttp for "Origin" (cursor-origin)
+2026-11-14 20:09:49.117 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:09:50.415 [info] Successfully connected to streamableHttp server
+2026-11-14 20:09:50.416 [info] [V2 FSM] connection:connect_success: conn=connecting,auth=unknown -> conn=connected,auth=unknown
+2026-11-14 20:09:51.069 [warning] MCP HTTP exchange completed

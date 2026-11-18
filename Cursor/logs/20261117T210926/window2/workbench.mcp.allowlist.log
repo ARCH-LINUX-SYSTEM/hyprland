@@ -1,0 +1,53 @@
+2026-11-17 21:09:32.453 [info] [MCPService] MCP Allowlist logger initialized.
+2026-11-17 21:09:32.817 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-17 21:09:32.865 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-17 21:09:35.255 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-17 21:09:36.727 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-17 21:09:36.727 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-17 21:09:36.728 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-17 21:09:36.733 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-17 21:09:36.733 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-17 21:09:37.033 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:09:37.034 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:09:37.519 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:09:37.527 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:09:39.687 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:09:39.695 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:09:49.943 [info] [MCPService] MCP Allowlist logger initialized.
+2026-11-17 21:09:50.693 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-17 21:09:52.497 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:09:52.497 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:09:52.840 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-17 21:09:53.556 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:09:53.563 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:09:59.823 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-17 21:09:59.823 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-17 21:09:59.823 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-17 21:10:00.827 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:10:00.836 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:10:07.491 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:10:07.503 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:25:23.175 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:25:23.185 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:30:55.717 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:30:55.729 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:51:38.713 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:51:38.716 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:52:29.939 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:52:29.948 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:52:35.312 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:52:35.313 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 21:58:28.146 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 21:58:28.167 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 22:03:31.501 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 22:03:31.507 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 22:08:33.257 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 22:08:33.265 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 22:31:53.748 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 22:31:53.755 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 22:59:31.425 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 22:59:31.431 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 23:05:55.468 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 23:05:55.475 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-17 23:20:56.051 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-17 23:20:56.053 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass

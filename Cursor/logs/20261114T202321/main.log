@@ -1,0 +1,27 @@
+2026-11-14 20:23:21.586 [info] [AgentHostUpdater] following channel stable (by release track stable)
+2026-11-14 20:23:21.586 [info] [AgentHostUpdater] watching https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json every 300s; installs to /home/haidangphan/.config/Cursor/agent-harness; idle until an extension host writes hosts/<pid>.json
+2026-11-14 20:23:21.595 [info] [RemoteControlTarget] window runs the Remote Control target
+2026-11-14 20:23:21.638 [info] [MoltenAgentsWindow] Agents Window opens the built-in Agents Window: molten_agents_window is off for the signed-in account
+2026-11-14 20:23:21.664 [info] [RendererPing] enabled (intervalMs=5000, blockThresholdMs=15000, stacks=true)
+2026-11-14 20:23:21.667 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/3.30.14/bf2f2f6a89fdc84cdc3cb39678230b47680b5dc0d86a4dd02158f5fe2a10b5a7/stable
+2026-11-14 20:23:21.667 [info] update#setState idle
+2026-11-14 20:23:22.311 [info] TracingService: private inference lockdown disabled
+2026-11-14 20:23:22.394 [info] [LocalAgentStorage] Scanned 3 recent databases (skipped 0 old), found 0 agent headers, deduped to 0
+2026-11-14 20:23:34.908 [info] [CursorProclistService] Config enabled feature (subsample every 10s; memoryPressureMonitorEnabled=true)
+2026-11-14 20:23:36.588 [info] [AgentHostUpdater] polling: agent harness on in extension host pid 39440 (enabled by gate, revision 2, floor static)
+2026-11-14 20:23:36.769 [info] [AgentHostUpdater] signature: generation f0bd0bb4464b is signed by harness-prod-1
+2026-11-14 20:23:53.935 [info] update#setState checking for updates
+2026-11-14 20:23:54.459 [info] update#setState idle
+2026-11-14 20:24:06.463 [info] Extension host with pid 39440 exited with code: 0, signal: unknown.
+2026-11-14 20:24:10.232 [info] Extension host with pid 40164 exited with code: 0, signal: unknown.
+2026-11-14 20:24:10.238 [info] Extension host with pid 40139 exited with code: 0, signal: unknown.
+2026-11-14 20:24:10.277 [info] Extension host with pid 40166 exited with code: 0, signal: unknown.
+2026-11-14 20:24:10.743 [info] Extension host with pid 40165 exited with code: 0, signal: unknown.
+2026-11-14 20:24:23.803 [info] [CursorProclistService] Config enabled feature (subsample every 10s; memoryPressureMonitorEnabled=true)
+2026-11-14 20:44:49.283 [info] TracingService: failed to send envelope undefined undefined
+2026-11-14 21:19:25.804 [info] update#setState checking for updates
+2026-11-14 21:19:26.513 [info] update#setState idle
+2026-11-14 22:21:27.707 [info] update#setState checking for updates
+2026-11-14 22:21:29.116 [info] update#setState idle
+2026-11-14 23:21:27.880 [info] update#setState checking for updates
+2026-11-14 23:21:28.873 [info] update#setState idle

@@ -1,0 +1,70 @@
+[2026-11-14T13:24:11.931Z] Initializing Cursor Hooks Service...
+[2026-11-14T13:24:11.931Z] Claude user config path: /home/haidangphan/.claude/settings.json
+[2026-11-14T13:24:11.931Z] Project config path (tutor): /home/haidangphan/Documents/tutor/.cursor/hooks.json
+[2026-11-14T13:24:11.931Z] Claude project config path (tutor): /home/haidangphan/Documents/tutor/.claude/settings.json
+[2026-11-14T13:24:11.931Z] Claude project local config path (tutor): /home/haidangphan/Documents/tutor/.claude/settings.local.json
+[2026-11-14T13:24:11.931Z] User config path: /home/haidangphan/.cursor/hooks.json
+[2026-11-14T13:24:11.931Z] Enterprise config path: file:///etc/cursor/hooks.json
+[2026-11-14T13:24:11.931Z] Reloading hooks configuration...
+[2026-11-14T13:24:11.931Z] Refreshing team hooks...
+[2026-11-14T13:24:11.944Z] No enterprise hooks configuration found
+[2026-11-14T13:24:11.945Z] No user hooks configuration found
+[2026-11-14T13:24:11.949Z] ERROR: Failed to parse project hooks configuration
+[2026-11-14T13:24:11.949Z] No project hooks configuration found
+[2026-11-14T13:24:11.952Z] Loaded Claude project hooks
+[2026-11-14T13:24:13.396Z] Refreshing team hooks...
+[2026-11-14T13:24:25.358Z] Reloading hooks configuration...
+[2026-11-14T13:24:25.359Z] Cursor Hooks Service initialized successfully
+[2026-11-14T13:24:25.359Z] Hook step requested: workspaceOpen
+[2026-11-14T13:24:25.364Z] No enterprise hooks configuration found
+[2026-11-14T13:24:25.366Z] No user hooks configuration found
+[2026-11-14T13:24:25.366Z] ERROR: Failed to parse project hooks configuration
+[2026-11-14T13:24:25.366Z] No project hooks configuration found
+[2026-11-14T13:24:25.367Z] Loaded Claude project hooks
+[2026-11-14T13:24:25.375Z] Hook step requested: workspaceOpen
+[2026-11-14T13:44:49.272Z] Reloading hooks configuration...
+[2026-11-14T13:44:49.279Z] No enterprise hooks configuration found
+[2026-11-14T13:44:49.282Z] No user hooks configuration found
+[2026-11-14T13:44:49.284Z] ERROR: Failed to parse project hooks configuration
+[2026-11-14T13:44:49.284Z] No project hooks configuration found
+[2026-11-14T13:44:49.288Z] Loaded Claude project hooks
+[2026-11-14T13:44:49.299Z] Reloading hooks configuration...
+[2026-11-14T13:44:49.300Z] No enterprise hooks configuration found
+[2026-11-14T13:44:49.300Z] No user hooks configuration found
+[2026-11-14T13:44:49.301Z] ERROR: Failed to parse project hooks configuration
+[2026-11-14T13:44:49.301Z] No project hooks configuration found
+[2026-11-14T13:44:49.301Z] Loaded Claude project hooks
+[2026-11-14T13:46:45.232Z] Reloading hooks configuration...
+[2026-11-14T13:46:45.234Z] No enterprise hooks configuration found
+[2026-11-14T13:46:45.235Z] No user hooks configuration found
+[2026-11-14T13:46:45.236Z] ERROR: Failed to parse project hooks configuration
+[2026-11-14T13:46:45.236Z] No project hooks configuration found
+[2026-11-14T13:46:45.237Z] Loaded Claude project hooks
+[2026-11-14T13:46:45.255Z] Reloading hooks configuration...
+[2026-11-14T13:46:45.257Z] No enterprise hooks configuration found
+[2026-11-14T13:46:45.258Z] No user hooks configuration found
+[2026-11-14T13:46:45.259Z] ERROR: Failed to parse project hooks configuration
+[2026-11-14T13:46:45.259Z] No project hooks configuration found
+[2026-11-14T13:46:45.260Z] Loaded Claude project hooks
+[2026-11-14T13:54:25.359Z] Refreshing team hooks...
+[2026-11-14T14:24:25.359Z] Refreshing team hooks...
+[2026-11-14T14:54:25.361Z] Refreshing team hooks...
+[2026-11-14T15:24:25.362Z] Refreshing team hooks...
+[2026-11-14T15:41:35.044Z] Reloading hooks configuration...
+[2026-11-14T15:41:35.048Z] No enterprise hooks configuration found
+[2026-11-14T15:41:35.049Z] No user hooks configuration found
+[2026-11-14T15:41:35.050Z] Loaded Claude project hooks
+[2026-11-14T15:41:35.050Z] ERROR: Failed to parse project hooks configuration
+[2026-11-14T15:41:35.050Z] No project hooks configuration found
+[2026-11-14T16:04:30.076Z] Reloading hooks configuration...
+[2026-11-14T16:04:30.078Z] No enterprise hooks configuration found
+[2026-11-14T16:04:30.079Z] No user hooks configuration found
+[2026-11-14T16:04:30.080Z] ERROR: Failed to parse project hooks configuration
+[2026-11-14T16:04:30.080Z] No project hooks configuration found
+[2026-11-14T16:04:30.081Z] Loaded Claude project hooks
+[2026-11-14T16:36:47.338Z] Reloading hooks configuration...
+[2026-11-14T16:36:47.341Z] No enterprise hooks configuration found
+[2026-11-14T16:36:47.341Z] No user hooks configuration found
+[2026-11-14T16:36:47.342Z] ERROR: Failed to parse project hooks configuration
+[2026-11-14T16:36:47.342Z] No project hooks configuration found
+[2026-11-14T16:36:47.343Z] Loaded Claude project hooks

@@ -1,0 +1,4 @@
+2026-11-14 20:24:05.121 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:24:05.121 [info] [MCPService] createClient completed for server: cursor-origin, connected=true, statusType=connected
+2026-11-14 20:24:12.207 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:24:12.265 [info] [MCPService] createClient completed for server: cursor-origin, connected=true, statusType=connected

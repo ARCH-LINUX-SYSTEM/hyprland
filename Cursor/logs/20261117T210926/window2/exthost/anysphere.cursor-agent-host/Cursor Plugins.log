@@ -1,0 +1,266 @@
+2026-11-17 21:09:33.647 [info] [2026-11-17T14:09:33.543Z] [info] marketplace listEnabledPlugins completed in 1.6ms (0 plugins)
+2026-11-17 21:09:33.647 [info] [2026-11-17T14:09:33.543Z] [info] loadFromMarketplaceSource completed in 1.7ms (0 plugins loaded, 0 failures)
+2026-11-17 21:09:33.647 [info] [2026-11-17T14:09:33.544Z] [info] loadAllEnabledPlugins: no installed plugins metadata found (2.7ms)
+2026-11-17 21:09:33.647 [info] [2026-11-17T14:09:33.547Z] [info] loadUserLocalPlugins completed in 5.7ms (0 plugins loaded)
+2026-11-17 21:09:36.696 [info] [2026-11-17T14:09:36.695Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:09:36.696 [info] [2026-11-17T14:09:36.696Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:09:36.696 [info] [2026-11-17T14:09:36.696Z] [info] marketplace listEnabledPlugins completed in 3154.5ms (2 plugins)
+2026-11-17 21:09:36.698 [info] [2026-11-17T14:09:36.697Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:09:36.716 [info] [2026-11-17T14:09:36.716Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:09:36.719 [info] [2026-11-17T14:09:36.719Z] [info] loadFromMarketplaceSource completed in 3177.6ms (2 plugins loaded, 0 failures)
+2026-11-17 21:09:36.719 [info] [2026-11-17T14:09:36.719Z] [info] loadAllPlugins completed in 3178.1ms (claude=true, userLocal=true, marketplace=2 sources, total=2 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:09:36.719 [info] [2026-11-17T14:09:36.719Z] [info] Plugins loaded in 3178.4ms
+2026-11-17 21:09:36.720 [info] [2026-11-17T14:09:36.719Z] [info] Plugins reload completed: 2 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:09:36.723 [info] [2026-11-17T14:09:36.720Z] [info] MCP plugin census
+2026-11-17 21:09:36.741 [info] [2026-11-17T14:09:36.741Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 21:09:36.741 [info] [2026-11-17T14:09:36.741Z] [info] loadFromMarketplaceSource completed in 0.2ms (0 plugins loaded, 0 failures)
+2026-11-17 21:09:36.741 [info] [2026-11-17T14:09:36.741Z] [info] loadAllEnabledPlugins: no installed plugins metadata found (0.6ms)
+2026-11-17 21:09:36.741 [info] [2026-11-17T14:09:36.741Z] [info] loadUserLocalPlugins completed in 0.4ms (0 plugins loaded)
+2026-11-17 21:09:36.860 [info] [2026-11-17T14:09:36.860Z] [info] [cc-marketplace-import] cc-marketplace-import.start
+2026-11-17 21:09:36.860 [info] [2026-11-17T14:09:36.860Z] [info] [cc-marketplace-import] cc-marketplace-import.foundMarketplaces
+2026-11-17 21:09:36.860 [info] [2026-11-17T14:09:36.860Z] [info] [cc-marketplace-import] cc-marketplace-import.noGitUrl
+2026-11-17 21:09:36.860 [info] [2026-11-17T14:09:36.860Z] [info] [cc-marketplace-import] cc-marketplace-import.discoveryComplete
+2026-11-17 21:09:38.150 [info] [2026-11-17T14:09:38.150Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:09:38.150 [info] [2026-11-17T14:09:38.150Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:09:38.151 [info] [2026-11-17T14:09:38.150Z] [info] marketplace listEnabledPlugins completed in 1409.8ms (2 plugins)
+2026-11-17 21:09:38.151 [info] [2026-11-17T14:09:38.151Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:09:38.156 [info] [2026-11-17T14:09:38.156Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:09:38.158 [info] [2026-11-17T14:09:38.158Z] [info] loadFromMarketplaceSource completed in 1417.0ms (2 plugins loaded, 0 failures)
+2026-11-17 21:09:38.158 [info] [2026-11-17T14:09:38.158Z] [info] loadAllPlugins completed in 1417.3ms (claude=true, userLocal=true, marketplace=2 sources, total=2 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:09:38.158 [info] [2026-11-17T14:09:38.158Z] [info] Plugins loaded in 1417.4ms
+2026-11-17 21:09:38.158 [info] [2026-11-17T14:09:38.158Z] [info] Plugins reload completed: 2 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:09:38.159 [info] [2026-11-17T14:09:38.159Z] [info] marketplace listEnabledPlugins completed in 0.0ms (0 plugins)
+2026-11-17 21:09:38.159 [info] [2026-11-17T14:09:38.159Z] [info] loadFromMarketplaceSource completed in 0.1ms (0 plugins loaded, 0 failures)
+2026-11-17 21:09:38.159 [info] [2026-11-17T14:09:38.159Z] [info] loadAllEnabledPlugins: no installed plugins metadata found (0.1ms)
+2026-11-17 21:09:38.159 [info] [2026-11-17T14:09:38.159Z] [info] loadUserLocalPlugins completed in 0.2ms (0 plugins loaded)
+2026-11-17 21:09:38.997 [info] [2026-11-17T14:09:38.996Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:09:38.997 [info] [2026-11-17T14:09:38.997Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:09:38.997 [info] [2026-11-17T14:09:38.997Z] [info] marketplace listEnabledPlugins completed in 838.1ms (2 plugins)
+2026-11-17 21:09:38.997 [info] [2026-11-17T14:09:38.997Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:09:39.003 [info] [2026-11-17T14:09:39.003Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:09:39.005 [info] [2026-11-17T14:09:39.005Z] [info] loadFromMarketplaceSource completed in 846.1ms (2 plugins loaded, 0 failures)
+2026-11-17 21:09:39.005 [info] [2026-11-17T14:09:39.005Z] [info] loadAllPlugins completed in 846.3ms (claude=true, userLocal=true, marketplace=2 sources, total=2 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:09:39.005 [info] [2026-11-17T14:09:39.005Z] [info] Plugins loaded in 846.4ms
+2026-11-17 21:09:39.005 [info] [2026-11-17T14:09:39.005Z] [info] Plugins reload completed: 2 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:09:39.005 [info] [2026-11-17T14:09:39.005Z] [info] MCP plugin census
+2026-11-17 21:09:39.009 [info] [2026-11-17T14:09:39.009Z] [info] marketplace listEnabledPlugins completed in 0.0ms (0 plugins)
+2026-11-17 21:09:39.009 [info] [2026-11-17T14:09:39.009Z] [info] loadFromMarketplaceSource completed in 0.1ms (0 plugins loaded, 0 failures)
+2026-11-17 21:09:39.009 [info] [2026-11-17T14:09:39.009Z] [info] loadAllEnabledPlugins: no installed plugins metadata found (0.2ms)
+2026-11-17 21:09:39.009 [info] [2026-11-17T14:09:39.009Z] [info] loadUserLocalPlugins completed in 0.2ms (0 plugins loaded)
+2026-11-17 21:09:39.009 [info] [2026-11-17T14:09:39.009Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:09:39.009 [info] [2026-11-17T14:09:39.009Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:09:39.009 [info] [2026-11-17T14:09:39.009Z] [info] marketplace listEnabledPlugins completed in 0.7ms (2 plugins)
+2026-11-17 21:09:39.010 [info] [2026-11-17T14:09:39.010Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:09:39.014 [info] [2026-11-17T14:09:39.014Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:09:39.015 [info] [2026-11-17T14:09:39.015Z] [info] loadFromMarketplaceSource completed in 6.6ms (2 plugins loaded, 0 failures)
+2026-11-17 21:09:39.015 [info] [2026-11-17T14:09:39.015Z] [info] loadAllPlugins completed in 6.7ms (claude=true, userLocal=true, marketplace=2 sources, total=2 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:09:39.015 [info] [2026-11-17T14:09:39.015Z] [info] Plugins loaded in 6.8ms
+2026-11-17 21:09:39.015 [info] [2026-11-17T14:09:39.015Z] [info] Plugins reload completed: 2 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:09:51.556 [info] [2026-11-17T14:09:51.547Z] [info] loadAllEnabledPlugins: no installed plugins metadata found (3.7ms)
+2026-11-17 21:09:51.556 [info] [2026-11-17T14:09:51.547Z] [info] marketplace listEnabledPlugins completed in 3.5ms (0 plugins)
+2026-11-17 21:09:51.556 [info] [2026-11-17T14:09:51.547Z] [info] loadFromMarketplaceSource completed in 3.5ms (0 plugins loaded, 0 failures)
+2026-11-17 21:09:51.556 [info] [2026-11-17T14:09:51.555Z] [info] loadUserLocalPlugins completed in 11.4ms (0 plugins loaded)
+2026-11-17 21:09:53.010 [info] [2026-11-17T14:09:53.010Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:09:53.010 [info] [2026-11-17T14:09:53.010Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:09:53.010 [info] [2026-11-17T14:09:53.010Z] [info] marketplace listEnabledPlugins completed in 1466.8ms (2 plugins)
+2026-11-17 21:09:53.011 [info] [2026-11-17T14:09:53.010Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:09:53.024 [info] [2026-11-17T14:09:53.023Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:09:53.025 [info] [2026-11-17T14:09:53.025Z] [info] loadFromMarketplaceSource completed in 1482.0ms (2 plugins loaded, 0 failures)
+2026-11-17 21:09:53.025 [info] [2026-11-17T14:09:53.025Z] [info] loadAllPlugins completed in 1482.5ms (claude=true, userLocal=true, marketplace=2 sources, total=2 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:09:53.025 [info] [2026-11-17T14:09:53.025Z] [info] Plugins loaded in 1482.8ms
+2026-11-17 21:09:53.026 [info] [2026-11-17T14:09:53.025Z] [info] Plugins reload completed: 2 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:09:53.027 [info] [2026-11-17T14:09:53.026Z] [info] MCP plugin census
+2026-11-17 21:09:53.029 [info] [2026-11-17T14:09:53.029Z] [info] loadAllEnabledPlugins: no installed plugins metadata found (0.2ms)
+2026-11-17 21:09:53.029 [info] [2026-11-17T14:09:53.029Z] [info] marketplace listEnabledPlugins completed in 0.3ms (0 plugins)
+2026-11-17 21:09:53.029 [info] [2026-11-17T14:09:53.029Z] [info] loadFromMarketplaceSource completed in 0.3ms (0 plugins loaded, 0 failures)
+2026-11-17 21:09:53.029 [info] [2026-11-17T14:09:53.029Z] [info] loadUserLocalPlugins completed in 0.3ms (0 plugins loaded)
+2026-11-17 21:09:53.138 [info] [2026-11-17T14:09:53.138Z] [info] [cc-marketplace-import] cc-marketplace-import.start
+2026-11-17 21:09:53.138 [info] [2026-11-17T14:09:53.138Z] [info] [cc-marketplace-import] cc-marketplace-import.foundMarketplaces
+2026-11-17 21:09:53.138 [info] [2026-11-17T14:09:53.138Z] [info] [cc-marketplace-import] cc-marketplace-import.noGitUrl
+2026-11-17 21:09:53.138 [info] [2026-11-17T14:09:53.138Z] [info] [cc-marketplace-import] cc-marketplace-import.discoveryComplete
+2026-11-17 21:09:59.784 [info] [2026-11-17T14:09:59.783Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:09:59.784 [info] [2026-11-17T14:09:59.784Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:09:59.784 [info] [2026-11-17T14:09:59.784Z] [info] marketplace listEnabledPlugins completed in 6755.2ms (2 plugins)
+2026-11-17 21:09:59.786 [info] [2026-11-17T14:09:59.786Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:09:59.794 [info] [2026-11-17T14:09:59.794Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:09:59.795 [info] [2026-11-17T14:09:59.795Z] [info] loadFromMarketplaceSource completed in 6766.6ms (2 plugins loaded, 0 failures)
+2026-11-17 21:09:59.796 [info] [2026-11-17T14:09:59.795Z] [info] loadAllPlugins completed in 6766.9ms (claude=true, userLocal=true, marketplace=2 sources, total=2 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:09:59.796 [info] [2026-11-17T14:09:59.796Z] [info] Plugins loaded in 6767.2ms
+2026-11-17 21:09:59.796 [info] [2026-11-17T14:09:59.796Z] [info] Plugins reload completed: 2 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:09:59.797 [info] [2026-11-17T14:09:59.797Z] [info] MCP plugin census
+2026-11-17 21:09:59.839 [info] [2026-11-17T14:09:59.839Z] [info] loadAllEnabledPlugins: no installed plugins metadata found (0.3ms)
+2026-11-17 21:09:59.840 [info] [2026-11-17T14:09:59.840Z] [info] marketplace listEnabledPlugins completed in 0.3ms (0 plugins)
+2026-11-17 21:09:59.840 [info] [2026-11-17T14:09:59.840Z] [info] loadFromMarketplaceSource completed in 0.3ms (0 plugins loaded, 0 failures)
+2026-11-17 21:09:59.840 [info] [2026-11-17T14:09:59.840Z] [info] loadUserLocalPlugins completed in 0.4ms (0 plugins loaded)
+2026-11-17 21:09:59.840 [info] [2026-11-17T14:09:59.840Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:09:59.840 [info] [2026-11-17T14:09:59.840Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:09:59.840 [info] [2026-11-17T14:09:59.840Z] [info] marketplace listEnabledPlugins completed in 1.3ms (2 plugins)
+2026-11-17 21:09:59.841 [info] [2026-11-17T14:09:59.841Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:09:59.848 [info] [2026-11-17T14:09:59.848Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:09:59.850 [info] [2026-11-17T14:09:59.850Z] [info] loadFromMarketplaceSource completed in 10.5ms (2 plugins loaded, 0 failures)
+2026-11-17 21:09:59.850 [info] [2026-11-17T14:09:59.850Z] [info] loadAllPlugins completed in 10.8ms (claude=true, userLocal=true, marketplace=2 sources, total=2 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:09:59.850 [info] [2026-11-17T14:09:59.850Z] [info] Plugins loaded in 10.9ms
+2026-11-17 21:09:59.850 [info] [2026-11-17T14:09:59.850Z] [info] Plugins reload completed: 2 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:13:03.339 [info] [2026-11-17T14:13:03.339Z] [info] marketplace listEnabledPlugins completed in 0.2ms (0 plugins)
+2026-11-17 21:13:03.339 [info] [2026-11-17T14:13:03.339Z] [info] loadFromMarketplaceSource completed in 0.2ms (0 plugins loaded, 0 failures)
+2026-11-17 21:13:03.339 [info] [2026-11-17T14:13:03.339Z] [info] loadUserLocalPlugins completed in 0.4ms (0 plugins loaded)
+2026-11-17 21:13:03.342 [info] [2026-11-17T14:13:03.341Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 1.8ms
+2026-11-17 21:13:03.342 [info] [2026-11-17T14:13:03.342Z] [info] loadAllEnabledPlugins completed in 3.3ms (1 resolved, 1 loaded)
+2026-11-17 21:15:19.320 [info] [2026-11-17T14:15:19.319Z] [error] Failed to get effective user plugins
+2026-11-17 21:15:19.320 [info] [2026-11-17T14:15:19.320Z] [error] marketplace listEnabledPlugins failed after 135981.7ms; treating source as unavailable: [unavailable]
+2026-11-17 21:15:19.320 [info] [2026-11-17T14:15:19.320Z] [info] loadAllPlugins completed in 135982.0ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 21:15:19.320 [info] [2026-11-17T14:15:19.320Z] [info] Plugins loaded in 135982.1ms
+2026-11-17 21:15:19.321 [info] [2026-11-17T14:15:19.320Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 21:24:39.641 [info] [2026-11-17T14:24:39.641Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 21:24:39.641 [info] [2026-11-17T14:24:39.641Z] [info] loadFromMarketplaceSource completed in 0.2ms (0 plugins loaded, 0 failures)
+2026-11-17 21:24:39.641 [info] [2026-11-17T14:24:39.641Z] [info] loadUserLocalPlugins completed in 0.3ms (0 plugins loaded)
+2026-11-17 21:24:39.643 [info] [2026-11-17T14:24:39.642Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 1.0ms
+2026-11-17 21:24:39.643 [info] [2026-11-17T14:24:39.642Z] [info] loadAllEnabledPlugins completed in 1.9ms (1 resolved, 1 loaded)
+2026-11-17 21:25:29.728 [info] [2026-11-17T14:25:29.728Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:25:29.728 [info] [2026-11-17T14:25:29.728Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:25:29.728 [info] [2026-11-17T14:25:29.728Z] [info] marketplace listEnabledPlugins completed in 50087.2ms (2 plugins)
+2026-11-17 21:25:29.728 [info] [2026-11-17T14:25:29.728Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:25:29.735 [info] [2026-11-17T14:25:29.735Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:25:29.737 [info] [2026-11-17T14:25:29.737Z] [info] loadFromMarketplaceSource completed in 50096.5ms (2 plugins loaded, 0 failures)
+2026-11-17 21:25:29.737 [info] [2026-11-17T14:25:29.737Z] [info] loadAllPlugins completed in 50096.8ms (claude=true, userLocal=true, marketplace=2 sources, total=3 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:25:29.737 [info] [2026-11-17T14:25:29.737Z] [info] Plugins loaded in 50096.9ms
+2026-11-17 21:25:29.737 [info] [2026-11-17T14:25:29.737Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:51:38.714 [info] [2026-11-17T14:51:38.714Z] [info] marketplace listEnabledPlugins completed in 0.3ms (0 plugins)
+2026-11-17 21:51:38.714 [info] [2026-11-17T14:51:38.714Z] [info] loadFromMarketplaceSource completed in 0.4ms (0 plugins loaded, 0 failures)
+2026-11-17 21:51:38.714 [info] [2026-11-17T14:51:38.714Z] [info] loadUserLocalPlugins completed in 0.6ms (0 plugins loaded)
+2026-11-17 21:51:38.717 [info] [2026-11-17T14:51:38.717Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 1.9ms
+2026-11-17 21:51:38.717 [info] [2026-11-17T14:51:38.717Z] [info] loadAllEnabledPlugins completed in 3.5ms (1 resolved, 1 loaded)
+2026-11-17 21:51:38.724 [info] [2026-11-17T14:51:38.724Z] [error] Failed to get effective user plugins
+2026-11-17 21:51:38.724 [info] [2026-11-17T14:51:38.724Z] [error] marketplace listEnabledPlugins failed after 11.1ms; treating source as unavailable: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 21:51:38.725 [info] [2026-11-17T14:51:38.724Z] [info] loadAllPlugins completed in 11.3ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 21:51:38.725 [info] [2026-11-17T14:51:38.725Z] [info] Plugins loaded in 11.5ms
+2026-11-17 21:51:38.725 [info] [2026-11-17T14:51:38.725Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 21:51:38.729 [info] [2026-11-17T14:51:38.728Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 21:51:38.729 [info] [2026-11-17T14:51:38.728Z] [info] loadFromMarketplaceSource completed in 0.1ms (0 plugins loaded, 0 failures)
+2026-11-17 21:51:38.733 [info] [2026-11-17T14:51:38.733Z] [info] loadUserLocalPlugins completed in 4.8ms (0 plugins loaded)
+2026-11-17 21:51:38.737 [info] [2026-11-17T14:51:38.737Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 1.6ms
+2026-11-17 21:51:38.737 [info] [2026-11-17T14:51:38.737Z] [info] loadAllEnabledPlugins completed in 8.5ms (1 resolved, 1 loaded)
+2026-11-17 21:51:38.740 [info] [2026-11-17T14:51:38.740Z] [error] Failed to get effective user plugins
+2026-11-17 21:51:38.740 [info] [2026-11-17T14:51:38.740Z] [error] marketplace listEnabledPlugins failed after 11.3ms; treating source as unavailable: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 21:51:38.740 [info] [2026-11-17T14:51:38.740Z] [info] loadAllPlugins completed in 11.4ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 21:51:38.740 [info] [2026-11-17T14:51:38.740Z] [info] Plugins loaded in 11.4ms
+2026-11-17 21:51:38.740 [info] [2026-11-17T14:51:38.740Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 21:51:38.741 [info] [2026-11-17T14:51:38.741Z] [info] MCP plugin census
+2026-11-17 21:51:38.741 [info] [2026-11-17T14:51:38.741Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 21:51:38.741 [info] [2026-11-17T14:51:38.741Z] [info] loadFromMarketplaceSource completed in 0.1ms (0 plugins loaded, 0 failures)
+2026-11-17 21:51:38.741 [info] [2026-11-17T14:51:38.741Z] [info] loadUserLocalPlugins completed in 0.2ms (0 plugins loaded)
+2026-11-17 21:51:38.742 [info] [2026-11-17T14:51:38.742Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 0.8ms
+2026-11-17 21:51:38.742 [info] [2026-11-17T14:51:38.742Z] [info] loadAllEnabledPlugins completed in 1.4ms (1 resolved, 1 loaded)
+2026-11-17 21:51:38.750 [info] [2026-11-17T14:51:38.750Z] [error] Failed to get effective user plugins
+2026-11-17 21:51:38.750 [info] [2026-11-17T14:51:38.750Z] [error] marketplace listEnabledPlugins failed after 8.7ms; treating source as unavailable: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 21:51:38.750 [info] [2026-11-17T14:51:38.750Z] [info] loadAllPlugins completed in 8.8ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 21:51:38.750 [info] [2026-11-17T14:51:38.750Z] [info] Plugins loaded in 8.9ms
+2026-11-17 21:51:38.750 [info] [2026-11-17T14:51:38.750Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 21:51:38.750 [info] [2026-11-17T14:51:38.750Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 21:51:38.750 [info] [2026-11-17T14:51:38.750Z] [info] loadFromMarketplaceSource completed in 0.1ms (0 plugins loaded, 0 failures)
+2026-11-17 21:51:38.750 [info] [2026-11-17T14:51:38.750Z] [info] loadUserLocalPlugins completed in 0.1ms (0 plugins loaded)
+2026-11-17 21:51:38.751 [info] [2026-11-17T14:51:38.751Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 0.8ms
+2026-11-17 21:51:38.751 [info] [2026-11-17T14:51:38.751Z] [info] loadAllEnabledPlugins completed in 1.3ms (1 resolved, 1 loaded)
+2026-11-17 21:51:38.757 [info] [2026-11-17T14:51:38.757Z] [error] Failed to get effective user plugins
+2026-11-17 21:51:38.757 [info] [2026-11-17T14:51:38.757Z] [error] marketplace listEnabledPlugins failed after 7.0ms; treating source as unavailable: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 21:51:38.757 [info] [2026-11-17T14:51:38.757Z] [info] loadAllPlugins completed in 7.0ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 21:51:38.757 [info] [2026-11-17T14:51:38.757Z] [info] Plugins loaded in 7.1ms
+2026-11-17 21:51:38.757 [info] [2026-11-17T14:51:38.757Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 21:52:35.312 [info] [2026-11-17T14:52:35.312Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 21:52:35.312 [info] [2026-11-17T14:52:35.312Z] [info] loadFromMarketplaceSource completed in 0.2ms (0 plugins loaded, 0 failures)
+2026-11-17 21:52:35.312 [info] [2026-11-17T14:52:35.312Z] [info] loadUserLocalPlugins completed in 0.3ms (0 plugins loaded)
+2026-11-17 21:52:35.313 [info] [2026-11-17T14:52:35.313Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 0.9ms
+2026-11-17 21:52:35.313 [info] [2026-11-17T14:52:35.313Z] [info] loadAllEnabledPlugins completed in 1.7ms (1 resolved, 1 loaded)
+2026-11-17 21:52:36.762 [info] [2026-11-17T14:52:36.761Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:52:36.762 [info] [2026-11-17T14:52:36.762Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:52:36.762 [info] [2026-11-17T14:52:36.762Z] [info] marketplace listEnabledPlugins completed in 1450.0ms (2 plugins)
+2026-11-17 21:52:36.762 [info] [2026-11-17T14:52:36.762Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:52:36.768 [info] [2026-11-17T14:52:36.768Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:52:36.769 [info] [2026-11-17T14:52:36.769Z] [info] loadFromMarketplaceSource completed in 1457.1ms (2 plugins loaded, 0 failures)
+2026-11-17 21:52:36.769 [info] [2026-11-17T14:52:36.769Z] [info] loadAllPlugins completed in 1457.3ms (claude=true, userLocal=true, marketplace=2 sources, total=3 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:52:36.769 [info] [2026-11-17T14:52:36.769Z] [info] Plugins loaded in 1457.3ms
+2026-11-17 21:52:36.769 [info] [2026-11-17T14:52:36.769Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:52:36.770 [info] [2026-11-17T14:52:36.770Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 21:52:36.770 [info] [2026-11-17T14:52:36.770Z] [info] loadFromMarketplaceSource completed in 0.1ms (0 plugins loaded, 0 failures)
+2026-11-17 21:52:36.775 [info] [2026-11-17T14:52:36.774Z] [info] loadUserLocalPlugins completed in 4.7ms (0 plugins loaded)
+2026-11-17 21:52:36.779 [info] [2026-11-17T14:52:36.779Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 1.3ms
+2026-11-17 21:52:36.779 [info] [2026-11-17T14:52:36.779Z] [info] loadAllEnabledPlugins completed in 9.0ms (1 resolved, 1 loaded)
+2026-11-17 21:52:38.202 [info] [2026-11-17T14:52:38.202Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:52:38.202 [info] [2026-11-17T14:52:38.202Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:52:38.202 [info] [2026-11-17T14:52:38.202Z] [info] marketplace listEnabledPlugins completed in 1432.3ms (2 plugins)
+2026-11-17 21:52:38.202 [info] [2026-11-17T14:52:38.202Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:52:38.207 [info] [2026-11-17T14:52:38.207Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:52:38.208 [info] [2026-11-17T14:52:38.208Z] [info] loadFromMarketplaceSource completed in 1438.3ms (2 plugins loaded, 0 failures)
+2026-11-17 21:52:38.208 [info] [2026-11-17T14:52:38.208Z] [info] loadAllPlugins completed in 1438.5ms (claude=true, userLocal=true, marketplace=2 sources, total=3 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:52:38.208 [info] [2026-11-17T14:52:38.208Z] [info] Plugins loaded in 1438.6ms
+2026-11-17 21:52:38.208 [info] [2026-11-17T14:52:38.208Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 21:52:38.209 [info] [2026-11-17T14:52:38.209Z] [info] MCP plugin census
+2026-11-17 21:52:38.215 [info] [2026-11-17T14:52:38.215Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 21:52:38.215 [info] [2026-11-17T14:52:38.215Z] [info] loadFromMarketplaceSource completed in 0.2ms (0 plugins loaded, 0 failures)
+2026-11-17 21:52:38.215 [info] [2026-11-17T14:52:38.215Z] [info] BackendMarketplaceClient: Adding enabled plugin: figma from 9d296d0768c3e29c813922b3b11e390f1e47d8aa at undefined
+2026-11-17 21:52:38.215 [info] [2026-11-17T14:52:38.215Z] [info] BackendMarketplaceClient: Adding enabled plugin: shadcn from 10f1717a3e2a3c16cfbd43877c1e44063d9d749a at undefined
+2026-11-17 21:52:38.215 [info] [2026-11-17T14:52:38.215Z] [info] marketplace listEnabledPlugins completed in 0.6ms (2 plugins)
+2026-11-17 21:52:38.216 [info] [2026-11-17T14:52:38.216Z] [info] loadUserLocalPlugins completed in 0.6ms (0 plugins loaded)
+2026-11-17 21:52:38.216 [info] [2026-11-17T14:52:38.216Z] [info] loadFromMarketplaceSource: Found cached plugin: figma at /home/haidangphan/.cursor/plugins/cache/cursor-public/figma/9d296d0768c3e29c813922b3b11e390f1e47d8aa
+2026-11-17 21:52:38.221 [info] [2026-11-17T14:52:38.221Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 4.8ms
+2026-11-17 21:52:38.221 [info] [2026-11-17T14:52:38.221Z] [info] loadAllEnabledPlugins completed in 6.5ms (1 resolved, 1 loaded)
+2026-11-17 21:52:38.222 [info] [2026-11-17T14:52:38.222Z] [info] loadFromMarketplaceSource: Found cached plugin: shadcn at /home/haidangphan/.cursor/plugins/cache/cursor-public/shadcn/10f1717a3e2a3c16cfbd43877c1e44063d9d749a
+2026-11-17 21:52:38.224 [info] [2026-11-17T14:52:38.224Z] [info] loadFromMarketplaceSource completed in 9.4ms (2 plugins loaded, 0 failures)
+2026-11-17 21:52:38.225 [info] [2026-11-17T14:52:38.225Z] [info] loadAllPlugins completed in 9.8ms (claude=true, userLocal=true, marketplace=2 sources, total=3 plugins, failures=0, sourceUnavailable=false)
+2026-11-17 21:52:38.225 [info] [2026-11-17T14:52:38.225Z] [info] Plugins loaded in 9.9ms
+2026-11-17 21:52:38.225 [info] [2026-11-17T14:52:38.225Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 0 retained), 0 failures
+2026-11-17 22:00:45.811 [info] [2026-11-17T15:00:45.810Z] [info] marketplace listEnabledPlugins completed in 0.2ms (0 plugins)
+2026-11-17 22:00:45.811 [info] [2026-11-17T15:00:45.811Z] [info] loadFromMarketplaceSource completed in 0.3ms (0 plugins loaded, 0 failures)
+2026-11-17 22:00:45.811 [info] [2026-11-17T15:00:45.811Z] [info] loadUserLocalPlugins completed in 0.5ms (0 plugins loaded)
+2026-11-17 22:00:45.813 [info] [2026-11-17T15:00:45.813Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 1.5ms
+2026-11-17 22:00:45.813 [info] [2026-11-17T15:00:45.813Z] [info] loadAllEnabledPlugins completed in 2.7ms (1 resolved, 1 loaded)
+2026-11-17 22:00:45.836 [info] [2026-11-17T15:00:45.836Z] [error] Failed to get effective user plugins
+2026-11-17 22:00:45.836 [info] [2026-11-17T15:00:45.836Z] [error] marketplace listEnabledPlugins failed after 25.5ms; treating source as unavailable: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 22:00:45.836 [info] [2026-11-17T15:00:45.836Z] [info] loadAllPlugins completed in 25.6ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 22:00:45.836 [info] [2026-11-17T15:00:45.836Z] [info] Plugins loaded in 25.7ms
+2026-11-17 22:00:45.836 [info] [2026-11-17T15:00:45.836Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 22:00:45.845 [info] [2026-11-17T15:00:45.845Z] [info] marketplace listEnabledPlugins completed in 0.2ms (0 plugins)
+2026-11-17 22:00:45.845 [info] [2026-11-17T15:00:45.845Z] [info] loadFromMarketplaceSource completed in 0.3ms (0 plugins loaded, 0 failures)
+2026-11-17 22:00:45.855 [info] [2026-11-17T15:00:45.854Z] [info] loadUserLocalPlugins completed in 9.3ms (0 plugins loaded)
+2026-11-17 22:00:45.857 [info] [2026-11-17T15:00:45.857Z] [error] Failed to get effective user plugins
+2026-11-17 22:00:45.857 [info] [2026-11-17T15:00:45.857Z] [error] marketplace listEnabledPlugins failed after 12.3ms; treating source as unavailable: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 22:00:45.863 [info] [2026-11-17T15:00:45.863Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 4.1ms
+2026-11-17 22:00:45.863 [info] [2026-11-17T15:00:45.863Z] [info] loadAllEnabledPlugins completed in 17.8ms (1 resolved, 1 loaded)
+2026-11-17 22:00:45.863 [info] [2026-11-17T15:00:45.863Z] [info] loadAllPlugins completed in 17.9ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 22:00:45.863 [info] [2026-11-17T15:00:45.863Z] [info] Plugins loaded in 18.0ms
+2026-11-17 22:00:45.863 [info] [2026-11-17T15:00:45.863Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 22:00:45.865 [info] [2026-11-17T15:00:45.865Z] [info] MCP plugin census
+2026-11-17 22:00:45.875 [info] [2026-11-17T15:00:45.875Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 22:00:45.875 [info] [2026-11-17T15:00:45.875Z] [info] loadFromMarketplaceSource completed in 0.1ms (0 plugins loaded, 0 failures)
+2026-11-17 22:00:45.876 [info] [2026-11-17T15:00:45.876Z] [info] loadUserLocalPlugins completed in 0.2ms (0 plugins loaded)
+2026-11-17 22:00:45.877 [info] [2026-11-17T15:00:45.877Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 1.0ms
+2026-11-17 22:00:45.877 [info] [2026-11-17T15:00:45.877Z] [info] loadAllEnabledPlugins completed in 1.6ms (1 resolved, 1 loaded)
+2026-11-17 22:00:45.905 [info] [2026-11-17T15:00:45.905Z] [error] Failed to get effective user plugins
+2026-11-17 22:00:45.905 [info] [2026-11-17T15:00:45.905Z] [error] marketplace listEnabledPlugins failed after 29.8ms; treating source as unavailable: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 22:00:45.905 [info] [2026-11-17T15:00:45.905Z] [info] loadAllPlugins completed in 29.9ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 22:00:45.905 [info] [2026-11-17T15:00:45.905Z] [info] Plugins loaded in 29.9ms
+2026-11-17 22:00:45.905 [info] [2026-11-17T15:00:45.905Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 22:00:56.323 [info] [2026-11-17T15:00:56.323Z] [info] marketplace listEnabledPlugins completed in 0.2ms (0 plugins)
+2026-11-17 22:00:56.324 [info] [2026-11-17T15:00:56.323Z] [info] loadFromMarketplaceSource completed in 0.3ms (0 plugins loaded, 0 failures)
+2026-11-17 22:00:56.324 [info] [2026-11-17T15:00:56.324Z] [info] loadUserLocalPlugins completed in 0.4ms (0 plugins loaded)
+2026-11-17 22:00:56.325 [info] [2026-11-17T15:00:56.325Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 1.4ms
+2026-11-17 22:00:56.325 [info] [2026-11-17T15:00:56.325Z] [info] loadAllEnabledPlugins completed in 2.3ms (1 resolved, 1 loaded)
+2026-11-17 22:00:56.335 [info] [2026-11-17T15:00:56.335Z] [error] Failed to get effective user plugins
+2026-11-17 22:00:56.335 [info] [2026-11-17T15:00:56.335Z] [error] marketplace listEnabledPlugins failed after 11.6ms; treating source as unavailable: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 22:00:56.335 [info] [2026-11-17T15:00:56.335Z] [info] loadAllPlugins completed in 11.8ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 22:00:56.335 [info] [2026-11-17T15:00:56.335Z] [info] Plugins loaded in 11.9ms
+2026-11-17 22:00:56.335 [info] [2026-11-17T15:00:56.335Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 22:00:56.336 [info] [2026-11-17T15:00:56.336Z] [info] marketplace listEnabledPlugins completed in 0.1ms (0 plugins)
+2026-11-17 22:00:56.336 [info] [2026-11-17T15:00:56.336Z] [info] loadFromMarketplaceSource completed in 0.1ms (0 plugins loaded, 0 failures)
+2026-11-17 22:00:56.342 [info] [2026-11-17T15:00:56.342Z] [info] loadUserLocalPlugins completed in 5.7ms (0 plugins loaded)
+2026-11-17 22:00:56.345 [info] [2026-11-17T15:00:56.345Z] [error] Failed to get effective user plugins
+2026-11-17 22:00:56.345 [info] [2026-11-17T15:00:56.345Z] [error] marketplace listEnabledPlugins failed after 8.6ms; treating source as unavailable: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 22:00:56.346 [info] [2026-11-17T15:00:56.346Z] [info] loadClaudePlugin typesafe@typesafe-ai loaded in 1.2ms
+2026-11-17 22:00:56.346 [info] [2026-11-17T15:00:56.346Z] [info] loadAllEnabledPlugins completed in 10.3ms (1 resolved, 1 loaded)
+2026-11-17 22:00:56.346 [info] [2026-11-17T15:00:56.346Z] [info] loadAllPlugins completed in 10.3ms (claude=true, userLocal=true, marketplace=2 sources, total=1 plugins, failures=0, sourceUnavailable=true)
+2026-11-17 22:00:56.346 [info] [2026-11-17T15:00:56.346Z] [info] Plugins loaded in 10.4ms
+2026-11-17 22:00:56.347 [info] [2026-11-17T15:00:56.346Z] [info] Plugins reload completed: 3 plugins loaded (0 extension, 2 retained), 0 failures
+2026-11-17 23:20:56.026 [info] [2026-11-17T16:20:56.026Z] [error] marketplace listEnabledPlugins failed after 1.2ms; treating source as unavailable: Canceled
+2026-11-17 23:20:56.028 [info] [2026-11-17T16:20:56.028Z] [info] marketplace listEnabledPlugins completed in 3.3ms (0 plugins)
+2026-11-17 23:20:56.028 [info] [2026-11-17T16:20:56.028Z] [info] loadFromMarketplaceSource completed in 3.3ms (0 plugins loaded, 0 failures)
+2026-11-17 23:20:56.028 [info] [2026-11-17T16:20:56.028Z] [info] loadUserLocalPlugins completed in 3.4ms (0 plugins loaded)

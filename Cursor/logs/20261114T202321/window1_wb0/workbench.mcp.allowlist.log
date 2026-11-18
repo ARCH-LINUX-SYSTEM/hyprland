@@ -1,0 +1,11 @@
+2026-11-14 20:23:22.390 [info] [MCPService] MCP Allowlist logger initialized.
+2026-11-14 20:23:25.655 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:23:25.657 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:23:26.111 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:23:26.812 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:23:26.819 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:23:31.224 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:23:31.225 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:23:31.824 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:23:32.388 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:23:32.412 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass

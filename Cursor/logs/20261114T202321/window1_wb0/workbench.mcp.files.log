@@ -1,0 +1,9 @@
+2026-11-14 20:23:26.111 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:23:26.120 [info] [MCPService] createClient completed for server: cursor-origin, statusType=initializing, success=true
+2026-11-14 20:23:31.217 [info] [MCPService] Plugin MCP census: {"trigger":"plugins_changed","providerOutcome":"ok","descriptorsReceived":2,"pluginServersAssigned":2,"defaultServers":1,"userServers":0,"projectServers":0,"extensionServers":0,"providerServers":3,"effectiveTotal":6,"enabledTotal":6,"remoteAuthorityPrefix":"local"}
+2026-11-14 20:23:31.224 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:23:31.225 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:23:31.233 [info] [MCPService] createClient completed for server: plugin-shadcn-shadcn, statusType=initializing, success=true
+2026-11-14 20:23:31.239 [info] [MCPService] createClient completed for server: plugin-figma-figma, statusType=initializing, success=true
+2026-11-14 20:23:31.824 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:23:31.825 [info] [MCPService] createClient completed for server: plugin-figma-figma, statusType=initializing, success=true

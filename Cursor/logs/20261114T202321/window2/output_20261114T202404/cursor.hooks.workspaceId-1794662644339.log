@@ -1,0 +1,16 @@
+[2026-11-14T13:24:04.838Z] Initializing Cursor Hooks Service...
+[2026-11-14T13:24:04.838Z] Claude user config path: /home/haidangphan/.claude/settings.json
+[2026-11-14T13:24:04.838Z] No workspace folder found, project hooks will not be available
+[2026-11-14T13:24:04.838Z] User config path: /home/haidangphan/.cursor/hooks.json
+[2026-11-14T13:24:04.838Z] Enterprise config path: file:///etc/cursor/hooks.json
+[2026-11-14T13:24:04.839Z] Reloading hooks configuration...
+[2026-11-14T13:24:04.839Z] Refreshing team hooks...
+[2026-11-14T13:24:04.852Z] No enterprise hooks configuration found
+[2026-11-14T13:24:04.854Z] No user hooks configuration found
+[2026-11-14T13:24:04.854Z] No workspace project hooks configuration paths found
+[2026-11-14T13:24:07.046Z] Refreshing team hooks...
+[2026-11-14T13:24:08.624Z] Reloading hooks configuration...
+[2026-11-14T13:24:08.624Z] Cursor Hooks Service initialized successfully
+[2026-11-14T13:24:08.664Z] No enterprise hooks configuration found
+[2026-11-14T13:24:08.665Z] No user hooks configuration found
+[2026-11-14T13:24:08.665Z] No workspace project hooks configuration paths found

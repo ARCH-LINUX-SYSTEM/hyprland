@@ -1,0 +1,1069 @@
+["INFO" - 8:24:12 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 8:24:12 PM] Extension Version: 12.4.0.
+["INFO" - 8:24:13 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:24:13 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:24:13 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:29:48 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:29:48 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:29:48 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:38:15 PM] Formatting vscode-userdata:/home/haidangphan/.config/Cursor/User/settings.json
+["INFO" - 8:38:15 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:38:15 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 8:38:15 PM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 8:38:15 PM] Unable to resolve ignore path: .prettierignore for /home/haidangphan/.config/Cursor/User/settings.json
+["INFO" - 8:38:15 PM] Resolved plugins:
+[]
+["WARN" - 8:38:15 PM] Parser not inferred, trying VS Code language.
+["INFO" - 8:38:15 PM] Using VS Code configuration
+["INFO" - 8:38:15 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/haidangphan/.config/Cursor/User/settings.json",
+  "parser": "jsonc"
+}
+["INFO" - 8:38:15 PM] Formatting completed in 37ms.
+["INFO" - 8:38:29 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:38:29 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:38:29 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:38:44 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:38:44 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:38:44 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:38:44 PM] Formatting file:///home/haidangphan/Documents/tutor/third/src/app.module.ts
+["INFO" - 8:38:44 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:38:44 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:38:44 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:38:44 PM] PrettierInstance:
+{
+  "version": "3.9.4",
+  "prettierModule": {
+    "__debug": {},
+    "util": {},
+    "doc": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "version": "3.9.4"
+  },
+  "modulePath": "/home/haidangphan/Documents/tutor/third/node_modules/prettier"
+}
+["INFO" - 8:38:44 PM] Using ignore file (if present) at /home/haidangphan/Documents/tutor/third/.prettierignore
+["INFO" - 8:38:44 PM] Resolved plugins:
+[]
+["INFO" - 8:38:44 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 8:38:44 PM] Using local configuration (VS Code configuration will not be used)
+["INFO" - 8:38:44 PM] Prettier Options:
+{
+  "filepath": "/home/haidangphan/Documents/tutor/third/src/app.module.ts",
+  "parser": "typescript",
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:38:44 PM] Formatting completed in 73ms.
+["INFO" - 8:38:44 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:38:44 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:38:44 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:39:02 PM] Formatting vscode-userdata:/home/haidangphan/.config/Cursor/User/settings.json
+["INFO" - 8:39:02 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:39:02 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 8:39:02 PM] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 8:39:02 PM] Unable to resolve ignore path: .prettierignore for /home/haidangphan/.config/Cursor/User/settings.json
+["INFO" - 8:39:02 PM] Resolved plugins:
+[]
+["WARN" - 8:39:02 PM] Parser not inferred, trying VS Code language.
+["INFO" - 8:39:02 PM] Using VS Code configuration
+["INFO" - 8:39:02 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/haidangphan/.config/Cursor/User/settings.json",
+  "parser": "jsonc"
+}
+["INFO" - 8:39:02 PM] Formatting completed in 4ms.
+["INFO" - 8:39:14 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:39:14 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:39:14 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:39:14 PM] Formatting file:///home/haidangphan/Documents/tutor/third/src/app.module.ts
+["INFO" - 8:39:14 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:39:14 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:39:14 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:39:14 PM] PrettierInstance:
+{
+  "version": "3.9.4",
+  "prettierModule": {
+    "__debug": {},
+    "util": {},
+    "doc": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "version": "3.9.4"
+  },
+  "modulePath": "/home/haidangphan/Documents/tutor/third/node_modules/prettier"
+}
+["INFO" - 8:39:14 PM] Using ignore file (if present) at /home/haidangphan/Documents/tutor/third/.prettierignore
+["INFO" - 8:39:14 PM] Resolved plugins:
+[]
+["INFO" - 8:39:14 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 8:39:14 PM] Using local configuration (VS Code configuration will not be used)
+["INFO" - 8:39:14 PM] Prettier Options:
+{
+  "filepath": "/home/haidangphan/Documents/tutor/third/src/app.module.ts",
+  "parser": "typescript",
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:39:14 PM] Formatting completed in 7ms.
+["INFO" - 8:39:14 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:39:14 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:39:14 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:40:28 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:40:28 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:40:28 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:41:42 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:41:42 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:41:42 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:42:55 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:42:55 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:42:55 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:43:04 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:43:04 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:43:04 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:44:46 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:44:46 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:44:46 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:47:00 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:47:00 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:47:00 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:48:11 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:48:11 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:48:11 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 8:48:21 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 8:48:21 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 8:48:21 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:31:21 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:31:21 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:31:21 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:31:25 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:31:25 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:31:25 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:31:25 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:31:25 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:31:25 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:31:26 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:31:26 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:31:26 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:31:35 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:31:35 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:31:35 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:32:45 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:32:45 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:32:45 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:37:18 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:37:18 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:37:18 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:42:49 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:42:49 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:42:49 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:42:52 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:42:52 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:42:52 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:43:01 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 9:43:01 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:43:01 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:54:20 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:54:20 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:54:20 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:54:27 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 9:54:27 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:54:27 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:54:27 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 9:54:27 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:54:27 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:02:31 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 10:02:31 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:02:31 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:02:31 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 10:02:31 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:02:31 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:06:04 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 10:06:04 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:06:04 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:06:58 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 10:06:58 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:06:58 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:10:22 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 10:10:22 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:10:22 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:10:22 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 10:10:22 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:10:22 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:12:05 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 10:12:05 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:12:05 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:12:28 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 10:12:28 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:12:28 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:13:15 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 10:13:15 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:13:15 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:13:16 PM] Using config file at /home/haidangphan/Documents/tutor/third/.prettierrc
+["INFO" - 10:13:16 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:13:16 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 10:14:34 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 10:14:34 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 10:14:34 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}

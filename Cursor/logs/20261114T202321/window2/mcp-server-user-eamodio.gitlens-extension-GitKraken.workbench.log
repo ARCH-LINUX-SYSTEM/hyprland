@@ -1,0 +1,8 @@
+2026-11-14 20:24:07.678 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:24:07.678 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, statusType=initializing, success=true
+2026-11-14 20:24:08.624 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:24:08.662 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, connected=true, statusType=connected
+2026-11-14 20:24:16.640 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:24:16.641 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, connected=true, statusType=connected
+2026-11-14 20:24:25.358 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:24:25.363 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, connected=true, statusType=connected

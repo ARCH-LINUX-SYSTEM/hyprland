@@ -1,0 +1,128 @@
+2026-11-14 20:12:33.471 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-11-14 20:12:33.471 [info]    [            1] GitLens v19.6.0  activating in Cursor (1.128.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (cursor|bf2f2f6a89fdc84cdc3cb39678230b47680b5dc0d86a4dd02158f5fe2a10b5a7|9b69a35a-93f3-4df5-9e0a-6cacf8e451651794661834478)
+2026-11-14 20:12:33.471 [info]    GitLens first-time install; window.focused=true
+2026-11-14 20:12:33.471 [info]    [            1] GitLens v19.6.0 activated [83ms]
+2026-11-14 20:12:33.471 [info]    [   87 →    88] GlCliGitProvider.findGit Git (2.56.0) found in /usr/bin/git [53ms]
+2026-11-14 20:12:33.471 [info]    [   87 →    b5] GlCliGitProvider.repositorySearch(/home/haidangphan/Documents/tutor) searching (depth=0)...
+2026-11-14 20:12:33.471 [info]    [   b7 →    ba] CliBinaryInstaller.install Starting CLI installation (attempt 1/5)
+2026-11-14 20:12:33.472 [error]   [GIT          ] [/home/haidangphan/Documents/tutor] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [8ms]
+2026-11-14 20:12:33.472 [info]    [IPC          ] CLI capability published on http://127.0.0.1:35079
+2026-11-14 20:12:33.477 [error]   [CLI   8c → c2] undefined ai hook list-sessions --status active,ended --json CLI is not installed [0ms]
+2026-11-14 20:12:33.528 [info]    WebviewsController.resolveWebviewView(gitlens.views.graph|cd0d4593-2f39-46ad-878b-d14c00e97f86): hasRestoreState=false, parentVisible=true
+2026-11-14 20:12:33.540 [info]    WebviewsController.resolveWebviewView(gitlens.views.welcome|e7e5ee6e-447b-41be-a557-c6ba12f12780): hasRestoreState=false, parentVisible=true
+2026-11-14 20:12:33.574 [info]    WebviewController(gitlens.views.graph|cd0d4593-2f39-46ad-878b-d14c00e97f86): webview.html set (reason=show:loading, length=3297)
+2026-11-14 20:12:33.574 [info]    WebviewController(gitlens.views.welcome|e7e5ee6e-447b-41be-a557-c6ba12f12780): webview.html set (reason=show:loading, length=2359)
+2026-11-14 20:12:33.672 [info]    WebviewController(gitlens.views.welcome|e7e5ee6e-447b-41be-a557-c6ba12f12780): webview.connect #1 (clientId=wv-xe0c4b9g, clientLoadedAt=1794661953643, sinceLastHtmlSet=98ms, wasAlreadyReady=false, parentVisible=true)
+2026-11-14 20:12:33.735 [info]    WebviewController(gitlens.views.graph|cd0d4593-2f39-46ad-878b-d14c00e97f86): webview.connect #1 (clientId=wv-dogjy9jg, clientLoadedAt=1794661953664, sinceLastHtmlSet=160ms, wasAlreadyReady=false, parentVisible=true)
+2026-11-14 20:12:33.742 [error]   [CLI       100] undefined agents list --json CLI is not installed [0ms]
+2026-11-14 20:12:33.742 [error] Error: CLI is not installed   Failed to get agent list from CLI
+2026-11-14 20:12:33.973 [warning] [  107 →   108] GkMcpService.getMcpConfig CLI not ready — install.status=undefined
+2026-11-14 20:12:44.037 [error] TypeError: fetch failed   [   17 →    18] ServerConnection.fetch 
+2026-11-14 20:12:44.038 [error] TypeError: fetch failed   [   17 →    18] ServerConnection.fetch — failed [10657ms]
+2026-11-14 20:12:44.038 [error] TypeError: fetch failed   [   16 →    17] ServerConnection.fetchGkConfig — failed [10657ms]
+2026-11-14 20:12:44.038 [error] TypeError: fetch failed   [   14 →    16] ProductConfigProvider.load 
+2026-11-14 20:12:44.040 [error] TypeError: fetch failed   [   b7 →    ba] CliBinaryInstaller.install Failed to auto-install CLI: fetch failed
+2026-11-14 20:12:44.040 [warning] [   b7 →    ba] CliBinaryInstaller.install(e=true, t=settings, r=false) returned {"cliPath":"/home/haidangphan/.config/Cursor/User/globalStorage/eamodio.gitlens","status":"attempted","changed":false} [*10571ms] (slow)
+2026-11-14 20:12:44.043 [info]    [  110 →   11b] CliBinaryInstaller.install Starting CLI installation (attempt 1/5)
+2026-11-14 20:12:44.043 [error] Error: Failed to install core   [   a7 →    b7] GkMcpService.setupCore Error during MCP installation: Error: Failed to install core
+2026-11-14 20:12:44.043 [error] Error: Unable to locally install the GitKraken MCP server. Please try again.   [   a7 →    b7] GkMcpService.setupCore — failed [10576ms]
+2026-11-14 20:12:59.526 [info]    [  110 →   11b] CliBinaryInstaller.install CLI installed (version: 3.1.77, path: /home/haidangphan/.config/Cursor/User/globalStorage/eamodio.gitlens)
+2026-11-14 20:12:59.530 [warning] [  110 →   11b] CliBinaryInstaller.install(e=true, t=gk-cli-integration, r=false) returned {"cliVersion":"3.1.77","cliPath":"/home/haidangphan/.config/Cursor/User/globalStorage/eamodio.gitlens","status":"completed","changed":true} [*15490ms] (slow)
+2026-11-14 20:12:59.531 [warning] [   9b →   110] CliBinaryInstaller.ensureUpdateOrInstall completed [*23088ms] (slow)
+2026-11-14 20:13:49.713 [info]    [GIT       5ms] [/home/haidangphan/Documents/tutor/gateway] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2026-11-14 20:13:49.722 [info]    [  14b →   14c] GitProviderService.getOrAddRepository Repository found in 'file:///home/haidangphan/Documents/tutor/gateway'
+2026-11-14 20:13:49.728 [info]    [GIT       5ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env [5ms]
+2026-11-14 20:13:49.738 [info]    [   87 →    88] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///home/haidangphan/Documents/tutor/gateway)
+2026-11-14 20:13:50.742 [info]    [   87 →    88] GlCliGitProvider.findGit fireRepositoryOpened: firing 1 opened repo(s) from vscode.git
+2026-11-14 20:13:50.746 [info]    [          161] GlCliGitProvider.onDidOpenRepository(e=file:///home/haidangphan/Documents/tutor/gateway, source=scm) repository=GlRepository(/home/haidangphan/Documents/tutor/gateway|1), opened:false→true (closedByScm cleared)
+2026-11-14 20:13:50.755 [info]    [GIT       9ms] [/home/haidangphan/Documents/tutor/gateway] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D%(upstream:remotename)%1D%(upstream:remoteref)%1D%(push)%1D refs/heads/ refs/remotes/ refs/tags/ refs/replace/ [9ms]
+2026-11-14 20:13:50.756 [info]    [GIT      12ms] [/home/haidangphan/Documents/tutor/gateway] git remote -v [12ms]
+2026-11-14 20:13:50.760 [info]    [GIT      10ms] [/home/haidangphan/Documents/tutor/gateway] git worktree list --porcelain [10ms]
+2026-11-14 20:13:50.764 [info]    [GIT       3ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^branch\..*\.gk- [3ms]
+2026-11-14 20:13:50.767 [info]    [GIT       2ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config . [2ms]
+2026-11-14 20:13:50.779 [info]    [GIT      10ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [10ms]
+2026-11-14 20:13:50.779 [info]    [GIT      10ms] [/home/haidangphan/Documents/tutor/gateway] git config --global --get-all maintenance.repo [10ms]
+2026-11-14 20:13:50.782 [info]    [GIT      13ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ [13ms]
+2026-11-14 20:13:50.784 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/gateway] git worktree list --porcelain [4ms]
+2026-11-14 20:13:50.791 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [4ms]
+2026-11-14 20:13:50.791 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ [4ms]
+2026-11-14 20:13:50.791 [info]    [GIT       6ms] [/home/haidangphan/Documents/tutor/gateway] git config --type=bool --get core.commitGraph [6ms]
+2026-11-14 20:13:50.793 [info]    [GIT      11ms] [/home/haidangphan/Documents/tutor/gateway] git config -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config branch.develop.gk-last-accessed 2026-11-14T13:13:50.777Z [11ms]
+2026-11-14 20:13:50.794 [info]    [GIT       2ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [2ms]
+2026-11-14 20:13:50.864 [info]    [GIT      70ms] [/home/haidangphan/Documents/tutor/gateway] git commit-graph write --reachable --split --changed-paths --max-new-filters=512 [70ms]
+2026-11-14 20:13:50.869 [info]    [GIT       3ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config . [3ms]
+2026-11-14 20:13:50.873 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ [4ms]
+2026-11-14 20:13:50.873 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [4ms]
+2026-11-14 20:14:01.742 [error] TypeError: fetch failed   [  1c3 →   1ca] GlCliGitProvider.getRemoteVisibility 
+2026-11-14 20:14:01.742 [error] TypeError: fetch failed   [  1c8 →   1cb] GlCliGitProvider.getRemoteVisibility 
+2026-11-14 20:14:01.742 [warning] [  1c3 →   1ca] GlCliGitProvider.getRemoteVisibility(remote=git@github.com:TUTOR-SYSTEM/gateway.git) returned private [*10496ms] (slow)
+2026-11-14 20:14:01.742 [warning] [  1c8 →   1cb] GlCliGitProvider.getRemoteVisibility(remote=git@github.com:TUTOR-SYSTEM/gateway.git) returned private [*10496ms] (slow)
+2026-11-14 20:14:01.743 [warning] [  1c1 →   1c3] GlCliGitProvider.visibility(e=/home/haidangphan/Documents/tutor/gateway) returned private [*10497ms] (slow)
+2026-11-14 20:14:01.743 [warning] [  1c6 →   1c8] GlCliGitProvider.visibility(e=/home/haidangphan/Documents/tutor/gateway) returned private [*10497ms] (slow)
+2026-11-14 20:14:01.743 [warning] [  1be →   1c1] GitProviderService.visibilityCore(e=/home/haidangphan/Documents/tutor/gateway) returned private [*10498ms] (slow)
+2026-11-14 20:14:01.743 [warning] [  1c5 →   1c6] GitProviderService.visibilityCore returned private [*10497ms] (slow)
+2026-11-14 20:14:01.743 [warning] [  1bd →   1be] GitProviderService.visibility(e=/home/haidangphan/Documents/tutor/gateway) returned private [*10498ms] (slow)
+2026-11-14 20:14:01.743 [warning] [  1bc →   1bd] GitProviderService.accessCore(e=undefined) returned allowed=false, plan=community [*10499ms] (slow)
+2026-11-14 20:14:01.743 [warning] [  1bd →   1c5] GitProviderService.visibility returned private [*10498ms] (slow)
+2026-11-14 20:14:01.743 [warning] [  16e →   1bc] GitProviderService.access returned allowed=false, plan=community [*10499ms] (slow)
+2026-11-14 20:14:25.763 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/gateway] git rev-list --max-parents=0 HEAD -- [7ms]
+2026-11-14 20:14:25.764 [info]    [GIT       8ms] [/home/haidangphan/Documents/tutor/gateway] git shortlog -s --all --no-min-parents --since=1.year.ago [8ms]
+2026-11-14 20:14:25.764 [info]    [  255 →   256] LocalSharedGkStorageLocationProvider.load Using shared GK path: /home/haidangphan/.local/share/gk
+2026-11-14 20:14:32.207 [info]    [GIT       3ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env [3ms]
+2026-11-14 20:17:31.452 [info]    [GIT       9ms] [/home/haidangphan/Documents/tutor/third/src/features/email] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [9ms]
+2026-11-14 20:17:31.458 [info]    [  2a9 →   2aa] GitProviderService.getOrAddRepository Repository found in 'file:///home/haidangphan/Documents/tutor/third'
+2026-11-14 20:17:31.466 [info]    [   87 →    88] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///home/haidangphan/Documents/tutor/third)
+2026-11-14 20:17:31.469 [info]    [GIT       8ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.controller.ts [8ms]
+2026-11-14 20:17:31.473 [info]    [GIT      15ms] [/home/haidangphan/Documents/tutor/third] git remote -v [15ms]
+2026-11-14 20:17:31.478 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^user\.(name|email)$ [7ms]
+2026-11-14 20:17:31.482 [info]    [GIT       3ms] [/home/haidangphan/Documents/tutor/third] git check-mailmap Phan Đăng Hải <chienbinhthephai@gmail.com> [3ms]
+2026-11-14 20:17:31.494 [info]    [GIT:→1       ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.controller.ts · starting...
+2026-11-14 20:17:31.495 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^branch\..*\.gk- [7ms]
+2026-11-14 20:17:31.505 [info]    [GIT      10ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex -f /home/haidangphan/Documents/tutor/third/.git/gk/config . [10ms]
+2026-11-14 20:17:31.522 [info]    [GIT:←1   32ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.controller.ts [32ms]
+2026-11-14 20:17:31.555 [info]    [GIT      31ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.controller.ts -- [31ms]
+2026-11-14 20:17:31.575 [info]    [GIT      40ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 c88e26a7d6005e7876655dd212bbd747015d85d9 -- [40ms]
+2026-11-14 20:17:32.468 [info]    [   87 →    88] GlCliGitProvider.findGit fireRepositoryOpened: firing 1 opened repo(s) from vscode.git
+2026-11-14 20:17:32.468 [info]    [          2fe] GlCliGitProvider.onDidOpenRepository(e=file:///home/haidangphan/Documents/tutor/third, source=scm) repository=GlRepository(/home/haidangphan/Documents/tutor/third|2), opened:false→true (closedByScm cleared)
+2026-11-14 20:17:32.495 [info]    [GIT      12ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [12ms]
+2026-11-14 20:17:32.495 [info]    [GIT      13ms] [/home/haidangphan/Documents/tutor/third] git config --global --get-all maintenance.repo [13ms]
+2026-11-14 20:17:32.500 [info]    [GIT      17ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ [17ms]
+2026-11-14 20:17:32.501 [info]    [GIT      31ms] [/home/haidangphan/Documents/tutor/third] git worktree list --porcelain [31ms]
+2026-11-14 20:17:32.501 [info]    [GIT      32ms] [/home/haidangphan/Documents/tutor/gateway] git worktree list --porcelain [32ms]
+2026-11-14 20:17:32.501 [info]    [GIT      32ms] [/home/haidangphan/Documents/tutor/third] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D%(upstream:remotename)%1D%(upstream:remoteref)%1D%(push)%1D refs/heads/ refs/remotes/ refs/tags/ refs/replace/ [32ms]
+2026-11-14 20:17:32.502 [info]    [GIT       6ms] [/home/haidangphan/Documents/tutor/third] git worktree list --porcelain [6ms]
+2026-11-14 20:17:32.522 [info]    [GIT      10ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [10ms]
+2026-11-14 20:17:32.522 [info]    [GIT      10ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ [10ms]
+2026-11-14 20:17:32.522 [info]    [GIT      14ms] [/home/haidangphan/Documents/tutor/third] git config --type=bool --get core.commitGraph [14ms]
+2026-11-14 20:17:32.526 [info]    [GIT      23ms] [/home/haidangphan/Documents/tutor/third] git config -f /home/haidangphan/Documents/tutor/third/.git/gk/config branch.develop.gk-last-accessed 2026-11-14T13:17:32.502Z [23ms]
+2026-11-14 20:17:32.529 [info]    [GIT       6ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [6ms]
+2026-11-14 20:17:32.546 [info]    [GIT      17ms] [/home/haidangphan/Documents/tutor/third] git commit-graph write --reachable --split --changed-paths --max-new-filters=512 [17ms]
+2026-11-14 20:17:32.552 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex -f /home/haidangphan/Documents/tutor/third/.git/gk/config . [4ms]
+2026-11-14 20:17:32.561 [info]    [GIT       8ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ [8ms]
+2026-11-14 20:17:32.561 [info]    [GIT       8ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [8ms]
+2026-11-14 20:17:32.858 [info]    [GIT      21ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex -f /home/haidangphan/Documents/tutor/third/.git/gk/config . [21ms]
+2026-11-14 20:17:33.524 [info]    [GIT       5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.module.ts [5ms]
+2026-11-14 20:17:33.527 [info]    [GIT:→2       ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.module.ts · starting...
+2026-11-14 20:17:33.529 [info]    [GIT:←2    4ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.module.ts [4ms]
+2026-11-14 20:17:33.543 [info]    [GIT       8ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D --summary -n1 20ff7699415e7ab65339d140d1a485df98091d22^ -- src/features/email/email.module.ts [8ms]
+2026-11-14 20:17:33.543 [info]    [GIT      14ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.module.ts -- [14ms]
+2026-11-14 20:17:33.545 [info]    [GIT      11ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 20ff7699415e7ab65339d140d1a485df98091d22 -- [11ms]
+2026-11-14 20:17:35.114 [info]    [GIT       5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.rpc.controller.ts [5ms]
+2026-11-14 20:17:35.118 [info]    [GIT:→3       ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.rpc.controller.ts · starting...
+2026-11-14 20:17:35.119 [info]    [GIT:←3    4ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.rpc.controller.ts [4ms]
+2026-11-14 20:17:35.136 [info]    [GIT      12ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 7c86ee05cdefc1514456c5610911f7dab0c8b7b9 -- [12ms]
+2026-11-14 20:17:35.138 [info]    [GIT      18ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.rpc.controller.ts -- [18ms]
+2026-11-14 20:17:38.598 [warning] [  352 →   355] GlCliGitProvider.getRemoteVisibility(remote=git@github.com:TUTOR-SYSTEM/THIRD_SERVICE.git) returned public [*5627ms] (slow)
+2026-11-14 20:17:38.598 [warning] [  34e →   352] GlCliGitProvider.visibility(e=/home/haidangphan/Documents/tutor/third) returned public [*5628ms] (slow)
+2026-11-14 20:17:38.598 [warning] [  34d →   34e] GitProviderService.visibilityCore returned mixed [*5628ms] (slow)
+2026-11-14 20:17:38.598 [warning] [  34c →   34d] GitProviderService.visibility returned mixed [*5628ms] (slow)
+2026-11-14 20:17:38.598 [warning] [  34c →   354] GitProviderService.visibility returned mixed [*5628ms] (slow)
+2026-11-14 20:17:38.598 [warning] [  34b →   34c] GitProviderService.accessCore(e=undefined) returned allowed=mixed, plan=community [*5629ms] (slow)
+2026-11-14 20:17:38.598 [warning] [  309 →   34b] GitProviderService.access returned allowed=mixed, plan=community [*5629ms] (slow)
+2026-11-14 20:17:38.762 [info]    [GIT       6ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.service.ts [6ms]
+2026-11-14 20:17:38.767 [info]    [GIT:→4       ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.service.ts · starting...
+2026-11-14 20:17:38.768 [info]    [GIT:←4    5ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.service.ts [5ms]
+2026-11-14 20:17:38.776 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.service.ts -- [7ms]
+2026-11-14 20:18:07.480 [info]    [GIT       5ms] [/home/haidangphan/Documents/tutor/third] git rev-list --max-parents=0 HEAD -- [5ms]
+2026-11-14 20:18:07.481 [info]    [GIT       6ms] [/home/haidangphan/Documents/tutor/third] git shortlog -s --all --no-min-parents --since=1.year.ago [6ms]
+2026-11-14 20:20:11.501 [info]    GitLens deactivating...

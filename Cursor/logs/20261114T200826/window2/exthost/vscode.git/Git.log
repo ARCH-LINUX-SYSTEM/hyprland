@@ -1,0 +1,193 @@
+2026-11-14 20:10:07.146 [info] [main] Log level: Info
+2026-11-14 20:10:07.146 [info] [main] Validating found git in: "/usr/bin/git"
+2026-11-14 20:10:07.159 [info] [main] Using git "2.56.0" from "/usr/bin/git"
+2026-11-14 20:10:07.159 [info] [Model][doInitialScan] Initial repository scan started
+2026-11-14 20:10:07.159 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-11-14 20:10:17.158 [info] > git config --global user.name [1ms] 
+2026-11-14 20:10:17.161 [info] > git config --global user.email [1ms] 
+2026-11-14 20:10:17.161 [info] [main] Stored git author name in global state: Phan Đăng Hải <chienbinhthephai@gmail.com>
+2026-11-14 20:10:35.350 [info] [main] Log level: Info
+2026-11-14 20:10:35.354 [info] [main] Validating found git in: "/usr/bin/git"
+2026-11-14 20:10:37.331 [info] [main] Using git "2.56.0" from "/usr/bin/git"
+2026-11-14 20:10:37.331 [info] [Model][doInitialScan] Initial repository scan started
+2026-11-14 20:10:37.572 [info] > git rev-parse --show-toplevel [234ms] (getRepositoryRoot)
+2026-11-14 20:10:37.572 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:10:37.573 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-11-14 20:10:47.334 [info] > git config --global user.name [0ms] 
+2026-11-14 20:10:47.337 [info] > git config --global user.email [1ms] 
+2026-11-14 20:10:47.337 [info] [main] Stored git author name in global state: Phan Đăng Hải <chienbinhthephai@gmail.com>
+2026-11-14 20:11:36.489 [info] > git rev-parse --show-toplevel [2ms] (getRepositoryRoot)
+2026-11-14 20:11:36.489 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:11:39.950 [info] > git rev-parse --show-toplevel [1ms] (getRepositoryRoot)
+2026-11-14 20:11:39.950 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:11:40.274 [info] > git rev-parse --show-toplevel [1ms] (getRepositoryRoot)
+2026-11-14 20:11:40.274 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:11:41.077 [info] > git rev-parse --show-toplevel [2ms] (getRepositoryRoot)
+2026-11-14 20:11:41.077 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:12:09.456 [info] > git rev-parse --show-toplevel [2ms] (getRepositoryRoot)
+2026-11-14 20:12:09.456 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:12:33.189 [info] > git rev-parse --show-toplevel [0ms] (getRepositoryRoot)
+2026-11-14 20:12:33.189 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:12:33.376 [info] > git rev-parse --show-toplevel [1ms] (getRepositoryRoot)
+2026-11-14 20:12:33.376 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:12:45.564 [info] > git rev-parse --show-toplevel [2ms] (getRepositoryRoot)
+2026-11-14 20:12:45.564 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:13:49.713 [info] > git rev-parse --show-toplevel [6ms] (getRepositoryRoot)
+2026-11-14 20:13:49.729 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [9ms] 
+2026-11-14 20:13:49.738 [info] [Model][openRepository] Opened repository: /home/haidangphan/Documents/tutor/gateway
+2026-11-14 20:13:49.738 [info] [Model][openRepository] Opened repository (kind): repository
+2026-11-14 20:13:49.739 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2026-11-14 20:13:49.753 [info] > git config --get commit.template [6ms] 
+2026-11-14 20:13:49.754 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [2ms] 
+2026-11-14 20:13:49.772 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [14ms] 
+2026-11-14 20:13:49.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms] 
+2026-11-14 20:13:49.780 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/haidangphan/Documents/tutor/gateway/.git/refs/remotes/origin/develop'
+2026-11-14 20:13:49.781 [info] > git rev-parse refs/remotes/origin/develop [1ms] 
+2026-11-14 20:13:49.786 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [1ms] 
+2026-11-14 20:13:49.792 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [2ms] 
+2026-11-14 20:13:49.804 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [0ms] 
+2026-11-14 20:13:49.804 [info] > git for-each-ref --format %(refname)%00%(objectname)%00 refs/heads refs/remotes [4ms] 
+2026-11-14 20:13:49.850 [info] > git status -z -uall [54ms]
+2026-11-14 20:13:49.858 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2026-11-14 20:13:49.862 [info] > git config --get commit.template [1ms] 
+2026-11-14 20:13:49.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [5ms] 
+2026-11-14 20:13:49.865 [info] > git config --get --local branch.develop.vscode-merge-base [1ms] 
+2026-11-14 20:13:49.865 [warning] [Git][config] git config failed: Failed to execute git
+2026-11-14 20:13:49.871 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [0ms] 
+2026-11-14 20:13:49.874 [info] > git reflog develop --grep-reflog=branch: Created from *. [6ms] 
+2026-11-14 20:13:49.876 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [2ms] 
+2026-11-14 20:13:49.883 [info] > git status -z -uall [5ms]
+2026-11-14 20:13:49.884 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [1ms] 
+2026-11-14 20:13:49.884 [info] > git for-each-ref --format %(refname)%00%(objectname)%00 refs/heads refs/remotes [4ms] 
+2026-11-14 20:13:49.885 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms] 
+2026-11-14 20:13:49.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/develop refs/remotes/origin/develop [1ms] 
+2026-11-14 20:13:49.894 [info] > git config --add --local branch.develop.vscode-merge-base origin/develop [1ms] 
+2026-11-14 20:13:49.895 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2026-11-14 20:13:49.900 [info] > git config --get commit.template [2ms] 
+2026-11-14 20:13:49.900 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [0ms] 
+2026-11-14 20:13:49.902 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [0ms] 
+2026-11-14 20:13:49.908 [info] > git status -z -uall [4ms]
+2026-11-14 20:13:49.908 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [0ms] 
+2026-11-14 20:13:49.908 [info] > git for-each-ref --format %(refname)%00%(objectname)%00 refs/heads refs/remotes [2ms] 
+2026-11-14 20:13:49.916 [info] > git merge-base refs/heads/develop refs/remotes/origin/develop [3ms] 
+2026-11-14 20:13:49.918 [info] > git merge-base refs/heads/develop refs/remotes/origin/develop [3ms] 
+2026-11-14 20:13:49.921 [info] > git diff --no-ext-diff --no-textconv --name-status -z --diff-filter=ADMR ed16b113a3569c3f0fcd4784014d1df17b8c3d8a...refs/remotes/origin/develop [3ms] 
+2026-11-14 20:13:49.922 [info] > git diff --no-ext-diff --no-textconv --name-status -z --diff-filter=ADMR ed16b113a3569c3f0fcd4784014d1df17b8c3d8a...refs/remotes/origin/develop [1ms] 
+2026-11-14 20:13:50.230 [info] > git show --no-ext-diff --no-textconv :.env [3ms]
+2026-11-14 20:13:50.233 [info] > git ls-files --stage -- .env [3ms] 
+2026-11-14 20:13:50.236 [info] > git hash-object -t tree /dev/null [3ms] 
+2026-11-14 20:13:50.236 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/haidangphan/Documents/tutor/gateway/.env.git?%7B%22path%22%3A%22%2Fhome%2Fhaidangphan%2FDocuments%2Ftutor%2Fgateway%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-11-14 20:13:50.236 [info] > git hash-object -t tree /dev/null [1ms] 
+2026-11-14 20:13:50.236 [warning] [GitFileSystemProvider][stat] File not found - git:/home/haidangphan/Documents/tutor/gateway/.env.git?%7B%22path%22%3A%22%2Fhome%2Fhaidangphan%2FDocuments%2Ftutor%2Fgateway%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-11-14 20:13:50.349 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:13:51.735 [info] > git blame --no-ext-diff --no-textconv --root --incremental ed16b113a3569c3f0fcd4784014d1df17b8c3d8a -- .env [1ms] 
+2026-11-14 20:13:51.736 [info] fatal: no such path .env in ed16b113a3569c3f0fcd4784014d1df17b8c3d8a
+2026-11-14 20:13:51.834 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2026-11-14 20:13:51.844 [info] > git config --get commit.template [4ms] 
+2026-11-14 20:13:51.844 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [0ms] 
+2026-11-14 20:13:51.847 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [0ms] 
+2026-11-14 20:13:51.854 [info] > git status -z -uall [4ms]
+2026-11-14 20:13:51.854 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [0ms] 
+2026-11-14 20:13:51.854 [info] > git for-each-ref --format %(refname)%00%(objectname)%00 refs/heads refs/remotes [3ms] 
+2026-11-14 20:14:32.724 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:14:33.396 [info] > git rev-parse --show-toplevel [2ms] (getRepositoryRoot)
+2026-11-14 20:14:33.396 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:14:33.402 [info] > git log --no-ext-diff --no-textconv --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [42ms] 
+2026-11-14 20:14:33.940 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:14:54.855 [info] > git rev-parse --show-toplevel [1ms] (getRepositoryRoot)
+2026-11-14 20:14:54.855 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:15:03.440 [info] > git rev-parse --show-toplevel [0ms] (getRepositoryRoot)
+2026-11-14 20:15:03.440 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:15:23.726 [info] > git rev-parse --show-toplevel [1ms] (getRepositoryRoot)
+2026-11-14 20:15:23.726 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:15:25.010 [info] > git rev-parse --show-toplevel [1ms] (getRepositoryRoot)
+2026-11-14 20:15:25.010 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:15:25.647 [info] > git rev-parse --show-toplevel [1ms] (getRepositoryRoot)
+2026-11-14 20:15:25.647 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:15:28.603 [info] > git rev-parse --show-toplevel [0ms] (getRepositoryRoot)
+2026-11-14 20:15:28.604 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:15:30.130 [info] > git rev-parse --show-toplevel [1ms] (getRepositoryRoot)
+2026-11-14 20:15:30.130 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:15:31.743 [info] > git rev-parse --show-toplevel [1ms] (getRepositoryRoot)
+2026-11-14 20:15:31.743 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:15:56.861 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:17:31.452 [info] > git rev-parse --show-toplevel [4ms] (getRepositoryRoot)
+2026-11-14 20:17:31.464 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [8ms] 
+2026-11-14 20:17:31.466 [info] [Model][openRepository] Opened repository: /home/haidangphan/Documents/tutor/third
+2026-11-14 20:17:31.466 [info] [Model][openRepository] Opened repository (kind): repository
+2026-11-14 20:17:31.466 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2026-11-14 20:17:31.474 [info] > git config --get commit.template [5ms] 
+2026-11-14 20:17:31.483 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [5ms] 
+2026-11-14 20:17:31.500 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [13ms] 
+2026-11-14 20:17:31.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [3ms] 
+2026-11-14 20:17:31.512 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/haidangphan/Documents/tutor/third/.git/refs/remotes/origin/develop'
+2026-11-14 20:17:31.515 [info] > git rev-parse refs/remotes/origin/develop [3ms] 
+2026-11-14 20:17:31.545 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [25ms] 
+2026-11-14 20:17:31.556 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [4ms] 
+2026-11-14 20:17:31.584 [info] > git status -z -uall [22ms]
+2026-11-14 20:17:31.585 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [10ms] 
+2026-11-14 20:17:31.593 [info] > git for-each-ref --format %(refname)%00%(objectname)%00 refs/heads refs/remotes [24ms] 
+2026-11-14 20:17:31.603 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2026-11-14 20:17:31.610 [info] > git config --get commit.template [1ms] 
+2026-11-14 20:17:31.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [8ms] 
+2026-11-14 20:17:31.623 [info] > git config --get --local branch.develop.vscode-merge-base [7ms] 
+2026-11-14 20:17:31.623 [warning] [Git][config] git config failed: Failed to execute git
+2026-11-14 20:17:31.631 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [9ms] 
+2026-11-14 20:17:31.636 [info] > git reflog develop --grep-reflog=branch: Created from *. [6ms] 
+2026-11-14 20:17:31.643 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [7ms] 
+2026-11-14 20:17:31.661 [info] > git status -z -uall [13ms]
+2026-11-14 20:17:31.661 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [19ms] 
+2026-11-14 20:17:31.667 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [7ms] 
+2026-11-14 20:17:31.667 [info] > git for-each-ref --format %(refname)%00%(objectname)%00 refs/heads refs/remotes [12ms] 
+2026-11-14 20:17:31.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/develop refs/remotes/origin/develop [4ms] 
+2026-11-14 20:17:31.678 [info] > git config --add --local branch.develop.vscode-merge-base origin/develop [1ms] 
+2026-11-14 20:17:31.678 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2026-11-14 20:17:31.686 [info] > git config --get commit.template [2ms] 
+2026-11-14 20:17:31.691 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [0ms] 
+2026-11-14 20:17:31.696 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [1ms] 
+2026-11-14 20:17:31.714 [info] > git status -z -uall [11ms]
+2026-11-14 20:17:31.714 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [1ms] 
+2026-11-14 20:17:31.714 [info] > git for-each-ref --format %(refname)%00%(objectname)%00 refs/heads refs/remotes [8ms] 
+2026-11-14 20:17:31.730 [info] > git merge-base refs/heads/develop refs/remotes/origin/develop [7ms] 
+2026-11-14 20:17:31.738 [info] > git merge-base refs/heads/develop refs/remotes/origin/develop [9ms] 
+2026-11-14 20:17:31.746 [info] > git diff --no-ext-diff --no-textconv --name-status -z --diff-filter=ADMR 96a18181c52fc92535349d22150a75ce6a4ab617...refs/remotes/origin/develop [1ms] 
+2026-11-14 20:17:31.747 [info] > git diff --no-ext-diff --no-textconv --name-status -z --diff-filter=ADMR 96a18181c52fc92535349d22150a75ce6a4ab617...refs/remotes/origin/develop [10ms] 
+2026-11-14 20:17:32.028 [info] > git show --no-ext-diff --no-textconv :src/features/email/email.controller.ts [4ms]
+2026-11-14 20:17:32.029 [info] > git ls-files --stage -- src/features/email/email.controller.ts [1ms] 
+2026-11-14 20:17:32.034 [info] > git cat-file -s d96526763b485370f5c2680884ed4d2e66674ebd [1ms] 
+2026-11-14 20:17:32.101 [info] > git check-ignore -v -z --stdin [5ms]
+2026-11-14 20:17:32.101 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:17:32.806 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2026-11-14 20:17:32.814 [info] > git config --get commit.template [4ms] 
+2026-11-14 20:17:32.814 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [0ms] 
+2026-11-14 20:17:32.819 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [1ms] 
+2026-11-14 20:17:32.836 [info] > git status -z -uall [14ms]
+2026-11-14 20:17:32.849 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [21ms] 
+2026-11-14 20:17:32.849 [info] > git for-each-ref --format %(refname)%00%(objectname)%00 refs/heads refs/remotes [23ms] 
+2026-11-14 20:17:32.924 [info] > git ls-files --stage -- src/features/email/email.controller.ts [0ms] 
+2026-11-14 20:17:32.929 [info] > git cat-file -s d96526763b485370f5c2680884ed4d2e66674ebd [1ms] 
+2026-11-14 20:17:32.935 [info] > git show --no-ext-diff --no-textconv :src/features/email/email.controller.ts [0ms]
+2026-11-14 20:17:33.725 [info] > git show --no-ext-diff --no-textconv :src/features/email/email.module.ts [3ms]
+2026-11-14 20:17:33.725 [info] > git ls-files --stage -- src/features/email/email.module.ts [0ms] 
+2026-11-14 20:17:33.727 [info] > git cat-file -s e01848cf973132790d6201df96b712a845317ee1 [0ms] 
+2026-11-14 20:17:35.315 [info] > git show --no-ext-diff --no-textconv :src/features/email/email.rpc.controller.ts [4ms]
+2026-11-14 20:17:35.316 [info] > git ls-files --stage -- src/features/email/email.rpc.controller.ts [1ms] 
+2026-11-14 20:17:35.321 [info] > git cat-file -s 8c16441dd439cd471c544c0e38c7e645ce623bc9 [1ms] 
+2026-11-14 20:17:38.963 [info] > git show --no-ext-diff --no-textconv :src/features/email/email.service.ts [4ms]
+2026-11-14 20:17:38.964 [info] > git ls-files --stage -- src/features/email/email.service.ts [1ms] 
+2026-11-14 20:17:38.967 [info] > git cat-file -s 44a62ec3fbd397edce3bf5f02337a6b8899cfd6d [0ms] 
+2026-11-14 20:18:53.868 [info] > git check-ignore -v -z --stdin [0ms]
+2026-11-14 20:18:54.383 [info] > git check-ignore -v -z --stdin [0ms]
+2026-11-14 20:19:01.194 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:19:01.913 [info] > git check-ignore -v -z --stdin [0ms]
+2026-11-14 20:19:13.780 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:19:42.773 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:20:00.039 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:20:04.794 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-14 20:20:09.213 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2026-11-14 20:20:09.220 [info] > git config --get commit.template [3ms] 
+2026-11-14 20:20:09.220 [info] > git for-each-ref --format=%(objectname)%00%(upstream) refs/heads/develop [1ms] 
+2026-11-14 20:20:09.226 [info] > git for-each-ref --format=%(objectname) refs/remotes/origin/develop [0ms] 
+2026-11-14 20:20:09.234 [info] > git status -z -uall [5ms]
+2026-11-14 20:20:09.234 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [0ms] 
+2026-11-14 20:20:09.234 [info] > git for-each-ref --format %(refname)%00%(objectname)%00 refs/heads refs/remotes [2ms] 

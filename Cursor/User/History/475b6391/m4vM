@@ -1,0 +1,40 @@
+NODE_ENV=development
+PORT=4002
+
+# JWT — must be identical to user's / gateway's .env
+JWT_ACCESS_SECRET=214c015773021ea51688771d4b60459f061c60758559ce20b5e2753b82f089114279cd7cb072736ed617048595a0df1d
+JWT_REFRESH_SECRET=fa32279a24a14a099fc42c71ac0cab305d44413d9b9bf571c5a2654a9c1e532b92150120cfa20f94fba54f7307c47c14
+JWT_ACCESS_EXPIRES_SECONDS=10800
+JWT_REFRESH_EXPIRES_SECONDS=604800
+
+# RabbitMQ
+RABBITMQ_URL=amqp://admin:admin@localhost:5672
+THIRD_QUEUE=third_queue
+
+# Redis (docker-compose.infra maps host port 6380 -> 6379)
+REDIS_HOST=localhost
+REDIS_PORT=6380
+
+# OAuth (placeholders so the app can boot)
+GOOGLE_CLIENT_ID=replace-me
+GOOGLE_CLIENT_SECRET=replace-me
+GOOGLE_CALLBACK_URL=http://localhost:8888/auth/google/callback
+FACEBOOK_APP_ID=replace-me
+FACEBOOK_APP_SECRET=replace-me
+BACKEND_URL=http://localhost:8888
+GATEWAY_BASE_URL=http://localhost:8888
+
+# Postgres
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_DB=tutor_db
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=chienbinhthephai@gmail.com
+SMTP_PASS=xhrc vnqk udor rrgm
+MAIL_FROM=chienbinhthephai@gmail.com
+TEST_EMAIL_RECIPIENT=dang04223@gmail.com

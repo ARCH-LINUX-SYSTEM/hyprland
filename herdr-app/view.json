@@ -1,0 +1,275 @@
+{
+  "active": "spb6b93b27e1b0ac9b59318261c6dddb70",
+  "spaces": {
+    "sp24299d4b9a5f4d17c58eaf3248ca714f": "tb59de034958db2103e3c8627662c9ceee",
+    "sp81191d8c3d923a7c9d415cf16ad269aa": "tb80ccb0f865459bdb526c288d5b221c2c",
+    "spb6b93b27e1b0ac9b59318261c6dddb70": "tb81c865dd50d1a8fcbe2d736761451fd7",
+    "spc7e1111e9d53a9b53ba259e55ff22e4a": "tb4539517e120e7727c8eb9ac97e75c9db",
+    "spd9fd74fab9ca536656e4ae78cf9a0ec6": "tb59331c1359d1d2038f4a69883c711b9b",
+    "spde00e8ba61174a424cfab0d2792a4573": "tb227ee1229786b755359d7eb6059e25d7"
+  },
+  "tabs": {
+    "tb227ee1229786b755359d7eb6059e25d7": {
+      "focused": "pc65f69ee6de4c00666cc0a9992894dc5",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tb3c7f996502d0f59ae25af00e7c6892e6": {
+      "focused": "p6bb37f4f507ce75359c9be6488b4ae74",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tb4539517e120e7727c8eb9ac97e75c9db": {
+      "focused": "pffa1f0a8c2ff7cef442962adc25a7e1a",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tb59331c1359d1d2038f4a69883c711b9b": {
+      "focused": "pfb6ca3fe2dcd79aebcc03227a6b3f063",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tb59de034958db2103e3c8627662c9ceee": {
+      "focused": "p426118918e3c73fa271eb9562f4d5fef",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tb689a2f374673a409041f05d23e532fe9": {
+      "focused": "pd3c09c27e5ac24e7d8290e919daf3bab",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tb74705e1f8eecaccc9e6d46466361b7aa": {
+      "focused": "p77b85852cb75e05a40d38ae81ca25ce5",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tb80ccb0f865459bdb526c288d5b221c2c": {
+      "focused": "p44a93da552eb1a2d658eb493c07fc65b",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tb81c865dd50d1a8fcbe2d736761451fd7": {
+      "focused": "p8f28f893e6af847dbb7e6a89dc21d71f",
+      "before": [
+        "p1f4eb7c898635de63c4c3b8b275a7bb1"
+      ],
+      "zoomed": null,
+      "settled": null
+    },
+    "tbcfc8f2602592b983550056f998c37c1c": {
+      "focused": "p27cb99b67544a35562c596d544b37d3e",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tbcfcf92d40dbce7a015326cdded61e963": {
+      "focused": "pc33a283dcd91f1af04db58a4b837be44",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    },
+    "tbf23762cbadf90aae9e5019d344860943": {
+      "focused": "pc1393d21dc297dc99d25fb6b45614a95",
+      "before": [],
+      "zoomed": null,
+      "settled": null
+    }
+  },
+  "recent": [
+    {
+      "name": "vps",
+      "folder": "/home/haidangphan"
+    }
+  ],
+  "attention": {
+    "t1": {
+      "word": null,
+      "seen": true
+    },
+    "t10": {
+      "word": null,
+      "seen": true
+    },
+    "t11": {
+      "word": null,
+      "seen": true
+    },
+    "t12": {
+      "word": "done",
+      "seen": true
+    },
+    "t13": {
+      "word": null,
+      "seen": true
+    },
+    "t14": {
+      "word": null,
+      "seen": true
+    },
+    "t15": {
+      "word": "done",
+      "seen": true
+    },
+    "t16": {
+      "word": null,
+      "seen": true
+    },
+    "t17": {
+      "word": null,
+      "seen": true
+    },
+    "t18": {
+      "word": null,
+      "seen": true
+    },
+    "t19": {
+      "word": null,
+      "seen": true
+    },
+    "t1b": {
+      "word": null,
+      "seen": true
+    },
+    "t1c": {
+      "word": null,
+      "seen": true
+    },
+    "t1d": {
+      "word": "done",
+      "seen": true
+    },
+    "t1f": {
+      "word": null,
+      "seen": true
+    },
+    "t1g": {
+      "word": null,
+      "seen": true
+    },
+    "t1h": {
+      "word": null,
+      "seen": true
+    },
+    "t1j": {
+      "word": null,
+      "seen": true
+    },
+    "t1k": {
+      "word": null,
+      "seen": true
+    },
+    "t1m": {
+      "word": null,
+      "seen": true
+    },
+    "t1n": {
+      "word": null,
+      "seen": true
+    },
+    "t1p": {
+      "word": "done",
+      "seen": true
+    },
+    "t1q": {
+      "word": null,
+      "seen": true
+    },
+    "t1r": {
+      "word": "done",
+      "seen": true
+    },
+    "t1s": {
+      "word": "done",
+      "seen": true
+    },
+    "t1t": {
+      "word": null,
+      "seen": true
+    },
+    "t1v": {
+      "word": null,
+      "seen": true
+    },
+    "t1w": {
+      "word": null,
+      "seen": true
+    },
+    "t1x": {
+      "word": null,
+      "seen": true
+    },
+    "t1y": {
+      "word": null,
+      "seen": true
+    },
+    "t1z": {
+      "word": null,
+      "seen": true
+    },
+    "t2": {
+      "word": null,
+      "seen": true
+    },
+    "t20": {
+      "word": null,
+      "seen": true
+    },
+    "t21": {
+      "word": null,
+      "seen": true
+    },
+    "t22": {
+      "word": null,
+      "seen": true
+    },
+    "t23": {
+      "word": "done",
+      "seen": true
+    },
+    "t24": {
+      "word": null,
+      "seen": true
+    },
+    "t25": {
+      "word": null,
+      "seen": true
+    },
+    "t3": {
+      "word": null,
+      "seen": true
+    },
+    "t4": {
+      "word": null,
+      "seen": true
+    },
+    "t5": {
+      "word": null,
+      "seen": true
+    },
+    "t6": {
+      "word": null,
+      "seen": true
+    },
+    "t7": {
+      "word": "done",
+      "seen": true
+    },
+    "t8": {
+      "word": null,
+      "seen": true
+    },
+    "t9": {
+      "word": null,
+      "seen": true
+    }
+  }
+}

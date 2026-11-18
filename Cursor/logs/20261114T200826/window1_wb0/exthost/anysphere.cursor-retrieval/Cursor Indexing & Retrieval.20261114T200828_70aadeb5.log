@@ -1,0 +1,24 @@
+2026-11-14 20:08:29.303 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:08:29.303 [error] Error: Failed to execute git
+	at br._execOld (/usr/share/cursor/resources/app/extensions/git/dist/main.js:17:115)
+	at async br.exec (/usr/share/cursor/resources/app/extensions/git/dist/main.js:9:250)
+	at async __e.executeGitCommandStable (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1420681)
+	at async __e.getRepoInfo (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1383808)
+2026-11-14 20:08:29.303 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:08:29.303 [warning] Failed to get symbolic ref: Failed to execute git
+2026-11-14 20:08:29.303 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2026-11-14 20:08:29.307 [warning] Failed to get branches from remote: Failed to execute git
+2026-11-14 20:08:29.310 [warning] Failed to get default branch from git config: Failed to execute git
+2026-11-14 20:08:31.228 [warning] [FastIndexer] getInitialValues: timeout waiting for auth {"hasCreds":true,"hasToken":false,"pollCount":10,"elapsedMs":2179}
+2026-11-14 20:08:31.229 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2026-11-14 20:08:39.780 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:08:39.780 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2026-11-14 20:09:48.941 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-11-14 20:09:48.941 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-11-14 20:09:48.941 [error] NoWorkspaceUriError
+2026-11-14 20:09:49.955 [info] Privacy mode changed to 1; re-evaluating indexing watcher.
+2026-11-14 20:09:49.955 [error] NoWorkspaceUriError
+2026-11-14 20:09:49.957 [info] Privacy mode changed to 2; re-evaluating indexing watcher.
+2026-11-14 20:09:49.957 [error] NoWorkspaceUriError
+2026-11-14 20:09:52.692 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:09:52.692 [error] NoWorkspaceUriError

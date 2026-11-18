@@ -1,0 +1,73 @@
+2026-11-17 21:09:33.225 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-11-17 21:09:33.226 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-11-17 21:09:33.226 [error] NoWorkspaceUriError
+2026-11-17 21:09:37.517 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 21:09:37.517 [error] NoWorkspaceUriError
+2026-11-17 21:09:39.687 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 21:09:39.687 [error] NoWorkspaceUriError
+2026-11-17 21:09:50.985 [error] Error getting repo info: Failed to execute git
+2026-11-17 21:09:50.985 [error] Error: Failed to execute git
+	at VTe._exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1375517)
+	at async VTe.exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1373614)
+	at async __e.executeGitCommandStable (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1421357)
+	at async __e.getRepoInfo (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1383808)
+2026-11-17 21:09:50.997 [error] Error getting repo info: Failed to execute git
+2026-11-17 21:09:50.999 [warning] Failed to get symbolic ref: Failed to execute git
+2026-11-17 21:09:51.005 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/haidangphan/Documents/tutor/.git/HEAD')
+2026-11-17 21:09:51.025 [warning] Failed to get branches from remote: Failed to execute git
+2026-11-17 21:09:51.026 [warning] Failed to get default branch from git config: Failed to execute git
+2026-11-17 21:09:51.142 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-11-17 21:09:51.143 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-11-17 21:09:51.143 [info] Using existing keys for an index
+2026-11-17 21:09:51.143 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 21:09:51.146 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 21:09:51.197 [info] Using existing keys for an index
+2026-11-17 21:09:51.197 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 21:09:53.554 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 21:09:53.554 [info] Using existing keys for an index
+2026-11-17 21:09:53.554 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 21:09:53.578 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 21:10:00.824 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 21:10:00.825 [info] Using existing keys for an index
+2026-11-17 21:10:00.825 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 21:10:00.852 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 21:10:07.489 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 21:10:07.489 [info] Using existing keys for an index
+2026-11-17 21:10:07.489 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 21:10:07.521 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 21:25:23.171 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 21:25:23.172 [info] Using existing keys for an index
+2026-11-17 21:25:23.172 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 21:25:23.199 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 21:30:55.713 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 21:30:55.713 [info] Using existing keys for an index
+2026-11-17 21:30:55.713 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 21:30:55.745 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 21:52:29.937 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 21:52:29.937 [info] Using existing keys for an index
+2026-11-17 21:52:29.937 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 21:52:29.958 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 21:58:28.142 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 21:58:28.142 [info] Using existing keys for an index
+2026-11-17 21:58:28.142 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 21:58:28.178 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 22:03:31.500 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 22:03:31.500 [info] Using existing keys for an index
+2026-11-17 22:03:31.500 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 22:03:31.525 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 22:08:33.253 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 22:08:33.254 [info] Using existing keys for an index
+2026-11-17 22:08:33.254 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 22:08:33.278 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 22:31:53.746 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 22:31:53.746 [info] Using existing keys for an index
+2026-11-17 22:31:53.746 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 22:31:53.763 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 22:59:31.423 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 22:59:31.423 [info] Using existing keys for an index
+2026-11-17 22:59:31.423 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 22:59:31.440 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-17 23:05:55.465 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-17 23:05:55.465 [info] Using existing keys for an index
+2026-11-17 23:05:55.465 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-17 23:05:55.490 [info] Not creating an indexing watcher: this workspace does not require one.

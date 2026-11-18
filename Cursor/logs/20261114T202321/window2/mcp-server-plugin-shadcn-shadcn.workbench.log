@@ -1,0 +1,4 @@
+2026-11-14 20:24:08.656 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:24:08.662 [error] [MCPService] createClient completed for server: plugin-shadcn-shadcn, connected=false, statusType=error, error=spawn npx ENOENT
+2026-11-14 20:24:25.361 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:24:25.363 [error] [MCPService] createClient completed for server: plugin-shadcn-shadcn, connected=false, statusType=error, error=spawn npx ENOENT

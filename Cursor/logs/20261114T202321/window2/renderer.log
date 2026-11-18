@@ -1,0 +1,171 @@
+2026-11-14 20:24:04.323 [info] [CursorExtensionIsolationService] Extension isolation is enabled
+2026-11-14 20:24:04.323 [info] [CursorAgentHostEnablementService] remote-workspace policy is allowed
+2026-11-14 20:24:04.323 [info] [CursorAgentHostEnablementService] cursor_agent_host gate is enabled, private inference is disabled, Cursor Orbit local agents are on, local agent token source is none, remote-workspace policy is allowed, effective agent-host topology is enabled
+2026-11-14 20:24:04.323 [info] defaultUserPathEncryptionKey updated from placeholder key
+2026-11-14 20:24:04.323 [info] Agent URLs changed from server config, updating cursorCreds {"nonPrivacyChanged":true,"newNonPrivacyUrl":"https://agentn.global.api5.cursor.sh","currentNonPrivacyDefault":"https://agentn.api5.cursor.sh","localLoopInferenceChanged":true,"newLocalLoopInferenceUrl":"https://agentn.global.api5.cursor.sh"}
+2026-11-14 20:24:04.323 [info] [PushRequestContextService] push request context is enabled (killswitchActive=false, instantGrepEnabled=true, indexingGrepEnabled=true, agentHostEnabled=true, agentHostForcePush=false)
+2026-11-14 20:24:04.323 [info] [AgentHostService] using extension-host implementation
+2026-11-14 20:24:04.428 [info] Started local extension host with pid 40139.
+2026-11-14 20:24:04.523 [info] Placing extension(s) anysphere.cursor-retrieval on a separate extension host.
+2026-11-14 20:24:04.523 [info] Placing extension(s) anysphere.cursor-always-local, anysphere.cursor-resolver, anysphere.cursor-socket on a separate extension host.
+2026-11-14 20:24:04.523 [info] Placing extension(s) anysphere.cursor-agent-exec, anysphere.cursor-agent-host, anysphere.cursor-agent-worker, anysphere.cursor-checkout on a separate extension host.
+2026-11-14 20:24:04.523 [warning] [anysphere.remote-ssh]: Cannot register 'cursorAgentHost.remoteInferenceRoute'. This property is already registered.
+2026-11-14 20:24:04.712 [info] Started local extension host with pid 40164.
+2026-11-14 20:24:04.712 [info] Started local extension host with pid 40165.
+2026-11-14 20:24:04.712 [info] Started local extension host with pid 40166.
+2026-11-14 20:24:04.737 [info] [WorktreeManager] Using worktrees root /home/haidangphan/.cursor/worktrees
+2026-11-14 20:24:04.809 [info] [HostedMcpAccountServers] 0 account server(s) run on this desktop: none
+2026-11-14 20:24:04.930 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2026-11-14 20:24:04.930 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2026-11-14 20:24:05.073 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:05.073 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:05.075 [info] [ShellExec] Created session 9639404e-a57e-434f-a142-0107241f78d4 on LocalProcess host
+2026-11-14 20:24:05.108 [info] [McpProcessAfterRestoredContribution] latched shared-process MCP routing enabled for this session after OAuth migration
+2026-11-14 20:24:05.223 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:05.223 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:05.240 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:05.240 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:05.245 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:05.245 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:05.316 [error] [Extension Host:retrieval] (node:40164) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-11-14 20:24:05.886 [info] [MainThreadCursorExplorerProviderService] Explorer provider registered
+2026-11-14 20:24:05.927 [info] [PushRequestContextService] Updated sandbox network file entries (0 entries)
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.solidLeakStats
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.setApplicationProperty
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.simulateLimitHitStage
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.clearLimitHitSimulation
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.logComposer
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.seedResponseComparisonForTesting
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.restartOfflineWorkers
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.startWorkerForFolder
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.listRecordedWorkers
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.resetModelPicker
+2026-11-14 20:24:06.902 [info] [Debug] Registered command palette action: debug.replayStreamingFixture
+2026-11-14 20:24:06.939 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2026-11-14 20:24:06.939 [info] [Debug] Registered command palette action: debug.migrateMcpGrantsToServer
+2026-11-14 20:24:06.939 [info] [Debug] Registered command palette action: debug.forceIdleHostStopNow
+2026-11-14 20:24:06.939 [info] [Debug] Registered command palette action: debug.armIdleHostStopAtNextCompletion
+2026-11-14 20:24:06.939 [info] [Debug] Registered command palette action: debug.rendererProcessInventory
+2026-11-14 20:24:06.939 [info] [GC Trace Polling] Disabled by config
+2026-11-14 20:24:06.944 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=initial, enabled=false)
+2026-11-14 20:24:06.944 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=initial, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-14 20:24:07.282 [info] [perf] Render performance baseline is 14ms
+2026-11-14 20:24:07.631 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-14 20:24:07.631 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-14 20:24:07.781 [info] [CursorPluginsStartup] Claude marketplace import (boot): discovered=0, registered=0, failed=0
+2026-11-14 20:24:09.387 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-14 20:24:09.387 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-14 20:24:10.249 [error] [File Watcher] Unexpected error stopping watcher: Unable to remove watcher: Invalid argument (path: /home/haidangphan/.cursor/skills-cursor)
+2026-11-14 20:24:10.957 [info] [CursorExtensionIsolationService] Extension isolation is enabled
+2026-11-14 20:24:10.957 [info] [CursorAgentHostEnablementService] remote-workspace policy is allowed
+2026-11-14 20:24:10.957 [info] [CursorAgentHostEnablementService] cursor_agent_host gate is enabled, private inference is disabled, Cursor Orbit local agents are on, local agent token source is none, remote-workspace policy is allowed, effective agent-host topology is enabled
+2026-11-14 20:24:10.957 [info] defaultUserPathEncryptionKey updated from placeholder key
+2026-11-14 20:24:10.957 [info] Agent URLs changed from server config, updating cursorCreds {"nonPrivacyChanged":true,"newNonPrivacyUrl":"https://agentn.global.api5.cursor.sh","currentNonPrivacyDefault":"https://agentn.api5.cursor.sh","localLoopInferenceChanged":true,"newLocalLoopInferenceUrl":"https://agentn.global.api5.cursor.sh"}
+2026-11-14 20:24:10.957 [info] [PushRequestContextService] push request context is enabled (killswitchActive=false, instantGrepEnabled=true, indexingGrepEnabled=true, agentHostEnabled=true, agentHostForcePush=false)
+2026-11-14 20:24:10.957 [info] [AgentHostService] using extension-host implementation
+2026-11-14 20:24:11.111 [info] Started local extension host with pid 40613.
+2026-11-14 20:24:11.223 [info] Placing extension(s) anysphere.cursor-retrieval on a separate extension host.
+2026-11-14 20:24:11.223 [info] Placing extension(s) anysphere.cursor-always-local, anysphere.cursor-resolver, anysphere.cursor-socket on a separate extension host.
+2026-11-14 20:24:11.223 [info] Placing extension(s) anysphere.cursor-agent-exec, anysphere.cursor-agent-host, anysphere.cursor-agent-worker, anysphere.cursor-checkout on a separate extension host.
+2026-11-14 20:24:11.223 [warning] [anysphere.remote-ssh]: Cannot register 'cursorAgentHost.remoteInferenceRoute'. This property is already registered.
+2026-11-14 20:24:11.355 [info] Started local extension host with pid 40636.
+2026-11-14 20:24:11.355 [info] Started local extension host with pid 40637.
+2026-11-14 20:24:11.355 [info] Started local extension host with pid 40638.
+2026-11-14 20:24:11.834 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:11.834 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:11.835 [info] [ShellExec] Created session 5adbf0e9-cec0-44fa-aa78-a6879c8d21a7 on LocalProcess host
+2026-11-14 20:24:11.902 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:11.902 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:11.904 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:11.904 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:11.905 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:11.905 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:24:11.918 [info] [WorktreeManager] Using worktrees root /home/haidangphan/.cursor/worktrees
+2026-11-14 20:24:11.924 [info] [HostedMcpAccountServers] 0 account server(s) run on this desktop: none
+2026-11-14 20:24:11.997 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2026-11-14 20:24:11.997 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2026-11-14 20:24:12.028 [error] [Extension Host:retrieval] (node:40636) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-11-14 20:24:12.186 [info] [McpProcessAfterRestoredContribution] latched shared-process MCP routing enabled for this session after OAuth migration
+2026-11-14 20:24:12.783 [info] [PushRequestContextService] Updated sandbox network file entries (0 entries)
+2026-11-14 20:24:12.888 [info] [MainThreadCursorExplorerProviderService] Explorer provider registered
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.solidLeakStats
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.setApplicationProperty
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.simulateLimitHitStage
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.clearLimitHitSimulation
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.logComposer
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.seedResponseComparisonForTesting
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.restartOfflineWorkers
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.startWorkerForFolder
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.listRecordedWorkers
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.resetModelPicker
+2026-11-14 20:24:13.650 [info] [Debug] Registered command palette action: debug.replayStreamingFixture
+2026-11-14 20:24:13.651 [info] [RepositoryTracker] Stored repository path: github.com/tutor-system/third_service -> file:///home/haidangphan/Documents/tutor
+2026-11-14 20:24:13.664 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2026-11-14 20:24:13.802 [info] [Debug] Registered command palette action: debug.migrateMcpGrantsToServer
+2026-11-14 20:24:13.803 [info] [Debug] Registered command palette action: debug.forceIdleHostStopNow
+2026-11-14 20:24:13.803 [info] [Debug] Registered command palette action: debug.armIdleHostStopAtNextCompletion
+2026-11-14 20:24:13.803 [info] [Debug] Registered command palette action: debug.rendererProcessInventory
+2026-11-14 20:24:13.803 [info] [GC Trace Polling] Disabled by config
+2026-11-14 20:24:13.810 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=initial, enabled=false)
+2026-11-14 20:24:13.810 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=initial, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-14 20:24:13.815 [info] [perf] Render performance baseline is 16ms
+2026-11-14 20:24:14.599 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-14 20:24:14.599 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-14 20:24:19.828 [info] [CursorPluginsStartup] Claude marketplace import (boot): discovered=0, registered=0, failed=0
+2026-11-14 20:24:23.806 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2026-11-14 20:24:26.357 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-14 20:24:26.358 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-14 20:25:33.213 [error] Failed to refresh membership, scheduling next attempt {"error":{}}
+2026-11-14 20:29:56.436 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:17704:355382)
+    at async Object.unary (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1763:4362)
+    at async Object.availableModels (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1647:17352)
+    at async Tdl.keepCppModelStateUpdated (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:20811:16423)
+    at async Tdl.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:20821:1259)
+    at async Tdl.fastPeriodicallyReloadCppConfig (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:20821:981) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-14 20:30:11.276 [error] Failed to refresh membership, scheduling next attempt {"error":{}}
+2026-11-14 20:41:20.157 [error] Failed to refresh membership, scheduling next attempt {"error":{}}
+2026-11-14 20:44:32.220 [error] [Cursor Proclist Polling] Failed to send V2 metrics to backend; opening circuit {"openMs":5000,"consecutiveFailures":1,"queueDepth":0,"droppedFailedSample":true} [unavailable]
+2026-11-14 20:44:49.255 [error] Failed to refresh membership, scheduling next attempt {"error":{"name":"ConnectError","rawMessage":"getaddrinfo EAI_AGAIN api2.cursor.sh","code":14,"metadata":{},"details":[],"cause":{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"api2.cursor.sh"}}}
+2026-11-14 20:44:49.282 [error] [Extension Host:agent-exec] 13:44:49.281 ERROR Failed to get effective user plugins for installed list error={error: "ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh"}
+2026-11-14 20:44:49.296 [error] [Extension Host:agent-exec] 13:44:49.295 ERROR Failed to get effective user plugins for installed list error={error: "ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh"}
+2026-11-14 20:46:45.230 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:17704:355382)
+    at async Object.unary (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1763:4362)
+    at async Object.availableModels (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1647:17352)
+    at async Tdl.keepCppModelStateUpdated (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:20811:16423)
+    at async Tdl.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:20821:1259)
+    at async Tdl.fastPeriodicallyReloadCppConfig (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:20821:981) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-14 20:46:45.242 [error] [Extension Host:agent-exec] 13:46:45.242 ERROR Failed to get effective user plugins for installed list error={error: "ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh"}
+2026-11-14 20:46:45.254 [error] [Extension Host:agent-exec] 13:46:45.253 ERROR Failed to get effective user plugins for installed list error={error: "ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh"}
+2026-11-14 20:47:58.840 [error] [unavailable] getaddrinfo EAI_AGAIN api4.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api4.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:17704:355382)
+    at async Object.unary (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1763:4362)
+    at async Object.cppConfig (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1647:17352)
+    at async Tdl.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:20821:1305)
+    at async Tdl.fastPeriodicallyReloadCppConfig (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:20821:981) [unavailable] getaddrinfo EAI_AGAIN api4.cursor.sh
+2026-11-14 20:47:58.856 [error] Failed to refresh membership, scheduling next attempt {"error":{}}
+2026-11-14 20:49:13.087 [error] Error fetching user privacy mode: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-14 21:54:27.714 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at SD.deltaDecorations (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:140:5046)
+    at PMr.removeAllInModel_DONT_CALL_IF_NOT_FOCUSED (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:17658:9253)
+    at dki.value (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:17658:5382)
+    at ke._deliver (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:3775)
+    at ke._deliverQueue (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:3866)
+    at ke.fire (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:3950)
+    at dki.value (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:302:20512)
+    at ke._deliver (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:3775)
+    at ke.fire (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:4096)
+    at Ckc._emitOutgoingEvents (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:140:40111) Invoking deltaDecorations recursively could lead to leaking decorations.
+2026-11-14 23:56:27.550 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-14 23:56:27.550 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)

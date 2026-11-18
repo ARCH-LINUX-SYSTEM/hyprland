@@ -1,0 +1,2 @@
+2026-11-14 20:23:26.119 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:23:26.120 [info] [MCPService] createClient completed for server: cursor-origin, statusType=initializing, success=true

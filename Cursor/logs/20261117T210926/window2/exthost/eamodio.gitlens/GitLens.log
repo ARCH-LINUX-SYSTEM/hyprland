@@ -1,0 +1,51 @@
+2026-11-17 21:09:33.851 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-11-17 21:09:33.851 [info]    [            1] GitLens v19.6.0  activating in Cursor (1.128.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (cursor|bf2f2f6a89fdc84cdc3cb39678230b47680b5dc0d86a4dd02158f5fe2a10b5a7|ad541e7a-2f77-4d28-b421-83384758a81a1794924571686)
+2026-11-17 21:09:33.851 [info]    [            1] GitLens v19.6.0 activated [80ms]
+2026-11-17 21:09:33.851 [info]    [IPC          ] CLI capability published on http://127.0.0.1:35597
+2026-11-17 21:09:36.759 [info]    [CLI          ] CLI core version is 3.1.80
+2026-11-17 21:09:48.528 [info]    GitLens deactivating...
+2026-11-17 21:09:51.438 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-11-17 21:09:51.438 [info]    [            1] GitLens v19.6.0  activating in Cursor (1.128.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (cursor|bf2f2f6a89fdc84cdc3cb39678230b47680b5dc0d86a4dd02158f5fe2a10b5a7|9d8fc455-50db-4291-b751-77784456ef451794924589419)
+2026-11-17 21:09:51.438 [info]    [            1] GitLens v19.6.0 activated [57ms]
+2026-11-17 21:09:51.438 [info]    [   79 →    7a] GlCliGitProvider.findGit Git (2.56.0) found in /usr/bin/git [100ms]
+2026-11-17 21:09:51.438 [info]    [   79 →    af] GlCliGitProvider.repositorySearch(/home/haidangphan/Documents/tutor) searching (depth=0)...
+2026-11-17 21:09:51.440 [error]   [GIT          ] [/home/haidangphan/Documents/tutor] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [41ms]
+2026-11-17 21:09:51.441 [info]    [IPC          ] CLI capability published on http://127.0.0.1:38531
+2026-11-17 21:09:51.454 [info]    [GIT       5ms] [/home/haidangphan/Documents/tutor/gateway] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2026-11-17 21:09:51.461 [info]    [   79 →    7a] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///home/haidangphan/Documents/tutor/gateway)
+2026-11-17 21:09:51.488 [info]    [   81 →    82] GitProviderService.getOrAddRepository Repository found in 'file:///home/haidangphan/Documents/tutor/gateway'
+2026-11-17 21:09:51.495 [info]    [GIT       6ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env [6ms]
+2026-11-17 21:09:52.466 [info]    [   79 →    7a] GlCliGitProvider.findGit fireRepositoryOpened: firing 1 opened repo(s) from vscode.git
+2026-11-17 21:09:52.468 [info]    [           f1] GlCliGitProvider.onDidOpenRepository(e=file:///home/haidangphan/Documents/tutor/gateway, source=scm) repository=GlRepository(/home/haidangphan/Documents/tutor/gateway|1), opened:false→true (closedByScm cleared)
+2026-11-17 21:09:52.482 [info]    [GIT      13ms] [/home/haidangphan/Documents/tutor/gateway] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D%(upstream:remotename)%1D%(upstream:remoteref)%1D%(push)%1D refs/heads/ refs/remotes/ refs/tags/ refs/replace/ [13ms]
+2026-11-17 21:09:52.482 [info]    [GIT      16ms] [/home/haidangphan/Documents/tutor/gateway] git remote -v [16ms]
+2026-11-17 21:09:52.482 [info]    [GIT       9ms] [/home/haidangphan/Documents/tutor/gateway] git worktree list --porcelain [9ms]
+2026-11-17 21:09:52.487 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config . [7ms]
+2026-11-17 21:09:52.501 [info]    [GIT      12ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [12ms]
+2026-11-17 21:09:52.501 [info]    [GIT      12ms] [/home/haidangphan/Documents/tutor/gateway] git config --global --get-all maintenance.repo [12ms]
+2026-11-17 21:09:52.504 [info]    [GIT      16ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ [16ms]
+2026-11-17 21:09:52.508 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/gateway] git worktree list --porcelain [7ms]
+2026-11-17 21:09:52.509 [info]    [GIT       3ms] [/home/haidangphan/Documents/tutor/gateway] git config -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config branch.chore/local-changes-2026-11-15.gk-last-accessed 2026-11-17T14:09:52.499Z [3ms]
+2026-11-17 21:09:52.515 [info]    [GIT       5ms] [/home/haidangphan/Documents/tutor/gateway] git config --type=bool --get core.commitGraph [5ms]
+2026-11-17 21:09:52.516 [info]    [GIT       2ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config . [2ms]
+2026-11-17 21:09:52.521 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [4ms]
+2026-11-17 21:09:52.521 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [4ms] (waiting)
+2026-11-17 21:09:52.523 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ [7ms]
+2026-11-17 21:09:52.528 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/gateway] git commit-graph write --reachable --split --changed-paths --max-new-filters=512 [7ms]
+2026-11-17 21:09:52.536 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ [7ms]
+2026-11-17 21:09:52.536 [info]    [GIT       7ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ [7ms]
+2026-11-17 21:09:54.332 [info]    [CLI          ] CLI core version is 3.1.80
+2026-11-17 21:09:57.772 [error]   [GIT          ] [/home/haidangphan/Documents/tutor] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [5ms]
+2026-11-17 21:10:27.482 [info]    [GIT      11ms] [/home/haidangphan/Documents/tutor/gateway] git rev-list --max-parents=0 HEAD -- [11ms]
+2026-11-17 21:10:27.484 [info]    [  1ff →   200] LocalSharedGkStorageLocationProvider.load Using shared GK path: /home/haidangphan/.local/share/gk
+2026-11-17 21:10:27.484 [info]    [GIT      12ms] [/home/haidangphan/Documents/tutor/gateway] git shortlog -s --all --no-min-parents --since=1.year.ago [12ms]
+2026-11-17 21:24:59.270 [error]   [GIT          ] [/home/haidangphan/Documents/tutor/.claude/skills/jev-router/scripts] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [8ms]
+2026-11-17 21:49:57.719 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal)user [4ms]
+2026-11-17 21:49:57.725 [info]    [GIT       4ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^user\.(name|email)$ [4ms]
+2026-11-17 21:49:57.729 [info]    [GIT       3ms] [/home/haidangphan/Documents/tutor/gateway] git check-mailmap Phan Đăng Hải <chienbinhthephai@gmail.com> [3ms]
+2026-11-17 21:49:57.733 [info]    [GIT:→1       ] (spawn) [/home/haidangphan/Documents/tutor/gateway] git blame --root --incremental --encoding=utf-8 -- user · starting...
+2026-11-17 21:49:57.738 [info]    [GIT:←1    8ms] (spawn) [/home/haidangphan/Documents/tutor/gateway] git blame --root --incremental --encoding=utf-8 -- user [8ms]
+2026-11-17 21:49:57.763 [info]    [GIT      14ms] [/home/haidangphan/Documents/tutor/gateway] git log --format=%x1E%H%x1D --summary -n1 5dac8824578f396e99dc13f73f7bbbe80ffcf37e^ -- .env.compose [14ms]
+2026-11-17 21:49:57.764 [info]    [GIT      14ms] [/home/haidangphan/Documents/tutor/gateway] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 5dac8824578f396e99dc13f73f7bbbe80ffcf37e -- [14ms]
+2026-11-17 21:49:57.765 [info]    [GIT      26ms] [/home/haidangphan/Documents/tutor/gateway] git show --textconv HEAD:./user -- [26ms]
+2026-11-17 23:20:56.032 [info]    GitLens deactivating...

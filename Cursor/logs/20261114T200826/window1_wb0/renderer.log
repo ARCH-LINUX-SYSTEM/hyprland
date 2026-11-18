@@ -1,0 +1,182 @@
+2026-11-14 20:08:28.474 [info] [CursorExtensionIsolationService] Extension isolation is disabled (forced disabled in glass mode)
+2026-11-14 20:08:28.474 [warning] Missing property "alwaysKeepComposerInBound" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.474 [warning] Missing property "defaultCapabilities" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.474 [warning] Missing property "autoApplyFilesOutsideContext" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.474 [warning] Missing property "yoloCommandAllowlist" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.474 [warning] Missing property "yoloCommandDenylist" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.474 [warning] Missing property "smartAllowlistDenylist" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.474 [warning] Missing property "yoloMcpToolsDisabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.474 [warning] Missing property "doNotShowYoloModeWarningAgain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "doNotShowFullYoloModeWarningAgain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "selectedFakeStreamerId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "yoloDeleteFileDisabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "yoloOutsideWorkspaceDisabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "yoloEnableRunEverything" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "enableSmartAuto" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "isWebSearchToolEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "isWebSearchToolEnabled2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "isWebSearchToolEnabled3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "autoAcceptWebSearchTool" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "isWebFetchToolEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "webFetchDomainAllowlist" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "autoApproveModeTransitions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "mcpAuthBlocking" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "autoApprovedModeTransitions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "autoRejectedModeTransitions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "backgroundComposerEnv" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "useLegacyTerminalTool" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "modes4" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "codeBlockDisplayPreference" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "thinkingLevel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "composerMigrationVersion" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "mcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "mcpDisabledTools" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "featureModelConfigs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "backgroundComposerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "dialogDontAskAgainPreferences" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cursorIgnore" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "teamAdminSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "shouldShowViewZoneWhenPreviewBoxIsClipped6" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "originBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "bcProxyUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "agentBackendUrlPrivacy" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "agentBackendUrlNonPrivacy" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cppInCmdF" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cppShowWhitespaceOnlyChanges" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "isFileSyncClientEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "membershipType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "backgroundComposerEnv" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "preferredEmbeddingModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "goneThroughCodeSnippetOnboarding" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "goneThroughCodeSnippetChangeManagement" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "hasResetModelOnce" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [warning] Missing property "rpcFileLoggerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-11-14 20:08:28.475 [info] [CursorAgentHostEnablementService] remote-workspace policy is allowed
+2026-11-14 20:08:28.475 [info] [CursorAgentHostEnablementService] cursor_agent_host gate is disabled, private inference is disabled, Cursor Orbit local agents are on, local agent token source is none, remote-workspace policy is allowed, effective agent-host topology is disabled
+2026-11-14 20:08:28.475 [info] [PushRequestContextService] push request context is disabled (killswitchActive=false, instantGrepEnabled=false, indexingGrepEnabled=true, agentHostEnabled=false, agentHostForcePush=false)
+2026-11-14 20:08:28.475 [info] [AgentHostService] using legacy implementation
+2026-11-14 20:08:28.475 [info] [HostedMcpAccountServers] 0 account server(s) run on this desktop: none
+2026-11-14 20:08:28.504 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2026-11-14 20:08:28.541 [info] Started local extension host with pid 21188.
+2026-11-14 20:08:28.620 [info] [WorktreeManager] Using worktrees root /home/haidangphan/.cursor/worktrees
+2026-11-14 20:08:28.757 [info] [lifecycle]: Process participant started (id: extension-hosts, ms: 274)
+2026-11-14 20:08:28.812 [info] [McpProcessAfterRestoredContribution] waiting to latch shared-process MCP routing until experiment service is initialized
+2026-11-14 20:08:28.812 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2026-11-14 20:08:28.812 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2026-11-14 20:08:28.812 [info] [WorktreeCleanupCron] Scheduling startup catch-up cleanup in 30000ms (no recorded run; interval 21600s)
+2026-11-14 20:08:28.858 [info] [localSubscriptions] Local subscriptions disabled for this client; leaving the mailbox {"conversationCount":0}
+2026-11-14 20:08:28.937 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-14 20:08:29.048 [error] [Extension Host:unknown] (node:21188) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-11-14 20:08:29.543 [info] [lifecycle]: Process participant started (id: shared-process-connection, ms: 788)
+2026-11-14 20:08:29.545 [info] [LastActiveProjectColdOpen] decided {"outcome":"skipped","reason":"signed_out"}
+2026-11-14 20:08:29.849 [info] [lifecycle]: Process participant started (id: mcp-process-connection, ms: 305)
+2026-11-14 20:08:29.849 [info] [lifecycle]: Process participant started (id: terminal-pty-sessions, ms: 0)
+2026-11-14 20:08:29.849 [info] [lifecycle]: Process participant started (id: utility-process-workers, ms: 0)
+2026-11-14 20:08:29.849 [info] [lifecycle]: Process participant started (id: realtime-voice-call, ms: 1)
+2026-11-14 20:08:29.871 [info] [PushRequestContextService] Updated sandbox network file entries (0 entries)
+2026-11-14 20:08:30.235 [info] [MainThreadCursorExplorerProviderService] Explorer provider registered
+2026-11-14 20:08:30.235 [info] [MainThreadCursorExplorerProviderService] findRepositories request {"maxDepth":4}
+2026-11-14 20:08:30.275 [info] [MainThreadCursorExplorerProviderService] findRepositories response {"count":10}
+2026-11-14 20:08:30.289 [info] [MainThreadCursor] Received Cursor rules batch 1/1
+2026-11-14 20:08:30.289 [info] [MainThreadCursor] Received agent skills batch 1/1
+2026-11-14 20:08:30.295 [info] [MainThreadCursor] Received Cursor rules batch 1/1
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.solidLeakStats
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.forceIdleHostStopNow
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.armIdleHostStopAtNextCompletion
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.setApplicationProperty
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.simulateLimitHitStage
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.clearLimitHitSimulation
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.logComposer
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.seedResponseComparisonForTesting
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.restartOfflineWorkers
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.startWorkerForFolder
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.listRecordedWorkers
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.projectsNudgeSeedDays
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.workspaceDiagnostics
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.workspaceRetentionDiagnostics
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.workspaceRetentionChurn
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.projectsNudge
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.projectsNudgePresentation
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.projectsNudgeReset
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.resetModelPicker
+2026-11-14 20:08:31.034 [info] [Debug] Registered command palette action: debug.replayStreamingFixture
+2026-11-14 20:08:31.065 [info] [Debug] Registered command palette action: debug.migrateMcpGrantsToServer
+2026-11-14 20:08:31.065 [info] [Debug] Registered command palette action: debug.rendererProcessInventory
+2026-11-14 20:08:31.068 [info] [glass-auto-continue] Recovered 0 background subagents and preloaded 0 for parent replay
+2026-11-14 20:08:31.068 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=initial, enabled=false)
+2026-11-14 20:08:31.068 [info] [glass-auto-continue] Continued 0 interrupted agents
+2026-11-14 20:08:31.101 [info] [GC Trace Polling] Disabled by config
+2026-11-14 20:08:31.101 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=initial, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-14 20:08:38.774 [warning] [remote-control-keep-awake] failed to load remote control setting: [unauthenticated] Error
+2026-11-14 20:08:39.780 [info] [HostedMcpPlacement] routing blip guard turned on by a refresh
+2026-11-14 20:08:39.782 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-14 20:08:39.782 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-14 20:08:39.800 [info] [McpProcessAfterRestoredContribution] latched shared-process MCP routing enabled for this session after OAuth migration
+2026-11-14 20:08:39.871 [info] [perf] Render performance baseline is 12ms
+2026-11-14 20:08:40.688 [warning] [RealtimeVoice] default voice was not read [unauthenticated] Error
+2026-11-14 20:08:40.806 [info] Installing 'anysphere.remote-ssh' by default for Glass
+2026-11-14 20:08:40.807 [info] Installing 'anysphere.remote-containers' by default for Glass
+2026-11-14 20:08:41.096 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2026-11-14 20:08:43.042 [error] [unauthenticated] No authorization header found: ConnectError: [unauthenticated] No authorization header found
+    at e (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.glass.main.js:23010:336536)
+    at async Object.unary (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.glass.main.js:2324:4362)
+    at async Object.cppConfig (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.glass.main.js:2266:17089)
+    at async lVu.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.glass.main.js:24658:1305) [unauthenticated] No authorization header found
+2026-11-14 20:08:45.942 [info] Installed 'anysphere.remote-ssh' by default for Glass
+2026-11-14 20:08:45.945 [info] Installed 'anysphere.remote-containers' by default for Glass
+2026-11-14 20:08:58.814 [info] [WorktreeCleanupCron] Running startup catch-up worktree cleanup
+2026-11-14 20:08:58.817 [info] [WorktreeManager] Cleanup complete: scanned=0, removed=0, bytesFreed=0, errors=0
+2026-11-14 20:09:48.567 [info] [localSubscriptions] Mailbox identity settled; watches may dial {"conversationCount":0}
+2026-11-14 20:09:49.096 [info] [StagedProjectColdOpenLanding] decided {"kind":"skipped","reason":"ftux"}
+2026-11-14 20:09:49.971 [info] [localSubscriptions] Mailbox watches cleared undefined
+2026-11-14 20:09:49.972 [info] [localSubscriptions] Mailbox watches cleared undefined
+2026-11-14 20:09:49.981 [info] [CursorPluginsStartup] Claude marketplace import (login): discovered=0, registered=0, failed=0
+2026-11-14 20:09:51.097 [info] defaultUserPathEncryptionKey updated from placeholder key
+2026-11-14 20:09:51.097 [info] Agent URLs changed from server config, updating cursorCreds {"nonPrivacyChanged":true,"newNonPrivacyUrl":"https://agentn.global.api5.cursor.sh","currentNonPrivacyDefault":"https://agentn.api5.cursor.sh","localLoopInferenceChanged":true,"newLocalLoopInferenceUrl":"https://agentn.global.api5.cursor.sh"}
+2026-11-14 20:09:52.702 [info] [localSubscriptions] Local subscriptions enabled for this client; resuming the mailbox {"conversationCount":0}
+2026-11-14 20:09:52.709 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-14 20:09:52.709 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-14 20:09:55.228 [warning] [GlassStagedProjectsService] SeedStagedProjects did not seed: INELIGIBLE_PLAN
+2026-11-14 20:10:08.421 [info] [lifecycle]: Process participant stopped (id: utility-process-workers, ms: 0, reason: 1)
+2026-11-14 20:10:08.510 [info] [lifecycle]: Process participant stopped (id: terminal-pty-sessions, ms: 88, reason: 1)
+2026-11-14 20:10:08.510 [info] [lifecycle]: Process participant stopped (id: realtime-voice-call, ms: 1, reason: 1)
+2026-11-14 20:10:08.510 [info] [lifecycle]: Process participant stopped (id: mcp-process-connection, ms: 0, reason: 1)
+2026-11-14 20:10:08.510 [info] [lifecycle]: Process participant stopped (id: shared-process-connection, ms: 0, reason: 1)
+2026-11-14 20:10:08.522 [error] Failed to load plugin commands: Canceled
+2026-11-14 20:10:08.522 [error] Failed to load plugin commands: Canceled
+2026-11-14 20:10:08.522 [error] Failed to load plugin commands: Canceled
+2026-11-14 20:10:08.522 [info] [lifecycle]: Process participant stopped (id: extension-hosts, ms: 12, reason: 1)
+2026-11-14 20:10:08.531 [warning] [RealtimeVoice] default voice was not read Canceled
+2026-11-14 20:10:08.531 [warning] [RealtimeVoice] default voice was not read Canceled

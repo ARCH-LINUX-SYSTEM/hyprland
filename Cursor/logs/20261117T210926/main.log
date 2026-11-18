@@ -1,0 +1,42 @@
+2026-11-17 21:09:26.802 [info] [AgentHostUpdater] following channel stable (by release track stable)
+2026-11-17 21:09:26.804 [info] [AgentHostUpdater] watching https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json every 300s; installs to /home/haidangphan/.config/Cursor/agent-harness; idle until an extension host writes hosts/<pid>.json
+2026-11-17 21:09:26.817 [info] [RemoteControlTarget] window runs the Remote Control target
+2026-11-17 21:09:26.843 [info] [MoltenAgentsWindow] Agents Window opens the built-in Agents Window: molten_agents_window is off for the signed-in account
+2026-11-17 21:09:26.906 [info] [RendererPing] enabled (intervalMs=5000, blockThresholdMs=15000, stacks=true)
+2026-11-17 21:09:26.910 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/3.30.14/bf2f2f6a89fdc84cdc3cb39678230b47680b5dc0d86a4dd02158f5fe2a10b5a7/stable
+2026-11-17 21:09:26.910 [info] update#setState idle
+2026-11-17 21:09:27.842 [info] TracingService: private inference lockdown disabled
+2026-11-17 21:09:27.946 [info] [LocalAgentStorage] Scanned 0 recent databases (skipped 3 old), found 0 agent headers, deduped to 0
+2026-11-17 21:09:36.701 [info] Extension host with pid 237995 exited with code: 0, signal: unknown.
+2026-11-17 21:09:41.810 [info] [AgentHostUpdater] polling: agent harness on in extension host pid 238228 (enabled by gate, revision 2, floor static)
+2026-11-17 21:09:42.562 [info] [AgentHostUpdater] signature: generation f0bd0bb4464b is signed by harness-prod-1
+2026-11-17 21:09:44.558 [info] [CursorProclistService] Config enabled feature (subsample every 10s; memoryPressureMonitorEnabled=true)
+2026-11-17 21:09:48.527 [info] Extension host with pid 238226 exited with code: 0, signal: unknown.
+2026-11-17 21:09:48.536 [info] Extension host with pid 238205 exited with code: 0, signal: unknown.
+2026-11-17 21:09:48.694 [info] Extension host with pid 238228 exited with code: 0, signal: unknown.
+2026-11-17 21:09:49.257 [info] Extension host with pid 238227 exited with code: 0, signal: unknown.
+2026-11-17 21:09:56.017 [info] update#setState checking for updates
+2026-11-17 21:09:56.274 [info] update#setState idle
+2026-11-17 21:10:02.235 [info] [CursorProclistService] Config enabled feature (subsample every 10s; memoryPressureMonitorEnabled=true)
+2026-11-17 21:10:20.525 [info] [WorktreeCleanupMainService] Granted cleanup lease id=1 owner=window:2 reason="startup-catchup-worktree-cleanup"
+2026-11-17 21:10:25.531 [info] [WorktreeCleanupMainService] Releasing cleanup lease id=1 owner=window:2 reason="startup-catchup-worktree-cleanup" releaseReason="released" heldForMs=5006
+2026-11-17 21:19:49.447 [info] TracingService: failed to send envelope undefined undefined
+2026-11-17 21:49:58.546 [error] vscode-file: Failed to read /usr/share/cursor/resources/app/node_modules/vscode-regexp-languagedetection/dist/index.js from vscode-file: protocol (original URL: vscode-file://vscode-app/usr/share/cursor/resources/app/node_modules/vscode-regexp-languagedetection/dist/index.js)
+2026-11-17 22:08:50.192 [info] update#setState checking for updates
+2026-11-17 22:08:51.246 [info] update#setState idle
+2026-11-17 22:14:58.665 [error] #20: https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json - error GET net::ERR_NETWORK_CHANGED
+2026-11-17 22:14:59.196 [error] #21: https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json - error GET net::ERR_INTERNET_DISCONNECTED
+2026-11-17 22:14:59.235 [error] #22: https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json - error GET net::ERR_INTERNET_DISCONNECTED
+2026-11-17 22:14:59.236 [warning] [AgentHostUpdater] unavailable, retrying every poll: channel: https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json: net::ERR_INTERNET_DISCONNECTED
+2026-11-17 22:14:59.241 [warning] MainMetricsUploader: reportIncrement failed request to https://api3.cursor.sh/aiserver.v1.MetricsService/ReportIncrement failed, reason: getaddrinfo EAI_AGAIN api3.cursor.sh
+2026-11-17 22:35:06.591 [error] #26: https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json - error GET net::ERR_INTERNET_DISCONNECTED
+2026-11-17 22:35:06.892 [error] #27: https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json - error GET net::ERR_INTERNET_DISCONNECTED
+2026-11-17 22:35:08.683 [error] #28: https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json - error GET net::ERR_INTERNET_DISCONNECTED
+2026-11-17 22:35:08.683 [warning] [AgentHostUpdater] unavailable, retrying every poll: channel: https://downloads.cursor.com/agent-host-harness/channels/stable/latest.json: net::ERR_INTERNET_DISCONNECTED
+2026-11-17 22:35:08.690 [warning] MainMetricsUploader: reportIncrement failed request to https://api3.cursor.sh/aiserver.v1.MetricsService/ReportIncrement failed, reason: getaddrinfo EAI_AGAIN api3.cursor.sh
+2026-11-17 23:04:07.893 [info] update#setState checking for updates
+2026-11-17 23:04:08.804 [info] update#setState idle
+2026-11-17 23:20:56.030 [info] Extension host with pid 239164 exited with code: 0, signal: unknown.
+2026-11-17 23:20:56.044 [info] Extension host with pid 239119 exited with code: 0, signal: unknown.
+2026-11-17 23:20:56.081 [info] Extension host with pid 239166 exited with code: 0, signal: unknown.
+2026-11-17 23:20:56.405 [info] Extension host with pid 239165 exited with code: 0, signal: unknown.

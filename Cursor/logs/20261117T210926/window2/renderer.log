@@ -1,0 +1,167 @@
+2026-11-17 21:09:31.938 [info] [CursorExtensionIsolationService] Extension isolation is enabled
+2026-11-17 21:09:31.938 [info] [CursorAgentHostEnablementService] remote-workspace policy is allowed
+2026-11-17 21:09:31.938 [info] [CursorAgentHostEnablementService] cursor_agent_host gate is enabled, private inference is disabled, Cursor Orbit local agents are on, local agent token source is none, remote-workspace policy is allowed, effective agent-host topology is enabled
+2026-11-17 21:09:31.938 [info] defaultUserPathEncryptionKey updated from placeholder key
+2026-11-17 21:09:31.938 [info] Agent URLs changed from server config, updating cursorCreds {"nonPrivacyChanged":true,"newNonPrivacyUrl":"https://agentn.global.api5.cursor.sh","currentNonPrivacyDefault":"https://agentn.api5.cursor.sh","localLoopInferenceChanged":true,"newLocalLoopInferenceUrl":"https://agentn.global.api5.cursor.sh"}
+2026-11-17 21:09:31.938 [info] [PushRequestContextService] push request context is enabled (killswitchActive=false, instantGrepEnabled=true, indexingGrepEnabled=true, agentHostEnabled=true, agentHostForcePush=false)
+2026-11-17 21:09:31.938 [info] [AgentHostService] using extension-host implementation
+2026-11-17 21:09:32.035 [info] Started local extension host with pid 238205.
+2026-11-17 21:09:32.136 [info] Placing extension(s) anysphere.cursor-retrieval on a separate extension host.
+2026-11-17 21:09:32.136 [info] Placing extension(s) anysphere.cursor-always-local, anysphere.cursor-resolver, anysphere.cursor-socket on a separate extension host.
+2026-11-17 21:09:32.136 [info] Placing extension(s) anysphere.cursor-agent-exec, anysphere.cursor-agent-host, anysphere.cursor-agent-worker, anysphere.cursor-checkout on a separate extension host.
+2026-11-17 21:09:32.136 [warning] [anysphere.remote-ssh]: Cannot register 'cursorAgentHost.remoteInferenceRoute'. This property is already registered.
+2026-11-17 21:09:32.316 [info] Started local extension host with pid 238226.
+2026-11-17 21:09:32.317 [info] Started local extension host with pid 238227.
+2026-11-17 21:09:32.317 [info] Started local extension host with pid 238228.
+2026-11-17 21:09:32.403 [info] [WorktreeManager] Using worktrees root /home/haidangphan/.cursor/worktrees
+2026-11-17 21:09:32.451 [info] [HostedMcpAccountServers] 0 account server(s) run on this desktop: none
+2026-11-17 21:09:32.577 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2026-11-17 21:09:32.577 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2026-11-17 21:09:32.577 [info] [WorktreeCleanupCron] Scheduling startup catch-up cleanup in 30000ms (last run 262834s ago; interval 21600s)
+2026-11-17 21:09:32.714 [info] [ShellExec] Created session 151605c3-caf0-4c01-b1f2-8c5f1be9f7c7 on LocalProcess host
+2026-11-17 21:09:32.716 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:32.716 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:32.813 [info] [McpProcessAfterRestoredContribution] latched shared-process MCP routing enabled for this session after OAuth migration
+2026-11-17 21:09:32.836 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:32.836 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:32.914 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:32.914 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:33.013 [error] [Extension Host:retrieval] (node:238226) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-11-17 21:09:33.429 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:33.429 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:33.654 [info] [MainThreadCursorExplorerProviderService] Explorer provider registered
+2026-11-17 21:09:33.666 [info] [PushRequestContextService] Updated sandbox network file entries (0 entries)
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.solidLeakStats
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.setApplicationProperty
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.simulateLimitHitStage
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.clearLimitHitSimulation
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.logComposer
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.seedResponseComparisonForTesting
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.restartOfflineWorkers
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.startWorkerForFolder
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.listRecordedWorkers
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.resetModelPicker
+2026-11-17 21:09:34.523 [info] [Debug] Registered command palette action: debug.replayStreamingFixture
+2026-11-17 21:09:34.523 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2026-11-17 21:09:34.559 [info] [Debug] Registered command palette action: debug.migrateMcpGrantsToServer
+2026-11-17 21:09:34.559 [info] [Debug] Registered command palette action: debug.forceIdleHostStopNow
+2026-11-17 21:09:34.559 [info] [Debug] Registered command palette action: debug.armIdleHostStopAtNextCompletion
+2026-11-17 21:09:34.559 [info] [Debug] Registered command palette action: debug.rendererProcessInventory
+2026-11-17 21:09:34.559 [info] [GC Trace Polling] Disabled by config
+2026-11-17 21:09:34.564 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=initial, enabled=false)
+2026-11-17 21:09:34.564 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=initial, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:09:34.912 [info] [perf] Render performance baseline is 19ms
+2026-11-17 21:09:36.861 [info] [CursorPluginsStartup] Claude marketplace import (boot): discovered=0, registered=0, failed=0
+2026-11-17 21:09:37.526 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 21:09:37.526 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:09:39.694 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 21:09:39.694 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:09:44.559 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2026-11-17 21:09:48.545 [error] [File Watcher] Unexpected error stopping watcher: Unable to remove watcher: Invalid argument (path: /home/haidangphan/.cursor/skills-cursor)
+2026-11-17 21:09:49.561 [info] [CursorExtensionIsolationService] Extension isolation is enabled
+2026-11-17 21:09:49.561 [info] [CursorAgentHostEnablementService] remote-workspace policy is allowed
+2026-11-17 21:09:49.561 [info] [CursorAgentHostEnablementService] cursor_agent_host gate is enabled, private inference is disabled, Cursor Orbit local agents are on, local agent token source is none, remote-workspace policy is allowed, effective agent-host topology is enabled
+2026-11-17 21:09:49.561 [info] defaultUserPathEncryptionKey updated from placeholder key
+2026-11-17 21:09:49.561 [info] Agent URLs changed from server config, updating cursorCreds {"nonPrivacyChanged":true,"newNonPrivacyUrl":"https://agentn.global.api5.cursor.sh","currentNonPrivacyDefault":"https://agentn.api5.cursor.sh","localLoopInferenceChanged":true,"newLocalLoopInferenceUrl":"https://agentn.global.api5.cursor.sh"}
+2026-11-17 21:09:49.561 [info] [PushRequestContextService] push request context is enabled (killswitchActive=false, instantGrepEnabled=true, indexingGrepEnabled=true, agentHostEnabled=true, agentHostForcePush=false)
+2026-11-17 21:09:49.561 [info] [AgentHostService] using extension-host implementation
+2026-11-17 21:09:49.670 [info] Started local extension host with pid 239119.
+2026-11-17 21:09:49.914 [info] [WorktreeManager] Using worktrees root /home/haidangphan/.cursor/worktrees
+2026-11-17 21:09:49.937 [info] [HostedMcpAccountServers] 0 account server(s) run on this desktop: none
+2026-11-17 21:09:50.047 [info] Placing extension(s) anysphere.cursor-retrieval on a separate extension host.
+2026-11-17 21:09:50.047 [info] Placing extension(s) anysphere.cursor-always-local, anysphere.cursor-resolver, anysphere.cursor-socket on a separate extension host.
+2026-11-17 21:09:50.047 [info] Placing extension(s) anysphere.cursor-agent-exec, anysphere.cursor-agent-host, anysphere.cursor-agent-worker, anysphere.cursor-checkout on a separate extension host.
+2026-11-17 21:09:50.047 [warning] [anysphere.remote-ssh]: Cannot register 'cursorAgentHost.remoteInferenceRoute'. This property is already registered.
+2026-11-17 21:09:50.241 [info] Started local extension host with pid 239164.
+2026-11-17 21:09:50.241 [info] Started local extension host with pid 239165.
+2026-11-17 21:09:50.241 [info] Started local extension host with pid 239166.
+2026-11-17 21:09:50.330 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:50.330 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:50.331 [info] [ShellExec] Created session 41ba7f9e-0bd4-42ec-9490-ad76de258d84 on LocalProcess host
+2026-11-17 21:09:50.524 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2026-11-17 21:09:50.524 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2026-11-17 21:09:50.524 [info] [WorktreeCleanupCron] Scheduling startup catch-up cleanup in 30000ms (last run 262852s ago; interval 21600s)
+2026-11-17 21:09:50.691 [info] [McpProcessAfterRestoredContribution] latched shared-process MCP routing enabled for this session after OAuth migration
+2026-11-17 21:09:50.840 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:50.840 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:50.843 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:50.843 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:50.843 [info] [MainThreadShellExec] $updateShellExecCapabilities: hostKind=1, expectedHost=1, isRemote=false, sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:50.843 [info] [MainThreadShellExec] AppArmor suggestion skipped: sandboxSupported=true, linuxKernelVersion=7.2.14-arch1-1
+2026-11-17 21:09:50.935 [error] [Extension Host:retrieval] (node:239164) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-11-17 21:09:51.245 [info] [MainThreadCursorExplorerProviderService] Explorer provider registered
+2026-11-17 21:09:51.590 [info] [PushRequestContextService] Updated sandbox network file entries (0 entries)
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.solidLeakStats
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.setApplicationProperty
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.simulateLimitHitStage
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.clearLimitHitSimulation
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.logComposer
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.seedResponseComparisonForTesting
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.restartOfflineWorkers
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.startWorkerForFolder
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.listRecordedWorkers
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.resetModelPicker
+2026-11-17 21:09:52.219 [info] [Debug] Registered command palette action: debug.replayStreamingFixture
+2026-11-17 21:09:52.219 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2026-11-17 21:09:52.220 [info] [RepositoryTracker] Stored repository path: github.com/tutor-system/gateway -> file:///home/haidangphan/Documents/tutor
+2026-11-17 21:09:52.235 [info] [Debug] Registered command palette action: debug.migrateMcpGrantsToServer
+2026-11-17 21:09:52.235 [info] [Debug] Registered command palette action: debug.forceIdleHostStopNow
+2026-11-17 21:09:52.235 [info] [Debug] Registered command palette action: debug.armIdleHostStopAtNextCompletion
+2026-11-17 21:09:52.235 [info] [Debug] Registered command palette action: debug.rendererProcessInventory
+2026-11-17 21:09:52.235 [info] [GC Trace Polling] Disabled by config
+2026-11-17 21:09:52.241 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=initial, enabled=false)
+2026-11-17 21:09:52.241 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=initial, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:09:52.470 [info] [perf] Render performance baseline is 11ms
+2026-11-17 21:09:53.139 [info] [CursorPluginsStartup] Claude marketplace import (boot): discovered=0, registered=0, failed=0
+2026-11-17 21:09:53.562 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 21:09:53.562 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:10:00.835 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 21:10:00.835 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:10:02.237 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2026-11-17 21:10:07.502 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 21:10:07.502 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:10:20.525 [info] [WorktreeCleanupCron] Running startup catch-up worktree cleanup
+2026-11-17 21:10:25.529 [warning] [WorktreeManager] Timed out after 5000ms waiting for local agent scan; orphan classification disabled this pass
+2026-11-17 21:10:25.530 [info] [WorktreeManager] Cleanup complete: scanned=0, removed=0, bytesFreed=0, errors=0
+2026-11-17 21:19:49.443 [error] Error fetching user privacy mode: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 21:24:55.156 [error] Failed to refresh membership, scheduling next attempt {"error":{}}
+2026-11-17 21:25:23.185 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 21:25:23.185 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:30:55.727 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 21:30:55.727 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:51:38.740 [error] [Extension Host:agent-exec] 14:51:38.739 ERROR Failed to get effective user plugins for installed list error={error: "ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh"}
+2026-11-17 21:52:29.947 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 21:52:29.947 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 21:58:28.166 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 21:58:28.166 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 22:00:45.183 [error] Failed to refresh membership, scheduling next attempt {"error":{"name":"ConnectError","rawMessage":"getaddrinfo EAI_AGAIN api2.cursor.sh","code":14,"metadata":{},"details":[],"cause":{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"api2.cursor.sh"}}}
+2026-11-17 22:00:45.857 [error] [Extension Host:agent-exec] 15:00:45.856 ERROR Failed to get effective user plugins for installed list error={error: "ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh"}
+2026-11-17 22:00:56.345 [error] [Extension Host:agent-exec] 15:00:56.344 ERROR Failed to get effective user plugins for installed list error={error: "ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh"}
+2026-11-17 22:02:50.198 [error] Failed to refresh membership, scheduling next attempt {"error":{"name":"ConnectError","rawMessage":"getaddrinfo EAI_AGAIN api2.cursor.sh","code":14,"metadata":{},"details":[],"cause":{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"api2.cursor.sh"}}}
+2026-11-17 22:03:31.507 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 22:03:31.507 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 22:08:33.264 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 22:08:33.264 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 22:14:58.675 [error] Error fetching user privacy mode: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 22:14:59.638 [error] Failed to refresh server config from server: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 22:15:02.254 [error] [Cursor Proclist Polling] Failed to send V2 metrics to backend; opening circuit {"openMs":5000,"consecutiveFailures":1,"queueDepth":0,"droppedFailedSample":true} [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2026-11-17 22:31:53.754 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 22:31:53.754 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 22:35:29.636 [error] Failed to refresh server config from server: [canceled] signal is aborted without reason
+2026-11-17 22:37:12.919 [error] Failed to refresh membership, scheduling next attempt {"error":{"name":"ConnectError","rawMessage":"read ETIMEDOUT","code":14,"metadata":{},"details":[],"cause":{"errno":-110,"code":"ETIMEDOUT","syscall":"read"}}}
+2026-11-17 22:59:31.430 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 22:59:31.430 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 23:05:55.474 [info] [SharedSessionFileWatcherGateMirror] Mirrored gate (reason=gate-change, enabled=false)
+2026-11-17 23:05:55.474 [info] [UpdateSupervisorGateMirror] Mirrored gates (reason=gate-change, enabled=false, shipItCacheResetKilled=false, backgroundActivityCheckKilled=false)
+2026-11-17 23:20:56.053 [error] Failed to refresh membership, scheduling next attempt {"error":{"name":"Canceled"}}
+2026-11-17 23:20:56.078 [error] [File Watcher] Unexpected error stopping watcher: Unable to remove watcher: Invalid argument (path: /home/haidangphan/.cursor/skills-cursor)

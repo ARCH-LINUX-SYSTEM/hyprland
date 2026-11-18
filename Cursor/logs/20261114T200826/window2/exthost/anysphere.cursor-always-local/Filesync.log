@@ -1,0 +1,76 @@
+2026-11-14 20:10:07.395 [error] Failed to check if file sync is enabled for user {}
+2026-11-14 20:10:07.395 [error] Failed to fetch fsConfig File sync is disabled
+2026-11-14 20:10:07.395 [error] Failed to fetch fsConfig File sync is disabled
+2026-11-14 20:10:07.674 [info] [registerEventListeners] Registering event listeners
+2026-11-14 20:10:09.403 [info] [ENABLED STATUS] Filesync enabled from server.
+2026-11-14 20:10:09.771 [info] Fetched fsConfig in 367.4244469999999ms
+2026-11-14 20:10:09.771 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2026-11-14 20:10:10.894 [info] [ENABLED STATUS] Filesync enabled from server.
+2026-11-14 20:10:11.491 [info] Starting sync of visible tabs
+2026-11-14 20:10:11.491 [info] Synced all visible tabs in 0.5578110000005836ms
+2026-11-14 20:10:11.814 [info] Fetched fsConfig in 919.2898770000002ms
+2026-11-14 20:10:11.814 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2026-11-14 20:10:11.814 [info] File sync enabled status: true
+2026-11-14 20:10:11.814 [info] Starting sync of visible tabs
+2026-11-14 20:10:11.814 [info] Synced all visible tabs in 0.02168000000074244ms
+2026-11-14 20:10:11.832 [info] [ENABLED STATUS] Filesync enabled from server.
+2026-11-14 20:10:12.156 [info] Fetched fsConfig in 323.8133510000007ms
+2026-11-14 20:10:12.156 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2026-11-14 20:10:35.681 [error] Failed to check if file sync is enabled for user {}
+2026-11-14 20:10:35.681 [error] Failed to fetch fsConfig File sync is disabled
+2026-11-14 20:10:35.681 [error] Failed to fetch fsConfig File sync is disabled
+2026-11-14 20:10:35.964 [info] [registerEventListeners] Registering event listeners
+2026-11-14 20:10:56.662 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"HTTP/2 session not established after 20000 ms","code":14,"metadata":{},"details":[]}
+2026-11-14 20:10:56.662 [error] Failed to fetch fsConfig File sync is disabled
+2026-11-14 20:10:56.662 [error] Failed to fetch fsConfig File sync is disabled
+2026-11-14 20:11:26.990 [info] [ENABLED STATUS] Filesync enabled from server.
+2026-11-14 20:11:27.722 [info] Fetched fsConfig in 731.8505739999964ms
+2026-11-14 20:11:27.722 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2026-11-14 20:11:27.722 [info] File sync enabled status: true
+2026-11-14 20:11:27.722 [info] Starting sync of visible tabs
+2026-11-14 20:11:27.722 [info] Synced all visible tabs in 0.06198500000027707ms
+2026-11-14 20:11:27.723 [info] [ENABLED STATUS] Filesync enabled from server.
+2026-11-14 20:11:28.103 [info] Fetched fsConfig in 380.48837300000014ms
+2026-11-14 20:11:28.103 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2026-11-14 20:13:50.438 [info] Uploaded file gateway/.env modelVersion=1 in 689.4704009999987ms
+2026-11-14 20:13:50.439 [info] Handled visible editors change in 738.1959789999819ms
+2026-11-14 20:14:14.992 [info] Synced file gateway/.env modelVersion=2 in 388.6947400000063ms
+2026-11-14 20:14:15.610 [info] Synced file gateway/.env modelVersion=4 in 478.84064000000944ms
+2026-11-14 20:14:16.312 [info] Synced file gateway/.env modelVersion=5 in 363.13427700000466ms
+2026-11-14 20:14:17.295 [info] Synced file gateway/.env modelVersion=6 in 382.7397709999932ms
+2026-11-14 20:14:17.296 [info] [ENABLED STATUS] Filesync enabled from server.
+2026-11-14 20:14:17.711 [info] Fetched fsConfig in 414.7234879999887ms
+2026-11-14 20:14:17.711 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2026-11-14 20:14:17.711 [info] File sync enabled status: true
+2026-11-14 20:14:17.711 [info] Starting sync of visible tabs
+2026-11-14 20:14:17.711 [info] Synced all visible tabs in 0.1884190000128001ms
+2026-11-14 20:14:19.532 [info] Synced file gateway/.env modelVersion=7 in 470.8939459999965ms
+2026-11-14 20:14:20.657 [info] Synced file gateway/.env modelVersion=10 in 414.7762559999828ms
+2026-11-14 20:14:21.049 [info] Synced file gateway/.env modelVersion=12 in 456.40451100000064ms
+2026-11-14 20:14:22.004 [info] Synced file gateway/.env modelVersion=13 in 344.1950540000107ms
+2026-11-14 20:14:23.562 [info] Synced file gateway/.env modelVersion=16 in 359.53033599999617ms
+2026-11-14 20:14:25.734 [info] Synced file gateway/.env modelVersion=17 in 345.2317059999914ms
+2026-11-14 20:14:27.196 [info] Synced file gateway/.env modelVersion=18 in 673.9800939999986ms
+2026-11-14 20:14:27.399 [info] Synced file gateway/.env modelVersion=20 in 519.7560590000066ms
+2026-11-14 20:14:28.782 [info] Synced file gateway/.env modelVersion=21 in 388.67115999999805ms
+2026-11-14 20:14:32.209 [info] Handled visible editors change in 0.027950999996392056ms
+2026-11-14 20:17:33.187 [info] Uploaded file third/src/features/email/email.controller.ts modelVersion=1 in 1685.014553999994ms
+2026-11-14 20:17:33.187 [info] Handled visible editors change in 1776.337629000016ms
+2026-11-14 20:17:33.491 [info] Handled visible editors change in 0.041188000002875924ms
+2026-11-14 20:17:34.054 [info] Uploaded file third/src/features/email/email.module.ts modelVersion=1 in 484.23417000001064ms
+2026-11-14 20:17:34.054 [info] Handled visible editors change in 537.6702159999986ms
+2026-11-14 20:17:35.080 [info] Handled visible editors change in 0.05318099999567494ms
+2026-11-14 20:17:35.705 [info] Uploaded file third/src/features/email/email.rpc.controller.ts modelVersion=1 in 538.1987450000015ms
+2026-11-14 20:17:35.705 [info] Handled visible editors change in 597.7318930000183ms
+2026-11-14 20:17:38.729 [info] Handled visible editors change in 0.03922500001499429ms
+2026-11-14 20:17:39.813 [info] Uploaded file third/src/features/email/email.service.ts modelVersion=1 in 987.1010180000449ms
+2026-11-14 20:17:39.813 [info] Handled visible editors change in 1058.4195609999588ms
+2026-11-14 20:19:01.512 [info] Synced file third/src/features/email/email.service.ts modelVersion=2 in 565.0984830000089ms
+2026-11-14 20:19:02.544 [info] [ENABLED STATUS] Filesync enabled from server.
+2026-11-14 20:19:02.910 [info] Fetched fsConfig in 365.7181799999671ms
+2026-11-14 20:19:02.910 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2026-11-14 20:19:02.910 [info] File sync enabled status: true
+2026-11-14 20:19:02.910 [info] Starting sync of visible tabs
+2026-11-14 20:19:02.910 [info] Synced all visible tabs in 0.08244600001489744ms
+2026-11-14 20:19:05.433 [info] Synced file third/src/features/email/email.service.ts modelVersion=3 in 356.41640200000256ms
+2026-11-14 20:19:43.130 [info] Synced file third/src/features/email/email.service.ts modelVersion=4 in 606.3247459999984ms

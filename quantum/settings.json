@@ -1,0 +1,242 @@
+{
+    "ai": {
+        "model": ""
+    },
+    "appearance": {
+        "accent": "#007AFF",
+        "blur": true,
+        "dynamicColors": true,
+        "glass": {
+            "bar": true,
+            "dock": true,
+            "panels": true,
+            "windows": false
+        },
+        "iconTheme": "papirus",
+        "lightFrom": "07:00",
+        "lightTo": "18:00",
+        "mode": "dark",
+        "panelOpacity": 0.86,
+        "textScale": 1,
+        "wallpaper": "/home/haidangphan/Pictures/Wallpapers/quantum-silk-light.png",
+        "windowOpacity": 0.9
+    },
+    "apps": {
+        "hidden": [
+        ],
+        "login": [
+        ],
+        "shown": [
+        ],
+        "usage": {
+            "brave-browser": {
+                "n": 33,
+                "t": 1795005024780
+            },
+            "claude-agenthq": {
+                "n": 8,
+                "t": 1795009925158
+            },
+            "cursor": {
+                "n": 3,
+                "t": 1794924565935
+            },
+            "fcitx5-configtool": {
+                "n": 1,
+                "t": 1794653351010
+            },
+            "herdr-app": {
+                "n": 28,
+                "t": 1795009946437
+            },
+            "htop": {
+                "n": 2,
+                "t": 1794928024408
+            },
+            "kiri": {
+                "n": 3,
+                "t": 1794960701852
+            },
+            "kitty": {
+                "n": 10,
+                "t": 1794701533767
+            },
+            "nm-connection-editor": {
+                "n": 1,
+                "t": 1794709889500
+            },
+            "org.gnome.Nautilus": {
+                "n": 8,
+                "t": 1794916177192
+            },
+            "org.pulseaudio.pavucontrol": {
+                "n": 2,
+                "t": 1794920841103
+            },
+            "quantum-activitymonitor": {
+                "n": 2,
+                "t": 1794928369973
+            },
+            "quantum-assistant": {
+                "n": 1,
+                "t": 1794645468343
+            },
+            "quantum-personalize": {
+                "n": 20,
+                "t": 1794928058696
+            },
+            "thunar": {
+                "n": 2,
+                "t": 1794653065268
+            },
+            "thunar-settings": {
+                "n": 1,
+                "t": 1794645451546
+            }
+        }
+    },
+    "clock": {
+        "format24h": true,
+        "showDate": true,
+        "showSeconds": false,
+        "showWeekday": true
+    },
+    "display": {
+        "brightness": 1,
+        "contrast": 1,
+        "gamma": 1,
+        "nightFrom": "21:00",
+        "nightLight": false,
+        "nightMode": "manual",
+        "nightTo": "07:00",
+        "saturation": 1,
+        "scales": {
+        },
+        "temperature": 4000
+    },
+    "dock": {
+        "align": "center",
+        "animateOpen": true,
+        "autohide": true,
+        "floating": true,
+        "magnify": true,
+        "magnifyAmount": 0.55,
+        "minimizeEffect": "genie",
+        "pinned": [
+            "kitty",
+            "quantum-personalize",
+            "quantum-activitymonitor",
+            "herdr-app",
+            "brave-browser",
+            "org.gnome.Nautilus",
+            "cursor",
+            "claude-agenthq",
+            "kiri"
+        ],
+        "position": "bottom",
+        "showIndicators": true,
+        "showSearch": false,
+        "showStart": true,
+        "showTray": true,
+        "showUpdates": true,
+        "size": "large"
+    },
+    "keyboard": {
+        "layout": "",
+        "options": "grp:alt_shift_toggle",
+        "repeatDelay": 600,
+        "repeatRate": 25,
+        "variant": ""
+    },
+    "layout": {
+        "style": "split",
+        "topBar": {
+            "floating": false,
+            "showApp": true,
+            "showClaude": true,
+            "showSpotlight": true,
+            "showSysMon": true
+        }
+    },
+    "lock": {
+        "city": "",
+        "left": [
+            "weather",
+            "fetch",
+            "media"
+        ],
+        "right": [
+            "stats",
+            "notifs"
+        ],
+        "showNotifContent": false
+    },
+    "mouse": {
+        "accel": true,
+        "cursorSize": 24,
+        "leftHanded": false,
+        "natural": false,
+        "scrollSpeed": 1,
+        "speed": 0
+    },
+    "notifications": {
+        "apps": [
+            "notify-send",
+            "blueman",
+            "Quantum Linux"
+        ],
+        "dnd": false,
+        "muted": [
+        ]
+    },
+    "power": {
+        "lowPower": "never"
+    },
+    "screensaver": {
+        "enabled": true,
+        "timeout": 600
+    },
+    "sounds": {
+        "enabled": true,
+        "pack": "quantum",
+        "startup": true,
+        "volume": 0.6,
+        "volumeFeedback": true
+    },
+    "touchpad": {
+        "clickMethod": "clickfinger",
+        "disableWhileTyping": true,
+        "natural": true,
+        "scrollSpeed": 1,
+        "speed": 0,
+        "tapToClick": true
+    },
+    "ui": {
+        "advanced": true,
+        "before": {
+            "accent": "#007AFF",
+            "dynamicColors": true,
+            "mode": "light",
+            "wallpaper": "/home/haidangphan/Pictures/Wallpapers/quantum-silk-light.png"
+        },
+        "filesPinned": true,
+        "lang": "vi",
+        "page": "bluetooth",
+        "serpApps": "bar",
+        "shell": "caelestial",
+        "style": "custom",
+        "welcomed": true
+    },
+    "windows": {
+        "animations": "smooth",
+        "borderSize": 1,
+        "buttonsLeft": true,
+        "corners": "round",
+        "doubleClick": "fill",
+        "minimizeAnimation": "zoom",
+        "openAnimation": "zoom",
+        "tiling": false,
+        "titleHeight": 34,
+        "wobbly": false
+    }
+}

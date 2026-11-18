@@ -1,0 +1,28 @@
+2026-11-17 21:09:32.817 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-17 21:09:32.865 [info] [MCPService] createClient completed for server: cursor-origin, statusType=initializing, success=true
+2026-11-17 21:09:32.865 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-17 21:09:32.907 [info] [MCPService] createClient completed for server: cursor-origin, statusType=initializing, success=true
+2026-11-17 21:09:35.255 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-17 21:09:35.255 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, statusType=initializing, success=true
+2026-11-17 21:09:36.724 [info] [MCPService] Plugin MCP census: {"trigger":"plugins_changed","providerOutcome":"ok","descriptorsReceived":2,"pluginServersAssigned":2,"defaultServers":1,"userServers":0,"projectServers":0,"extensionServers":1,"providerServers":1,"effectiveTotal":5,"enabledTotal":5,"remoteAuthorityPrefix":"local"}
+2026-11-17 21:09:36.727 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-17 21:09:36.727 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-17 21:09:36.728 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-17 21:09:36.732 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, connected=true, statusType=connected
+2026-11-17 21:09:36.732 [info] [MCPService] createClient completed for server: plugin-shadcn-shadcn, statusType=initializing, success=true
+2026-11-17 21:09:36.733 [info] [MCPService] createClient completed for server: plugin-figma-figma, statusType=initializing, success=true
+2026-11-17 21:09:36.733 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-17 21:09:36.733 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-17 21:09:36.738 [info] [MCPService] createClient completed for server: plugin-shadcn-shadcn, statusType=initializing, success=true
+2026-11-17 21:09:36.738 [info] [MCPService] createClient completed for server: plugin-figma-figma, statusType=initializing, success=true
+2026-11-17 21:09:50.693 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-17 21:09:50.728 [info] [MCPService] createClient completed for server: cursor-origin, connected=true, statusType=connected
+2026-11-17 21:09:52.840 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-17 21:09:52.841 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, connected=true, statusType=connected
+2026-11-17 21:09:59.821 [info] [MCPService] Plugin MCP census: {"trigger":"plugins_changed","providerOutcome":"ok","descriptorsReceived":2,"pluginServersAssigned":2,"defaultServers":1,"userServers":0,"projectServers":0,"extensionServers":1,"providerServers":1,"effectiveTotal":5,"enabledTotal":5,"remoteAuthorityPrefix":"local"}
+2026-11-17 21:09:59.823 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-17 21:09:59.823 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-17 21:09:59.823 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-17 21:09:59.832 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, connected=true, statusType=connected
+2026-11-17 21:09:59.833 [error] [MCPService] createClient completed for server: plugin-shadcn-shadcn, connected=false, statusType=error, error=spawn npx ENOENT
+2026-11-17 21:09:59.833 [info] [MCPService] createClient completed for server: plugin-figma-figma, connected=false, statusType=needsAuth

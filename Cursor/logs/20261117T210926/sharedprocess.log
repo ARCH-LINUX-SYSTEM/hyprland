@@ -1,0 +1,53 @@
+2026-11-17 21:09:27.480 [info] Getting extensions control
+2026-11-17 21:09:30.719 [info] Getting Manifest... anysphere.remote-ssh
+2026-11-17 21:09:30.719 [info] Getting Manifest... anysphere.remote-containers
+2026-11-17 21:09:32.163 [info] Installing extension: anysphere.remote-ssh {"donotIncludePackAndDependencies":true,"operation":3,"pinned":false,"context":{"skipPublisherTrust":true},"isApplicationScoped":true,"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-17 21:09:32.163 [info] Installing the extension without checking dependencies and pack anysphere.remote-ssh
+2026-11-17 21:09:32.194 [info] Started downloading extension: anysphere.remote-ssh 1.1.18 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/anysphere.remote-ssh-1.1.18
+2026-11-17 21:09:32.354 [info] Installing extension: anysphere.remote-containers {"donotIncludePackAndDependencies":true,"operation":3,"pinned":false,"context":{"skipPublisherTrust":true},"isApplicationScoped":true,"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-17 21:09:32.354 [info] Installing the extension without checking dependencies and pack anysphere.remote-containers
+2026-11-17 21:09:32.372 [info] Started downloading extension: anysphere.remote-containers 1.0.42 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/anysphere.remote-containers-1.0.42
+2026-11-17 21:09:33.742 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/anysphere.remote-ssh-1.1.18: anysphere.remote-ssh
+2026-11-17 21:09:33.746 [info] Renamed to /home/haidangphan/.cursor/extensions/anysphere.remote-ssh-1.1.18
+2026-11-17 21:09:33.757 [info] Marked extension as removed anysphere.remote-ssh-1.1.17
+2026-11-17 21:09:33.763 [info] Extension installed successfully: anysphere.remote-ssh vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-17 21:09:34.243 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/anysphere.remote-containers-1.0.42: anysphere.remote-containers
+2026-11-17 21:09:34.247 [info] Renamed to /home/haidangphan/.cursor/extensions/anysphere.remote-containers-1.0.42
+2026-11-17 21:09:34.254 [info] Marked extension as removed anysphere.remote-containers-1.0.41
+2026-11-17 21:09:34.263 [info] Extension installed successfully: anysphere.remote-containers vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-17 21:14:49.880 [info] Getting extensions control
+2026-11-17 21:19:50.467 [info] Getting extensions control
+2026-11-17 21:19:50.473 [error] Error getting extensions control manifest net::ERR_NAME_NOT_RESOLVED
+2026-11-17 21:24:50.476 [info] Getting extensions control
+2026-11-17 21:24:52.515 [error] Error getting extensions control manifest net::ERR_NETWORK_CHANGED
+2026-11-17 21:29:52.518 [info] Getting extensions control
+2026-11-17 21:34:54.747 [info] Getting extensions control
+2026-11-17 21:39:57.005 [info] Getting extensions control
+2026-11-17 21:40:00.008 [error] Error getting extensions control manifest Timeout getting extensions control
+2026-11-17 21:45:00.010 [info] Getting extensions control
+2026-11-17 21:50:01.188 [info] Getting extensions control
+2026-11-17 21:55:02.895 [info] Getting extensions control
+2026-11-17 22:00:05.686 [info] Getting extensions control
+2026-11-17 22:05:06.808 [info] Getting extensions control
+2026-11-17 22:10:07.992 [info] Getting extensions control
+2026-11-17 22:10:10.997 [error] Error getting extensions control manifest Timeout getting extensions control
+2026-11-17 22:15:10.999 [info] Getting extensions control
+2026-11-17 22:15:12.864 [error] Error getting extensions control manifest net::ERR_NETWORK_CHANGED
+2026-11-17 22:20:12.868 [info] Getting extensions control
+2026-11-17 22:25:15.673 [info] Getting extensions control
+2026-11-17 22:30:16.696 [info] Getting extensions control
+2026-11-17 22:35:18.914 [info] Getting extensions control
+2026-11-17 22:35:20.859 [error] Error getting extensions control manifest net::ERR_NETWORK_CHANGED
+2026-11-17 22:40:20.861 [info] Getting extensions control
+2026-11-17 22:45:22.216 [info] Getting extensions control
+2026-11-17 22:45:25.218 [error] Error getting extensions control manifest Timeout getting extensions control
+2026-11-17 22:50:25.221 [info] Getting extensions control
+2026-11-17 22:55:25.678 [info] Getting extensions control
+2026-11-17 23:00:26.818 [info] Getting extensions control
+2026-11-17 23:00:29.822 [error] Error getting extensions control manifest Timeout getting extensions control
+2026-11-17 23:05:29.825 [info] Getting extensions control
+2026-11-17 23:05:32.826 [error] Error getting extensions control manifest Timeout getting extensions control
+2026-11-17 23:10:32.831 [info] Getting extensions control
+2026-11-17 23:15:33.601 [info] Getting extensions control
+2026-11-17 23:20:34.572 [info] Getting extensions control
+2026-11-17 23:20:37.574 [error] Error getting extensions control manifest Timeout getting extensions control

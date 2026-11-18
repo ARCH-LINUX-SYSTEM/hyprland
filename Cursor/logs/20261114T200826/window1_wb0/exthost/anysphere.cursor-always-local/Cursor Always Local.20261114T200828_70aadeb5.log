@@ -1,0 +1,24 @@
+2026-11-14 20:08:30.271 [info] [PrivateInferenceHttpGuard] installed (lockdown disabled)
+2026-11-14 20:09:49.186 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-14 20:09:49.189 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-14 20:09:49.189 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-14 20:09:49.190 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-14 20:09:49.195 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-14 20:09:49.199 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-14 20:09:49.199 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-14 20:09:49.200 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-14 20:09:51.111 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-14 20:09:51.112 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-14 20:09:51.115 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-14 20:09:51.115 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-14 20:09:51.116 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-14 20:09:54.898 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-14 20:09:54.898 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-14 20:09:54.900 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-14 20:09:54.900 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-14 20:09:54.900 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-14 20:10:07.072 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-14 20:10:07.073 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-14 20:10:07.077 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-14 20:10:07.079 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-14 20:10:07.079 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000

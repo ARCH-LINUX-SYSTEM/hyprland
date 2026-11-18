@@ -1,0 +1,4 @@
+2026-11-14 20:24:08.656 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:24:08.663 [info] [MCPService] createClient completed for server: plugin-figma-figma, connected=false, statusType=needsAuth
+2026-11-14 20:24:25.363 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:24:25.363 [info] [MCPService] createClient completed for server: plugin-figma-figma, connected=false, statusType=needsAuth

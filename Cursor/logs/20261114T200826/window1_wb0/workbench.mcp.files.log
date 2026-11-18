@@ -1,0 +1,8 @@
+2026-11-14 20:08:29.874 [info] [MCPService] Plugin MCP census: {"trigger":"plugins_changed","providerOutcome":"ok","descriptorsReceived":0,"pluginServersAssigned":0,"defaultServers":0,"userServers":0,"projectServers":0,"extensionServers":0,"providerServers":1,"effectiveTotal":1,"enabledTotal":1,"remoteAuthorityPrefix":"local"}
+2026-11-14 20:09:48.998 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:09:49.106 [info] [MCPService] createClient completed for server: cursor-origin, statusType=initializing, success=true
+2026-11-14 20:09:49.108 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:09:49.150 [info] [MCPService] createClient completed for server: cursor-origin, statusType=initializing, success=true
+2026-11-14 20:09:49.151 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:09:49.161 [info] [MCPService] createClient completed for server: cursor-origin, statusType=initializing, success=true
+2026-11-14 20:10:08.522 [info] [MCPService] Plugin MCP census: {"trigger":"login_changed","providerOutcome":"error","descriptorsReceived":0,"pluginServersAssigned":0,"defaultServers":1,"userServers":0,"projectServers":0,"extensionServers":0,"providerServers":2,"effectiveTotal":3,"enabledTotal":3,"remoteAuthorityPrefix":"local"}

@@ -1,0 +1,22 @@
+2026-11-17 21:09:33.040 [info] [PrivateInferenceHttpGuard] installed (lockdown disabled)
+2026-11-17 21:09:33.046 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-17 21:09:33.050 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-17 21:09:33.058 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-17 21:09:33.059 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-17 21:09:33.059 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-17 21:09:37.555 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-17 21:09:37.556 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-17 21:09:37.593 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-17 21:09:37.593 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-17 21:09:37.594 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-17 21:09:51.048 [info] [PrivateInferenceHttpGuard] installed (lockdown disabled)
+2026-11-17 21:09:51.052 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-17 21:09:51.055 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-17 21:09:51.059 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-17 21:09:51.060 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-17 21:09:51.061 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000
+2026-11-17 21:09:52.796 [info] [HTTP/2 Ping] agent interval=10000 timeout=20000
+2026-11-17 21:09:52.796 [info] [HTTP/2 Ping] local_loop_inference interval=10000 timeout=20000
+2026-11-17 21:09:52.799 [info] [HTTP/2 Ping] remote_agent_host_presence interval=10000 timeout=20000
+2026-11-17 21:09:52.800 [info] [HTTP/2 Ping] agentic_composer interval=10000 timeout=20000
+2026-11-17 21:09:52.800 [info] [HTTP/2 Ping] background_composer_proxy interval=10000 timeout=20000

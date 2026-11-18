@@ -1,0 +1,2 @@
+2026-11-14 20:23:31.233 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:23:31.233 [info] [MCPService] createClient completed for server: plugin-shadcn-shadcn, statusType=initializing, success=true

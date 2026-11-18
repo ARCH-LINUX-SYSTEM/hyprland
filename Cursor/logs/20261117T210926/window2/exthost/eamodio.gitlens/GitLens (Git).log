@@ -1,0 +1,35 @@
+2026-11-17 21:09:51.440 [error] [         41ms] [/home/haidangphan/Documents/tutor] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-11-17 21:09:51.454 [info] [          5ms] [/home/haidangphan/Documents/tutor/gateway] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-11-17 21:09:51.495 [info] [          6ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env • completed
+2026-11-17 21:09:52.482 [info] [         13ms] [/home/haidangphan/Documents/tutor/gateway] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D%(upstream:remotename)%1D%(upstream:remoteref)%1D%(push)%1D refs/heads/ refs/remotes/ refs/tags/ refs/replace/ • completed
+2026-11-17 21:09:52.482 [info] [         16ms] [/home/haidangphan/Documents/tutor/gateway] git remote -v • completed
+2026-11-17 21:09:52.482 [info] [          9ms] [/home/haidangphan/Documents/tutor/gateway] git worktree list --porcelain • completed
+2026-11-17 21:09:52.487 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config . • completed
+2026-11-17 21:09:52.501 [info] [         12ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-17 21:09:52.501 [info] [         12ms] [/home/haidangphan/Documents/tutor/gateway] git config --global --get-all maintenance.repo • completed
+2026-11-17 21:09:52.504 [info] [         16ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-17 21:09:52.508 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git worktree list --porcelain • completed
+2026-11-17 21:09:52.509 [info] [          3ms] [/home/haidangphan/Documents/tutor/gateway] git config -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config branch.chore/local-changes-2026-11-15.gk-last-accessed 2026-11-17T14:09:52.499Z • completed
+2026-11-17 21:09:52.515 [info] [          5ms] [/home/haidangphan/Documents/tutor/gateway] git config --type=bool --get core.commitGraph • completed
+2026-11-17 21:09:52.516 [info] [          2ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config . • completed
+2026-11-17 21:09:52.521 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-17 21:09:52.521 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ (waiting) • completed
+2026-11-17 21:09:52.523 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-17 21:09:52.528 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git commit-graph write --reachable --split --changed-paths --max-new-filters=512 • completed
+2026-11-17 21:09:52.536 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-17 21:09:52.536 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-17 21:09:57.772 [error] [          5ms] [/home/haidangphan/Documents/tutor] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-11-17 21:10:27.482 [info] [         11ms] [/home/haidangphan/Documents/tutor/gateway] git rev-list --max-parents=0 HEAD -- • completed
+2026-11-17 21:10:27.484 [info] [         12ms] [/home/haidangphan/Documents/tutor/gateway] git shortlog -s --all --no-min-parents --since=1.year.ago • completed
+2026-11-17 21:24:59.270 [error] [          8ms] [/home/haidangphan/Documents/tutor/.claude/skills/jev-router/scripts] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-11-17 21:49:57.719 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal)user • completed
+2026-11-17 21:49:57.725 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^user\.(name|email)$ • completed
+2026-11-17 21:49:57.729 [info] [          3ms] [/home/haidangphan/Documents/tutor/gateway] git check-mailmap Phan Đăng Hải <chienbinhthephai@gmail.com> • completed
+2026-11-17 21:49:57.733 [info] [→1           ] (spawn) [/home/haidangphan/Documents/tutor/gateway] git blame --root --incremental --encoding=utf-8 -- user • starting...
+2026-11-17 21:49:57.738 [info] [←1        8ms] (spawn) [/home/haidangphan/Documents/tutor/gateway] git blame --root --incremental --encoding=utf-8 -- user • completed
+2026-11-17 21:49:57.763 [info] [         14ms] [/home/haidangphan/Documents/tutor/gateway] git log --format=%x1E%H%x1D --summary -n1 5dac8824578f396e99dc13f73f7bbbe80ffcf37e^ -- .env.compose • completed
+2026-11-17 21:49:57.764 [info] [         14ms] [/home/haidangphan/Documents/tutor/gateway] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 5dac8824578f396e99dc13f73f7bbbe80ffcf37e -- • completed
+2026-11-17 21:49:57.765 [info] [         26ms] [/home/haidangphan/Documents/tutor/gateway] git show --textconv HEAD:./user -- • completed

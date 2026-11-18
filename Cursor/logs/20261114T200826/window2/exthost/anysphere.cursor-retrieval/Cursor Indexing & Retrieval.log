@@ -1,0 +1,49 @@
+2026-11-14 20:10:07.328 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:10:07.328 [error] Error: Failed to execute git
+	at VTe._exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1375517)
+	at async VTe.exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1373614)
+	at async __e.executeGitCommandStable (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1421357)
+	at async __e.getRepoInfo (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1383808)
+2026-11-14 20:10:07.335 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:10:07.335 [warning] Failed to get symbolic ref: Failed to execute git
+2026-11-14 20:10:07.338 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2026-11-14 20:10:07.349 [warning] Failed to get branches from remote: Failed to execute git
+2026-11-14 20:10:07.350 [warning] Failed to get default branch from git config: Failed to execute git
+2026-11-14 20:10:07.504 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-11-14 20:10:07.504 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-11-14 20:10:07.504 [error] NoWorkspaceUriError
+2026-11-14 20:10:10.416 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:10:10.416 [error] NoWorkspaceUriError
+2026-11-14 20:10:12.228 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:10:12.228 [error] NoWorkspaceUriError
+2026-11-14 20:10:35.655 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:10:35.655 [error] Error: Failed to execute git
+	at VTe._exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1375517)
+	at async VTe.exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1373614)
+	at async __e.executeGitCommandStable (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1421357)
+	at async __e.getRepoInfo (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1383808)
+2026-11-14 20:10:35.662 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:10:35.663 [warning] Failed to get symbolic ref: Failed to execute git
+2026-11-14 20:10:35.665 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/haidangphan/Documents/tutor/.git/HEAD')
+2026-11-14 20:10:35.678 [warning] Failed to get branches from remote: Failed to execute git
+2026-11-14 20:10:35.679 [warning] Failed to get default branch from git config: Failed to execute git
+2026-11-14 20:10:35.826 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-11-14 20:10:35.826 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-11-14 20:10:35.827 [info] Making keys for a new index
+2026-11-14 20:10:35.828 [info] Using the default key from the server for a new index
+2026-11-14 20:10:35.828 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-14 20:10:35.829 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-14 20:10:35.873 [info] Using existing keys for an index
+2026-11-14 20:10:35.873 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-14 20:11:27.161 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:11:27.161 [info] Using existing keys for an index
+2026-11-14 20:11:27.161 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-14 20:11:27.184 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-14 20:11:29.568 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:11:29.568 [info] Using existing keys for an index
+2026-11-14 20:11:29.568 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-14 20:11:29.587 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-14 20:13:49.801 [warning] Failed to get symbolic ref: Failed to execute git
+2026-11-14 20:13:49.804 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/haidangphan/Documents/tutor/.git/HEAD')
+2026-11-14 20:13:49.813 [warning] Failed to get branches from remote: Failed to execute git
+2026-11-14 20:13:49.813 [warning] Failed to get default branch from git config: Failed to execute git

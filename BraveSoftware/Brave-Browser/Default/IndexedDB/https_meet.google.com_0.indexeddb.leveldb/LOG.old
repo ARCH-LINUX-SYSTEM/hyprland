@@ -1,0 +1,6 @@
+2026/11/15-18:29:49.128 a5e Creating DB /home/haidangphan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb since it was missing.
+2026/11/15-18:29:49.233 a5e Reusing MANIFEST /home/haidangphan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/15-18:30:28.250 a61 Level-0 table #5: started
+2026/11/15-18:30:28.282 a61 Level-0 table #5: 3417 bytes OK
+2026/11/15-18:30:28.285 a61 Delete type=0 #3
+2026/11/15-18:30:28.285 a61 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

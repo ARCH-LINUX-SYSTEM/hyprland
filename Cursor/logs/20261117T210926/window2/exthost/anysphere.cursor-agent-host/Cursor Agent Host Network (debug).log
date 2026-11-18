@@ -1,0 +1,24 @@
+2026-11-17 21:09:33.681 [info] [KillSwitchGate] agent_host_single_address_dial is now on
+2026-11-17 21:09:33.681 [info] [AiConnectTransportHandler] getInitialValues: auth ready {"hasAccessToken":true}
+2026-11-17 21:09:33.694 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:33.694 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:33.697 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:33.700 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:33.702 [info] [AiConnectTransportHandler] transports rebuilt (init): none -> http2, http1 reason none
+2026-11-17 21:09:37.552 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:37.552 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:37.555 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:37.571 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:37.576 [info] [AiConnectTransportHandler] transports rebuilt (creds): http2 -> http2, http1 reason none
+2026-11-17 21:09:51.602 [info] [KillSwitchGate] agent_host_single_address_dial is now on
+2026-11-17 21:09:51.602 [info] [AiConnectTransportHandler] getInitialValues: auth ready {"hasAccessToken":true}
+2026-11-17 21:09:51.609 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:51.609 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:51.614 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:51.618 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:51.623 [info] [AiConnectTransportHandler] transports rebuilt (init): none -> http2, http1 reason none
+2026-11-17 21:09:52.796 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:52.797 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:52.798 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:52.801 [info] [TransportFactory] Creating dynamic HTTP/1 transports with keepalive killswitch
+2026-11-17 21:09:52.803 [info] [AiConnectTransportHandler] transports rebuilt (creds): http2 -> http2, http1 reason none

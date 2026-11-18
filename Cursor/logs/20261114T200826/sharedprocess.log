@@ -1,0 +1,61 @@
+2026-11-14 20:08:26.868 [info] Getting extensions control
+2026-11-14 20:08:26.873 [info] Started initializing default profile extensions in extensions installation folder. file:///home/haidangphan/.cursor/extensions
+2026-11-14 20:08:26.905 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/haidangphan/.cursor/extensions
+2026-11-14 20:08:29.872 [error] Error getting extensions control manifest Timeout getting extensions control
+2026-11-14 20:08:43.063 [info] Getting Manifest... anysphere.remote-ssh
+2026-11-14 20:08:43.068 [info] Getting Manifest... anysphere.remote-containers
+2026-11-14 20:08:44.093 [info] Installing extension: anysphere.remote-containers {"isApplicationScoped":true,"donotIncludePackAndDependencies":true,"context":{"skipPublisherTrust":true},"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-14 20:08:44.093 [info] Installing the extension without checking dependencies and pack anysphere.remote-containers
+2026-11-14 20:08:44.095 [info] Started downloading extension: anysphere.remote-containers 1.0.41 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/anysphere.remote-containers-1.0.41
+2026-11-14 20:08:44.372 [info] Installing extension: anysphere.remote-ssh {"isApplicationScoped":true,"donotIncludePackAndDependencies":true,"context":{"skipPublisherTrust":true},"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-14 20:08:44.372 [info] Installing the extension without checking dependencies and pack anysphere.remote-ssh
+2026-11-14 20:08:44.373 [info] Started downloading extension: anysphere.remote-ssh 1.1.17 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/anysphere.remote-ssh-1.1.17
+2026-11-14 20:08:45.917 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/anysphere.remote-ssh-1.1.17: anysphere.remote-ssh
+2026-11-14 20:08:45.922 [info] Renamed to /home/haidangphan/.cursor/extensions/anysphere.remote-ssh-1.1.17
+2026-11-14 20:08:45.928 [info] Extension installed successfully: anysphere.remote-ssh vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-14 20:08:45.933 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/anysphere.remote-containers-1.0.41: anysphere.remote-containers
+2026-11-14 20:08:45.936 [info] Renamed to /home/haidangphan/.cursor/extensions/anysphere.remote-containers-1.0.41
+2026-11-14 20:08:45.942 [info] Extension installed successfully: anysphere.remote-containers vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-14 20:11:22.995 [info] Getting Manifest... dracula-theme.theme-dracula
+2026-11-14 20:11:23.515 [info] Getting Manifest... pkief.material-icon-theme
+2026-11-14 20:11:34.501 [info] Installing extension: dracula-theme.theme-dracula {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-14 20:11:34.512 [info] Started downloading extension: dracula-theme.theme-dracula 2.25.1 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/dracula-theme.theme-dracula-2.25.1-universal
+2026-11-14 20:11:34.525 [info] Installing extension: pkief.material-icon-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-14 20:11:34.534 [info] Started downloading extension: pkief.material-icon-theme 5.40.0 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/pkief.material-icon-theme-5.40.0-universal
+2026-11-14 20:11:36.220 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/dracula-theme.theme-dracula-2.25.1-universal: dracula-theme.theme-dracula
+2026-11-14 20:11:36.223 [info] Renamed to /home/haidangphan/.cursor/extensions/dracula-theme.theme-dracula-2.25.1-universal
+2026-11-14 20:11:36.230 [info] Extension installed successfully: dracula-theme.theme-dracula vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-14 20:11:36.406 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/pkief.material-icon-theme-5.40.0-universal: pkief.material-icon-theme
+2026-11-14 20:11:36.464 [info] Renamed to /home/haidangphan/.cursor/extensions/pkief.material-icon-theme-5.40.0-universal
+2026-11-14 20:11:36.470 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-14 20:11:37.520 [info] Getting Manifest... esbenp.prettier-vscode
+2026-11-14 20:11:38.065 [info] Getting Manifest... dsznajder.es7-react-js-snippets
+2026-11-14 20:11:38.386 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-14 20:11:38.409 [info] Started downloading extension: esbenp.prettier-vscode 12.4.0 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/esbenp.prettier-vscode-12.4.0-universal
+2026-11-14 20:11:38.651 [info] Installing extension: dsznajder.es7-react-js-snippets {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-14 20:11:38.662 [info] Started downloading extension: dsznajder.es7-react-js-snippets 4.4.3 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/dsznajder.es7-react-js-snippets-4.4.3-universal
+2026-11-14 20:11:40.245 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/esbenp.prettier-vscode-12.4.0-universal: esbenp.prettier-vscode
+2026-11-14 20:11:40.251 [info] Renamed to /home/haidangphan/.cursor/extensions/esbenp.prettier-vscode-12.4.0-universal
+2026-11-14 20:11:40.257 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-14 20:11:41.046 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/dsznajder.es7-react-js-snippets-4.4.3-universal: dsznajder.es7-react-js-snippets
+2026-11-14 20:11:41.050 [info] Renamed to /home/haidangphan/.cursor/extensions/dsznajder.es7-react-js-snippets-4.4.3-universal
+2026-11-14 20:11:41.055 [info] Extension installed successfully: dsznajder.es7-react-js-snippets vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-14 20:12:05.012 [info] Getting Manifest... aaron-bond.better-comments
+2026-11-14 20:12:06.211 [info] Installing extension: aaron-bond.better-comments {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-14 20:12:06.228 [info] Started downloading extension: aaron-bond.better-comments 3.2.0 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/aaron-bond.better-comments-3.2.0-universal
+2026-11-14 20:12:09.423 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/aaron-bond.better-comments-3.2.0-universal: aaron-bond.better-comments
+2026-11-14 20:12:09.426 [info] Renamed to /home/haidangphan/.cursor/extensions/aaron-bond.better-comments-3.2.0-universal
+2026-11-14 20:12:09.431 [info] Extension installed successfully: aaron-bond.better-comments vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-14 20:12:28.342 [info] Getting Manifest... eamodio.gitlens
+2026-11-14 20:12:30.828 [info] Installing extension: eamodio.gitlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-14 20:12:30.842 [info] Started downloading extension: eamodio.gitlens 19.6.0 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/eamodio.gitlens-19.6.0-universal
+2026-11-14 20:12:33.104 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal: eamodio.gitlens
+2026-11-14 20:12:33.118 [info] Renamed to /home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal
+2026-11-14 20:12:33.146 [info] Extension installed successfully: eamodio.gitlens vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-14 20:12:42.714 [info] Getting Manifest... dbaeumer.vscode-eslint
+2026-11-14 20:12:43.860 [info] Installing extension: dbaeumer.vscode-eslint {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json","path":"/home/haidangphan/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"3.30.14","date":"2026-11-13T06:36:47.504Z","vscodeVersion":"1.128.0"}}
+2026-11-14 20:12:43.883 [info] Started downloading extension: dbaeumer.vscode-eslint 3.0.34 file:///home/haidangphan/.config/Cursor/CachedExtensionVSIXs/dbaeumer.vscode-eslint-3.0.34-universal
+2026-11-14 20:12:45.523 [info] Extracted extension to file:///home/haidangphan/.cursor/extensions/dbaeumer.vscode-eslint-3.0.34-universal: dbaeumer.vscode-eslint
+2026-11-14 20:12:45.525 [info] Renamed to /home/haidangphan/.cursor/extensions/dbaeumer.vscode-eslint-3.0.34-universal
+2026-11-14 20:12:45.535 [info] Extension installed successfully: dbaeumer.vscode-eslint vscode-userdata:/home/haidangphan/.cursor/extensions/extensions.json
+2026-11-14 20:14:37.905 [info] Getting extensions control

@@ -1,0 +1,69 @@
+{
+   "checksum": "55d14422796ea7825f745c69a2158437",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13439045139697319",
+            "date_last_used": "13439217121883167",
+            "guid": "2048146d-2326-4ec5-859f-308ebba3853d",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/?app=desktop&hl=vi"
+         }, {
+            "date_added": "13439095033579583",
+            "date_last_used": "13439175599455584",
+            "guid": "4ddb8141-dabe-453b-bc28-1f1010338568",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Virtualizor",
+            "type": "url",
+            "url": "https://clouds.thuevpsgiare.vn:4083/sess3488W7yIXn3WgCln/index.php?act=vpsmanage&svs=12019"
+         }, {
+            "date_added": "13439314647429027",
+            "date_last_used": "0",
+            "guid": "3212c303-1de0-4b8a-914e-ed0fc18e0119",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Docker build frozen lockfile error - Claude",
+            "type": "url",
+            "url": "https://claude.ai/chat/e06b51cc-759f-4938-b217-fecb3e087103"
+         } ],
+         "date_added": "13439045072893783",
+         "date_last_used": "0",
+         "date_modified": "13439314647429027",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13439045072893783",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13439045072893783",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

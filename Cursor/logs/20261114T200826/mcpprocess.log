@@ -1,0 +1,69 @@
+2026-11-14 20:08:29.318 [info] [McpProcess] starting utility process entryPoint=vs/code/electron-utility/mcpProcess/mcpProcessMain restartCount=0 coldStartTimeoutMs=60000 loggerCount=7
+2026-11-14 20:08:29.320 [info] [McpProcess] utility process start returned true
+2026-11-14 20:08:29.321 [info] [McpProcess] spawned utility process pid=21256
+2026-11-14 20:08:29.665 [info] [McpProcess startup] phase=entrypoint_loaded elapsedMs=0
+2026-11-14 20:08:29.665 [info] [McpProcess startup] phase=config_wait_started elapsedMs=0
+2026-11-14 20:08:29.665 [info] [McpProcess startup] phase=config_received elapsedMs=1 data={"hasConfig":true}
+2026-11-14 20:08:29.665 [info] [McpProcess startup] phase=main_entered elapsedMs=1 data={"restartCount":0,"coldStartTimeoutMs":60000,"loggerCount":7,"profileCount":1,"logLevel":3}
+2026-11-14 20:08:29.666 [info] [McpProcess startup] phase=before_ipc_ready elapsedMs=2
+2026-11-14 20:08:29.666 [info] [McpProcess] received lifecycle signal ipcReady; entryPoint=vs/code/electron-utility/mcpProcess/mcpProcessMain waitingFor=ipcReady lastPhase=before_ipc_ready lastMessage=<none> lastPhaseElapsedMs=2 spawnPid=21256 startReturned=true crashEventReceived=false restartCount=0 coldStartTimeoutMs=60000 elapsedMs=348
+2026-11-14 20:08:29.667 [info] [McpProcess startup] phase=after_ipc_ready elapsedMs=2
+2026-11-14 20:08:29.667 [info] [McpProcess startup] phase=init_services_start elapsedMs=2
+2026-11-14 20:08:29.667 [info] [McpProcess startup] phase=init_services_end elapsedMs=3
+2026-11-14 20:08:29.668 [info] [McpProcess stdout]  INFO [McpProcessMain] Sandbox configured: binary=/usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:08:29.668 [info] [McpProcess startup] phase=init_channels_start elapsedMs=4
+2026-11-14 20:08:29.669 [info] [McpProcess startup] phase=init_channels_end elapsedMs=5
+2026-11-14 20:08:29.669 [info] [McpProcess startup] phase=before_init_done elapsedMs=5
+2026-11-14 20:08:29.669 [info] [McpProcess] received lifecycle signal initDone; entryPoint=vs/code/electron-utility/mcpProcess/mcpProcessMain waitingFor=initDone lastPhase=before_init_done lastMessage=<none> lastPhaseElapsedMs=5 spawnPid=21256 startReturned=true crashEventReceived=false restartCount=0 coldStartTimeoutMs=60000 elapsedMs=351
+2026-11-14 20:08:29.670 [info] [McpProcess startup] phase=after_init_done elapsedMs=5
+2026-11-14 20:08:29.677 [info] [McpProcessMain] Sandbox configured: binary=/usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:09:49.108 [info] [McpProcess stdout]  INFO connecting streamableHttp for "Origin" (cursor-origin)
+2026-11-14 20:09:49.110 [info] [McpProcess stdout]  INFO [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:09:49.117 [info] connecting streamableHttp for "Origin" (cursor-origin)
+2026-11-14 20:09:49.117 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:09:49.152 [info] [McpProcess stdout]  INFO [McpProxyFetch] Built VS Code proxy-aware MCP fetch for cursor-origin::mcpScope:profile:ZGVmYXVsdA:cfg:Y2JiOWEzYzA (origin: https://api.origin.cursor.com, ownerWindowId: 1)
+2026-11-14 20:09:49.153 [info] [McpProxyFetch] Built VS Code proxy-aware MCP fetch for cursor-origin::mcpScope:profile:ZGVmYXVsdA:cfg:Y2JiOWEzYzA (origin: https://api.origin.cursor.com, ownerWindowId: 1)
+2026-11-14 20:09:50.413 [info] [McpProcess stdout]  INFO Successfully connected to streamableHttp server
+2026-11-14 20:09:50.414 [info] [McpProcess stdout]  INFO [V2 FSM] connection:connect_success: conn=connecting,auth=unknown -> conn=connected,auth=unknown
+2026-11-14 20:09:50.415 [info] Successfully connected to streamableHttp server
+2026-11-14 20:09:50.415 [info] [V2 FSM] connection:connect_success: conn=connecting,auth=unknown -> conn=connected,auth=unknown
+2026-11-14 20:09:51.069 [warning] [McpProcess stderr]  WARN MCP HTTP exchange completed
+2026-11-14 20:09:51.069 [warning] MCP HTTP exchange completed
+2026-11-14 20:13:00.465 [info] [McpProcess stdout]  INFO connecting stdio for "extension-GitKraken" (user-eamodio.gitlens-extension-GitKraken)
+2026-11-14 20:13:00.465 [info] [McpProcess stdout]  INFO [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:13:00.467 [info] connecting stdio for "extension-GitKraken" (user-eamodio.gitlens-extension-GitKraken)
+2026-11-14 20:13:00.467 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:13:00.468 [info] [McpProcess stdout]  INFO MCP stdio spawn policy decision: sandboxed=false, sandboxReason=controls_disabled, networkControlsEnabled=false, mcpNetworkMode=unset, mcpNetworkAllowlistCount=0, mcpNetworkDenylistCount=0, localAgentNetworkAllowlistCount=0, sandboxPolicyHash=dbad6ab7a53b8aaa3269e0c907d30e5e1483298ffc76de0456eeb31b7d11df5e
+2026-11-14 20:13:00.473 [info] MCP stdio spawn policy decision: sandboxed=false, sandboxReason=controls_disabled, networkControlsEnabled=false, mcpNetworkMode=unset, mcpNetworkAllowlistCount=0, mcpNetworkDenylistCount=0, localAgentNetworkAllowlistCount=0, sandboxPolicyHash=dbad6ab7a53b8aaa3269e0c907d30e5e1483298ffc76de0456eeb31b7d11df5e
+2026-11-14 20:13:00.498 [info] [McpProcess stdout]  INFO Successfully connected to stdio server
+2026-11-14 20:13:00.498 [info] [McpProcess stdout]  INFO [V2 FSM] connection:connect_success: conn=connecting,auth=unknown -> conn=connected,auth=unknown
+2026-11-14 20:13:00.498 [info] Successfully connected to stdio server
+2026-11-14 20:13:00.498 [info] [V2 FSM] connection:connect_success: conn=connecting,auth=unknown -> conn=connected,auth=unknown
+2026-11-14 20:13:00.502 [info] [McpProcess stdout]  INFO Subscribed to 4 resources
+2026-11-14 20:13:00.502 [info] Subscribed to 4 resources
+2026-11-14 20:13:02.841 [info] [McpProcess stdout]  INFO connecting stdio for "shadcn" (plugin-shadcn-shadcn)
+2026-11-14 20:13:02.841 [info] [McpProcess stdout]  INFO [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:13:02.842 [info] [McpProcess stdout]  INFO connecting streamableHttp for "figma" (plugin-figma-figma)
+ INFO [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:13:02.842 [info] connecting stdio for "shadcn" (plugin-shadcn-shadcn)
+2026-11-14 20:13:02.842 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:13:02.843 [info] connecting streamableHttp for "figma" (plugin-figma-figma)
+2026-11-14 20:13:02.843 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:13:02.850 [info] [McpProcess stdout]  INFO MCP stdio spawn policy decision: sandboxed=false, sandboxReason=controls_disabled, networkControlsEnabled=false, mcpNetworkMode=unset, mcpNetworkAllowlistCount=0, mcpNetworkDenylistCount=0, localAgentNetworkAllowlistCount=0, sandboxPolicyHash=dbad6ab7a53b8aaa3269e0c907d30e5e1483298ffc76de0456eeb31b7d11df5e
+2026-11-14 20:13:02.852 [info] MCP stdio spawn policy decision: sandboxed=false, sandboxReason=controls_disabled, networkControlsEnabled=false, mcpNetworkMode=unset, mcpNetworkAllowlistCount=0, mcpNetworkDenylistCount=0, localAgentNetworkAllowlistCount=0, sandboxPolicyHash=dbad6ab7a53b8aaa3269e0c907d30e5e1483298ffc76de0456eeb31b7d11df5e
+2026-11-14 20:13:02.855 [warning] [McpProcess stderr]  WARN Connection failed: spawn npx ENOENT
+2026-11-14 20:13:02.855 [warning] [McpProcess stderr]  WARN [V2 FSM] connection:connect_failure: conn=connecting,auth=unknown -> conn=failed,auth=unknown
+2026-11-14 20:13:02.855 [warning] Connection failed: spawn npx ENOENT
+2026-11-14 20:13:02.855 [warning] [V2 FSM] connection:connect_failure: conn=connecting,auth=unknown -> conn=failed,auth=unknown
+2026-11-14 20:13:02.857 [info] [McpProcess stdout]  INFO [McpProxyFetch] Built VS Code proxy-aware MCP fetch for plugin-figma-figma::mcpScope:profile:ZGVmYXVsdA:cfg:OGQzODg3M2Q (origin: https://mcp.figma.com, ownerWindowId: 2)
+2026-11-14 20:13:02.858 [info] [McpProxyFetch] Built VS Code proxy-aware MCP fetch for plugin-figma-figma::mcpScope:profile:ZGVmYXVsdA:cfg:OGQzODg3M2Q (origin: https://mcp.figma.com, ownerWindowId: 2)
+2026-11-14 20:13:02.862 [info] [McpProcess stdout]  INFO [McpProxyFetch] Built VS Code proxy-aware MCP fetch for plugin-figma-figma::mcpScope:profile:ZGVmYXVsdA:cfg:OGQzODg3M2Q (origin: https://mcp.figma.com, ownerWindowId: 2)
+2026-11-14 20:13:02.862 [info] [McpProxyFetch] Built VS Code proxy-aware MCP fetch for plugin-figma-figma::mcpScope:profile:ZGVmYXVsdA:cfg:OGQzODg3M2Q (origin: https://mcp.figma.com, ownerWindowId: 2)
+2026-11-14 20:13:19.487 [warning] [McpProcess stderr]  WARN MCP HTTP exchange failed
+2026-11-14 20:13:19.488 [warning] MCP HTTP exchange failed
+2026-11-14 20:13:26.128 [info] [McpProcess stdout]  INFO MCP OAuth redirect
+2026-11-14 20:13:26.128 [info] MCP OAuth redirect
+2026-11-14 20:13:26.129 [info] [McpProcess stdout]  INFO Connect failed after auth_required; returning needsAuth (streamableHttp)
+2026-11-14 20:13:26.129 [info] Connect failed after auth_required; returning needsAuth (streamableHttp)
+2026-11-14 20:13:26.129 [info] [McpProcess stdout]  INFO MCP OAuth needsAuth (v2)
+2026-11-14 20:13:26.129 [info] MCP OAuth needsAuth (v2)

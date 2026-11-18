@@ -1,0 +1,11 @@
+2026-11-14 20:23:31.243 [info] connecting stdio for "shadcn" (plugin-shadcn-shadcn)
+2026-11-14 20:23:31.243 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:23:31.250 [info] MCP stdio spawn policy decision: sandboxed=false, sandboxReason=controls_disabled, networkControlsEnabled=false, mcpNetworkMode=unset, mcpNetworkAllowlistCount=0, mcpNetworkDenylistCount=0, localAgentNetworkAllowlistCount=0, sandboxPolicyHash=dbad6ab7a53b8aaa3269e0c907d30e5e1483298ffc76de0456eeb31b7d11df5e
+2026-11-14 20:23:31.253 [warning] Connection failed: spawn npx ENOENT
+2026-11-14 20:23:31.253 [warning] [V2 FSM] connection:connect_failure: conn=connecting,auth=unknown -> conn=failed,auth=unknown
+2026-11-14 20:23:32.414 [info] stopped connection: plugin-shadcn-shadcn
+2026-11-14 20:23:32.438 [info] connecting stdio for "shadcn" (plugin-shadcn-shadcn)
+2026-11-14 20:23:32.438 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:23:32.444 [info] MCP stdio spawn policy decision: sandboxed=false, sandboxReason=controls_disabled, networkControlsEnabled=false, mcpNetworkMode=unset, mcpNetworkAllowlistCount=0, mcpNetworkDenylistCount=0, localAgentNetworkAllowlistCount=0, sandboxPolicyHash=dbad6ab7a53b8aaa3269e0c907d30e5e1483298ffc76de0456eeb31b7d11df5e
+2026-11-14 20:23:32.444 [warning] Connection failed: spawn npx ENOENT
+2026-11-14 20:23:32.444 [warning] [V2 FSM] connection:connect_failure: conn=connecting,auth=unknown -> conn=failed,auth=unknown

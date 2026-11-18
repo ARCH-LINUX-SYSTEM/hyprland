@@ -1,0 +1,23 @@
+2026-11-14 20:23:23.503 [info] [main] Log level: Info
+2026-11-14 20:23:23.503 [info] [main] Validating found git in: "/usr/bin/git"
+2026-11-14 20:23:23.510 [info] [main] Using git "2.56.0" from "/usr/bin/git"
+2026-11-14 20:23:23.510 [info] [Model][doInitialScan] Initial repository scan started
+2026-11-14 20:23:23.510 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-11-14 20:23:23.596 [info] > git config --get remote.origin.url [6ms] 
+2026-11-14 20:23:23.773 [info] > git config --get remote.origin.url [170ms] 
+2026-11-14 20:23:23.779 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [175ms] 
+2026-11-14 20:23:23.779 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:23:23.779 [info] > git log --no-ext-diff --no-textconv --skip=0 --max-count=1 --pretty=format:%H [179ms] 
+2026-11-14 20:23:23.779 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:23:23.875 [info] > git rev-parse --verify origin/main [9ms] 
+2026-11-14 20:23:23.875 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:23:23.968 [info] > git rev-parse --verify origin/master [90ms] 
+2026-11-14 20:23:23.968 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:23:23.979 [info] > git rev-parse --verify origin/develop [8ms] 
+2026-11-14 20:23:23.979 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:23:23.991 [info] > git branch -r [10ms] 
+2026-11-14 20:23:23.991 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:23:23.998 [info] > git config --get init.defaultBranch [5ms] 
+2026-11-14 20:23:33.514 [info] > git config --global user.name [1ms] 
+2026-11-14 20:23:33.518 [info] > git config --global user.email [1ms] 
+2026-11-14 20:23:33.518 [info] [main] Stored git author name in global state: Phan Đăng Hải <chienbinhthephai@gmail.com>

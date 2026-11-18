@@ -1,0 +1,7 @@
+2026-11-17 21:09:30.358 [error] Failed to check if file sync is enabled for user {}
+2026-11-17 21:09:30.358 [error] Failed to fetch fsConfig File sync is disabled
+2026-11-17 21:09:30.358 [error] Failed to fetch fsConfig File sync is disabled
+2026-11-17 21:09:30.680 [info] [registerEventListeners] Registering event listeners
+2026-11-17 21:09:35.392 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"connection aborted","code":1,"metadata":{},"details":[]}
+2026-11-17 21:09:35.392 [error] Failed to fetch fsConfig File sync is disabled
+2026-11-17 21:09:35.392 [error] Failed to fetch fsConfig File sync is disabled

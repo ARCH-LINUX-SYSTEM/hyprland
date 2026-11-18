@@ -1,0 +1,48 @@
+2026-11-14 20:24:05.350 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:24:05.350 [error] Error: Failed to execute git
+	at VTe._exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1375517)
+	at async VTe.exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1373614)
+	at async __e.executeGitCommandStable (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1421357)
+	at async __e.getRepoInfo (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1383808)
+2026-11-14 20:24:05.354 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:24:05.357 [warning] Failed to get symbolic ref: Failed to execute git
+2026-11-14 20:24:05.358 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2026-11-14 20:24:05.367 [warning] Failed to get branches from remote: Failed to execute git
+2026-11-14 20:24:05.368 [warning] Failed to get default branch from git config: Failed to execute git
+2026-11-14 20:24:05.524 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-11-14 20:24:05.524 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-11-14 20:24:05.525 [error] NoWorkspaceUriError
+2026-11-14 20:24:07.623 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:24:07.623 [error] NoWorkspaceUriError
+2026-11-14 20:24:09.381 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:24:09.381 [error] NoWorkspaceUriError
+2026-11-14 20:24:12.079 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:24:12.079 [error] Error: Failed to execute git
+	at VTe._exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1375517)
+	at async VTe.exec (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1373614)
+	at async __e.executeGitCommandStable (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1421357)
+	at async __e.getRepoInfo (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:212:1383808)
+2026-11-14 20:24:12.091 [error] Error getting repo info: Failed to execute git
+2026-11-14 20:24:12.091 [warning] Failed to get symbolic ref: Failed to execute git
+2026-11-14 20:24:12.094 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/haidangphan/Documents/tutor/.git/HEAD')
+2026-11-14 20:24:12.112 [warning] Failed to get branches from remote: Failed to execute git
+2026-11-14 20:24:12.113 [warning] Failed to get default branch from git config: Failed to execute git
+2026-11-14 20:24:12.305 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-11-14 20:24:12.305 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-11-14 20:24:12.306 [info] Using existing keys for an index
+2026-11-14 20:24:12.306 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-14 20:24:12.328 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-14 20:24:12.333 [info] Using existing keys for an index
+2026-11-14 20:24:12.333 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-14 20:24:14.589 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:24:14.590 [info] Using existing keys for an index
+2026-11-14 20:24:14.590 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-14 20:24:14.637 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-14 20:24:26.349 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 20:24:26.349 [info] Using existing keys for an index
+2026-11-14 20:24:26.349 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-14 20:24:26.368 [info] Not creating an indexing watcher: this workspace does not require one.
+2026-11-14 23:56:27.539 [info] Relevant feature gate changed; re-evaluating indexing watcher.
+2026-11-14 23:56:27.539 [info] Using existing keys for an index
+2026-11-14 23:56:27.539 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-11-14 23:56:27.571 [info] Not creating an indexing watcher: this workspace does not require one.

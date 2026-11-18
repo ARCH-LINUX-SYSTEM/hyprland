@@ -1,0 +1,23 @@
+2026/11/18-07:09:25.426 5 Reusing MANIFEST /home/haidangphan/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2026/11/18-07:09:25.428 5 Recovering log #255
+2026/11/18-07:09:25.429 5 Reusing old log /home/haidangphan/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000255.log 
+2026/11/18-07:22:14.426 9 Level-0 table #259: started
+2026/11/18-07:22:14.498 9 Level-0 table #259: 88080 bytes OK
+2026/11/18-07:22:14.501 9 Delete type=0 #255
+2026/11/18-07:22:14.502 9 Compacting 4@0 + 2@1 files
+2026/11/18-07:22:14.632 9 Generated table #260@0: 223 keys, 2305879 bytes
+2026/11/18-07:22:14.651 9 Generated table #261@0: 988 keys, 932668 bytes
+2026/11/18-07:22:14.651 9 Compacted 4@0 + 2@1 files => 3238547 bytes
+2026/11/18-07:22:14.653 9 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/11/18-07:22:14.654 9 Delete type=2 #256
+2026/11/18-07:22:14.654 9 Delete type=2 #250
+2026/11/18-07:22:14.654 9 Delete type=2 #254
+2026/11/18-07:22:14.654 9 Delete type=2 #252
+2026/11/18-07:22:14.654 9 Delete type=2 #249
+2026/11/18-07:22:14.654 9 Delete type=2 #259
+2026/11/18-07:37:35.065 9 Level-0 table #263: started
+2026/11/18-07:37:35.159 9 Level-0 table #263: 19244 bytes OK
+2026/11/18-07:37:35.162 9 Delete type=0 #258
+2026/11/18-07:55:35.064 9 Level-0 table #265: started
+2026/11/18-07:55:35.094 9 Level-0 table #265: 17162 bytes OK
+2026/11/18-07:55:35.099 9 Delete type=0 #262

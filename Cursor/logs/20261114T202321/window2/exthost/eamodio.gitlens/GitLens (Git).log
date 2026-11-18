@@ -1,0 +1,204 @@
+2026-11-14 20:24:13.095 [error] [         40ms] [/home/haidangphan/Documents/tutor] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:24:13.125 [info] [         28ms] [/home/haidangphan/Documents/tutor/third/src/features/email] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-11-14 20:24:13.157 [info] [         10ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.service.ts • completed
+2026-11-14 20:24:13.169 [info] [         10ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^user\.(name|email)$ • completed
+2026-11-14 20:24:13.178 [info] [          9ms] [/home/haidangphan/Documents/tutor/third] git check-mailmap Phan Đăng Hải <chienbinhthephai@gmail.com> • completed
+2026-11-14 20:24:13.186 [info] [→1           ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.service.ts • starting...
+2026-11-14 20:24:13.211 [info] [←1       29ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.service.ts • completed
+2026-11-14 20:24:13.237 [info] [→2           ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.service.ts • starting...
+2026-11-14 20:24:13.239 [info] [         20ms] [/home/haidangphan/Documents/tutor/third] git remote -v • completed
+2026-11-14 20:24:13.239 [info] [         27ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.service.ts -- • completed
+2026-11-14 20:24:13.250 [info] [←2       16ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.service.ts • completed
+2026-11-14 20:24:13.272 [info] [         25ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex -f /home/haidangphan/Documents/tutor/third/.git/gk/config . • completed
+2026-11-14 20:24:13.308 [info] [         29ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 c88e26a7d6005e7876655dd212bbd747015d85d9 -- • completed
+2026-11-14 20:24:14.140 [info] [         14ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 20:24:14.140 [info] [         14ms] [/home/haidangphan/Documents/tutor/third] git config --global --get-all maintenance.repo • completed
+2026-11-14 20:24:14.145 [info] [         20ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-14 20:24:14.147 [info] [         32ms] [/home/haidangphan/Documents/tutor/third] git worktree list --porcelain • completed
+2026-11-14 20:24:14.148 [info] [         32ms] [/home/haidangphan/Documents/tutor/third] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D%(upstream:remotename)%1D%(upstream:remoteref)%1D%(push)%1D refs/heads/ refs/remotes/ refs/tags/ refs/replace/ • completed
+2026-11-14 20:24:14.152 [info] [         11ms] [/home/haidangphan/Documents/tutor/third] git worktree list --porcelain • completed
+2026-11-14 20:24:14.175 [info] [         22ms] [/home/haidangphan/Documents/tutor/third] git config -f /home/haidangphan/Documents/tutor/third/.git/gk/config branch.develop.gk-last-accessed 2026-11-14T13:24:14.150Z • completed
+2026-11-14 20:24:14.177 [info] [         10ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 20:24:14.177 [info] [         10ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-14 20:24:14.177 [info] [         16ms] [/home/haidangphan/Documents/tutor/third] git config --type=bool --get core.commitGraph • completed
+2026-11-14 20:24:14.182 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex -f /home/haidangphan/Documents/tutor/third/.git/gk/config . • completed
+2026-11-14 20:24:14.186 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 20:24:14.191 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git commit-graph write --reachable --split --changed-paths --max-new-filters=512 • completed
+2026-11-14 20:24:14.200 [info] [          8ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-14 20:24:14.200 [info] [          8ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 20:24:14.492 [info] [          3ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex -f /home/haidangphan/Documents/tutor/third/.git/gk/config . • completed
+2026-11-14 20:24:49.124 [info] [          8ms] [/home/haidangphan/Documents/tutor/third] git rev-list --max-parents=0 HEAD -- • completed
+2026-11-14 20:24:49.125 [info] [          9ms] [/home/haidangphan/Documents/tutor/third] git shortlog -s --all --no-min-parents --since=1.year.ago • completed
+2026-11-14 20:29:44.077 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.service.ts • completed
+2026-11-14 20:29:44.082 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.service.ts -- • completed
+2026-11-14 20:29:48.260 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 20:38:29.816 [info] [          7ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/app.module.ts • completed
+2026-11-14 20:38:29.825 [info] [→3           ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/app.module.ts • starting...
+2026-11-14 20:38:29.827 [info] [←3        8ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/app.module.ts • completed
+2026-11-14 20:38:29.855 [info] [→4           ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/app.module.ts • starting...
+2026-11-14 20:38:29.856 [info] [         17ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D --summary -n1 20ff7699415e7ab65339d140d1a485df98091d22^ -- src/app.module.ts • completed
+2026-11-14 20:38:29.856 [info] [         28ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/app.module.ts -- • completed
+2026-11-14 20:38:29.856 [info] [         17ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 20ff7699415e7ab65339d140d1a485df98091d22 -- • completed
+2026-11-14 20:38:29.860 [info] [←4        9ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/app.module.ts • completed
+2026-11-14 20:38:31.657 [info] [          7ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 a26e8b3a50b531033599472a103fcd1620543798 -- • completed
+2026-11-14 20:38:31.792 [info] [          7ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 466e5f5e9e6863f26ba54e446d19cd8cee643b1c -- • completed
+2026-11-14 20:38:34.870 [info] [          9ms] [/home/haidangphan/Documents/tutor/third] git diff --no-ext-diff --minimal -U0 -M --diff-filter=MRC 0f96031c3ba9b604a5570d00995761490e1b3817 -- src/app.module.ts • completed
+2026-11-14 20:38:34.870 [info] [         16ms] [/home/haidangphan/Documents/tutor/third] git cat-file commit a26e8b3a50b531033599472a103fcd1620543798 • completed
+2026-11-14 20:38:37.889 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-11-14 20:38:37.893 [info] [          3ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D -n2 -L6,6:src/app.module.ts • completed
+2026-11-14 20:38:41.609 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-11-14 20:38:41.615 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D -n2 -L6,6:src/app.module.ts • completed
+2026-11-14 20:38:42.548 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 a997334edc8ceb0c8f0b2420c3dd57ed33747421 -- • completed
+2026-11-14 20:38:44.014 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 20:38:44.806 [info] [          8ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/app.module.ts -- • completed
+2026-11-14 20:39:09.259 [info] [          7ms] [/home/haidangphan/Documents/tutor/third] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-11-14 20:39:09.264 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D -n2 -L6,6:src/app.module.ts • completed
+2026-11-14 20:39:09.338 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-11-14 20:39:09.343 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D -n2 -L6,6:src/app.module.ts • completed
+2026-11-14 20:39:14.260 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 20:39:14.875 [info] [          8ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/app.module.ts -- • completed
+2026-11-14 20:40:28.759 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.controller.ts • completed
+2026-11-14 20:40:28.763 [info] [→5           ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.controller.ts • starting...
+2026-11-14 20:40:28.765 [info] [←5        5ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.controller.ts • completed
+2026-11-14 20:40:28.777 [info] [→6           ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.controller.ts • starting...
+2026-11-14 20:40:28.778 [info] [          9ms] [/home/haidangphan/Documents/tutor/third] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-11-14 20:40:28.781 [info] [         16ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.controller.ts -- • completed
+2026-11-14 20:40:28.782 [info] [←6        7ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.controller.ts • completed
+2026-11-14 20:40:28.783 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D -n2 -L1,1:src/features/email/email.controller.ts • completed
+2026-11-14 20:41:35.171 [info] [          9ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 29cdd47fb61f082cf328e34bf8970296f032a66f -- • completed
+2026-11-14 20:41:42.268 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.service.ts • completed
+2026-11-14 20:41:42.272 [info] [→7           ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.service.ts • starting...
+2026-11-14 20:41:42.274 [info] [←7        5ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.service.ts • completed
+2026-11-14 20:41:42.289 [info] [→8           ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.service.ts • starting...
+2026-11-14 20:41:42.292 [info] [         12ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 c88e26a7d6005e7876655dd212bbd747015d85d9 -- • completed
+2026-11-14 20:41:42.293 [info] [         18ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.service.ts -- • completed
+2026-11-14 20:41:42.293 [info] [←8        7ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.service.ts • completed
+2026-11-14 20:42:55.221 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 20:43:04.902 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/app.module.ts • completed
+2026-11-14 20:43:04.910 [info] [          8ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/app.module.ts -- • completed
+2026-11-14 20:44:46.257 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 20:46:45.446 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 20:47:00.586 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/app.module.ts • completed
+2026-11-14 20:47:00.593 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/app.module.ts -- • completed
+2026-11-14 20:48:11.205 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 20:48:21.064 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/app.module.ts • completed
+2026-11-14 20:48:21.070 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/app.module.ts -- • completed
+2026-11-14 21:06:20.250 [info] [         10ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/app.module.ts • completed
+2026-11-14 21:06:20.258 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git config -f /home/haidangphan/Documents/tutor/third/.git/gk/config branch.develop.gk-last-accessed 2026-11-14T14:06:20.243Z • completed
+2026-11-14 21:06:20.269 [info] [          7ms] [/home/haidangphan/Documents/tutor/third] git config -f /home/haidangphan/Documents/tutor/third/.git/gk/config branch.develop.gk-last-modified 2026-11-14T14:06:20.243Z • completed
+2026-11-14 21:06:20.485 [info] [→9           ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/app.module.ts • starting...
+2026-11-14 21:06:20.487 [info] [←9        7ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/app.module.ts • completed
+2026-11-14 21:06:20.492 [info] [→10          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/app.module.ts • starting...
+2026-11-14 21:06:20.492 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/app.module.ts -- • completed
+2026-11-14 21:06:20.493 [info] [←10       3ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/app.module.ts • completed
+2026-11-14 21:06:20.591 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex -f /home/haidangphan/Documents/tutor/third/.git/gk/config . • completed
+2026-11-14 21:06:22.252 [info] [         11ms] [/home/haidangphan/Documents/tutor/third] git config --global --get-all maintenance.repo • completed
+2026-11-14 21:06:22.254 [info] [         13ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-14 21:06:22.255 [info] [         13ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 21:06:22.255 [info] [          2ms] [/home/haidangphan/Documents/tutor/third] git worktree list --porcelain • completed
+2026-11-14 21:06:22.263 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-14 21:06:22.263 [info] [          7ms] [/home/haidangphan/Documents/tutor/third] git config --type=bool --get core.commitGraph • completed
+2026-11-14 21:06:22.263 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 21:06:22.263 [info] [          0ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ (waiting) • completed
+2026-11-14 21:06:22.266 [info] [          2ms] [/home/haidangphan/Documents/tutor/third] git commit-graph write --reachable --split --changed-paths --max-new-filters=512 • completed
+2026-11-14 21:06:22.271 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-14 21:06:22.271 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 21:31:21.510 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.service.ts • completed
+2026-11-14 21:31:21.517 [info] [→11          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.service.ts • starting...
+2026-11-14 21:31:21.519 [info] [←11       8ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.service.ts • completed
+2026-11-14 21:31:21.536 [info] [→12          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.service.ts • starting...
+2026-11-14 21:31:21.538 [info] [         19ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.service.ts -- • completed
+2026-11-14 21:31:21.539 [info] [←12       6ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.service.ts • completed
+2026-11-14 21:31:21.539 [info] [         13ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 c88e26a7d6005e7876655dd212bbd747015d85d9 -- • completed
+2026-11-14 21:31:25.034 [info] [          7ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.module.ts • completed
+2026-11-14 21:31:25.038 [info] [→13          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.module.ts • starting...
+2026-11-14 21:31:25.040 [info] [←13       5ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.module.ts • completed
+2026-11-14 21:31:25.053 [info] [          9ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D --summary -n1 20ff7699415e7ab65339d140d1a485df98091d22^ -- src/features/email/email.module.ts • completed
+2026-11-14 21:31:25.054 [info] [         13ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.module.ts -- • completed
+2026-11-14 21:31:25.056 [info] [         12ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 20ff7699415e7ab65339d140d1a485df98091d22 -- • completed
+2026-11-14 21:31:25.656 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.rpc.controller.ts • completed
+2026-11-14 21:31:25.660 [info] [→14          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.rpc.controller.ts • starting...
+2026-11-14 21:31:25.661 [info] [←14       4ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.rpc.controller.ts • completed
+2026-11-14 21:31:25.671 [info] [          9ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.rpc.controller.ts -- • completed
+2026-11-14 21:31:25.673 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 7c86ee05cdefc1514456c5610911f7dab0c8b7b9 -- • completed
+2026-11-14 21:31:26.529 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/email/email.controller.ts • completed
+2026-11-14 21:31:26.534 [info] [→15          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.controller.ts • starting...
+2026-11-14 21:31:26.535 [info] [←15       5ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/email/email.controller.ts • completed
+2026-11-14 21:31:26.551 [info] [→16          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.controller.ts • starting...
+2026-11-14 21:31:26.552 [info] [         16ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/email/email.controller.ts -- • completed
+2026-11-14 21:31:26.552 [info] [←16       5ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/email/email.controller.ts • completed
+2026-11-14 21:31:26.553 [info] [         11ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 29cdd47fb61f082cf328e34bf8970296f032a66f -- • completed
+2026-11-14 21:31:27.274 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-11-14 21:31:27.279 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D -n2 -L1,1:src/features/email/email.controller.ts • completed
+2026-11-14 21:31:28.116 [info] [          7ms] [/home/haidangphan/Documents/tutor/third] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-11-14 21:31:28.121 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D -n2 -L1,1:src/features/email/email.controller.ts • completed
+2026-11-14 21:31:35.510 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/redis/redis.controller.ts • completed
+2026-11-14 21:31:35.515 [info] [→17          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/redis/redis.controller.ts • starting...
+2026-11-14 21:31:35.517 [info] [←17       6ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/redis/redis.controller.ts • completed
+2026-11-14 21:31:35.531 [info] [→18          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/redis/redis.controller.ts • starting...
+2026-11-14 21:31:35.531 [info] [          9ms] [/home/haidangphan/Documents/tutor/third] git status --porcelain=v2 --branch -u --find-renames -- • completed
+2026-11-14 21:31:35.535 [info] [         17ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/redis/redis.controller.ts -- • completed
+2026-11-14 21:31:35.536 [info] [←18       8ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/redis/redis.controller.ts • completed
+2026-11-14 21:31:35.537 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D -n2 -L1,1:src/features/redis/redis.controller.ts • completed
+2026-11-14 21:31:35.542 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git rev-parse --verify --end-of-options c88e26a7d6005e7876655dd212bbd747015d85d9^^{commit} • completed
+2026-11-14 21:32:45.451 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/redis/redis.service.ts • completed
+2026-11-14 21:32:45.460 [info] [→19          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/redis/redis.service.ts • starting...
+2026-11-14 21:32:45.464 [info] [←19       8ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/redis/redis.service.ts • completed
+2026-11-14 21:32:45.487 [info] [→20          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/redis/redis.service.ts • starting...
+2026-11-14 21:32:45.492 [info] [         27ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/redis/redis.service.ts -- • completed
+2026-11-14 21:32:45.492 [info] [←20      11ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/redis/redis.service.ts • completed
+2026-11-14 21:32:45.492 [info] [         19ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 a5d81b656e15e8a85f7d113a1f6054f4fca3a0a8 -- • completed
+2026-11-14 21:37:18.940 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/features/redis/redis.rpc.controller.ts • completed
+2026-11-14 21:37:18.943 [info] [→21          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/redis/redis.rpc.controller.ts • starting...
+2026-11-14 21:37:18.945 [info] [←21       4ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/features/redis/redis.rpc.controller.ts • completed
+2026-11-14 21:37:18.959 [info] [→22          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/redis/redis.rpc.controller.ts • starting...
+2026-11-14 21:37:18.963 [info] [         18ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/features/redis/redis.rpc.controller.ts -- • completed
+2026-11-14 21:37:18.963 [info] [←22       7ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/features/redis/redis.rpc.controller.ts • completed
+2026-11-14 21:37:18.964 [info] [         13ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 ecafcbb8bd38225a22de73c91b2ffa0f6f0c4f74 -- • completed
+2026-11-14 21:38:02.609 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 ad89a8bae5b91389657c8afbdc6d391b966c0520 -- • completed
+2026-11-14 21:42:49.824 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal)src/app.module.ts • completed
+2026-11-14 21:42:49.828 [info] [→23          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/app.module.ts • starting...
+2026-11-14 21:42:49.830 [info] [←23       5ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 -- src/app.module.ts • completed
+2026-11-14 21:42:49.841 [info] [→24          ] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/app.module.ts • starting...
+2026-11-14 21:42:49.842 [info] [         11ms] [/home/haidangphan/Documents/tutor/third] git show --textconv HEAD:./src/app.module.ts -- • completed
+2026-11-14 21:42:49.842 [info] [          7ms] [/home/haidangphan/Documents/tutor/third] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 20ff7699415e7ab65339d140d1a485df98091d22 -- • completed
+2026-11-14 21:42:49.843 [info] [←24       4ms] (spawn) [/home/haidangphan/Documents/tutor/third] git blame --root --incremental --encoding=utf-8 HEAD -- src/app.module.ts • completed
+2026-11-14 21:42:52.735 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 21:43:01.819 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-11-14 21:43:01.830 [info] [          5ms] [/home/haidangphan/Documents/tutor/gateway] git remote -v • completed
+2026-11-14 21:43:01.842 [info] [         14ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env • completed
+2026-11-14 21:43:01.843 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config . • completed
+2026-11-14 21:43:02.855 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 21:43:02.855 [info] [          7ms] [/home/haidangphan/Documents/tutor/gateway] git config --global --get-all maintenance.repo • completed
+2026-11-14 21:43:02.857 [info] [          9ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-14 21:43:02.857 [info] [         17ms] [/home/haidangphan/Documents/tutor/gateway] git worktree list --porcelain • completed
+2026-11-14 21:43:02.857 [info] [         17ms] [/home/haidangphan/Documents/tutor/gateway] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D%(upstream:remotename)%1D%(upstream:remoteref)%1D%(push)%1D refs/heads/ refs/remotes/ refs/tags/ refs/replace/ • completed
+2026-11-14 21:43:02.859 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git worktree list --porcelain • completed
+2026-11-14 21:43:02.868 [info] [          3ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-14 21:43:02.868 [info] [          5ms] [/home/haidangphan/Documents/tutor/gateway] git config --type=bool --get core.commitGraph • completed
+2026-11-14 21:43:02.868 [info] [          8ms] [/home/haidangphan/Documents/tutor/gateway] git config -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config branch.develop.gk-last-accessed 2026-11-14T14:43:02.858Z • completed
+2026-11-14 21:43:02.868 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 21:43:02.868 [info] [          0ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ (waiting) • completed
+2026-11-14 21:43:02.870 [info] [          2ms] [/home/haidangphan/Documents/tutor/gateway] git commit-graph write --reachable --split --changed-paths --max-new-filters=512 • completed
+2026-11-14 21:43:02.873 [info] [          2ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config . • completed
+2026-11-14 21:43:02.877 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex ^(core\.fsmonitor|core\.untrackedcache|core\.commitgraph|core\.multipackindex|core\.sparsecheckout|core\.sparsecheckoutcone|core\.splitindex|extensions\.refstorage|feature\.manyfiles|index\.sparse|maintenance\.incremental-repack\.auto)$ • completed
+2026-11-14 21:43:02.878 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git config --local --get-regex ^(extensions\.partialclone|remote\..*\.promisor)$ • completed
+2026-11-14 21:43:03.197 [info] [          5ms] [/home/haidangphan/Documents/tutor/gateway] git config --get-regex -f /home/haidangphan/Documents/tutor/gateway/.git/gk/config . • completed
+2026-11-14 21:43:37.861 [info] [          8ms] [/home/haidangphan/Documents/tutor/gateway] git rev-list --max-parents=0 HEAD -- • completed
+2026-11-14 21:43:37.862 [info] [          8ms] [/home/haidangphan/Documents/tutor/gateway] git shortlog -s --all --no-min-parents --since=1.year.ago • completed
+2026-11-14 21:54:20.168 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 21:54:27.165 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env • completed
+2026-11-14 22:02:16.370 [info] [          6ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 22:02:31.144 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env • completed
+2026-11-14 22:06:04.810 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 22:06:04.823 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env • completed
+2026-11-14 22:06:58.497 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 22:10:22.051 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 22:10:22.065 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env • completed
+2026-11-14 22:11:54.101 [info] [          5ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 22:12:05.404 [info] [          5ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env • completed
+2026-11-14 22:13:15.899 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 22:13:15.912 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env • completed
+2026-11-14 22:14:33.989 [info] [          4ms] [/home/haidangphan/Documents/tutor/third] git ls-files -- :(literal).env • completed
+2026-11-14 22:14:34.003 [info] [          4ms] [/home/haidangphan/Documents/tutor/gateway] git ls-files -- :(literal).env • completed

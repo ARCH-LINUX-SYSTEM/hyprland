@@ -1,0 +1,28 @@
+2026-11-14 20:10:07.868 [info] Constructor: scheduling initial write
+2026-11-14 20:10:07.869 [info] fetchAndWrite: lease returned 52 tools across 2 clients
+2026-11-14 20:10:07.874 [info] Incremental write: 2 changed, 0 removed, 0 unchanged {"changedServerCount":2,"changedServers":[{"serverIdentifier":"cursor-origin","sanitizedId":"cursor-origin","toolCount":36},{"serverIdentifier":"cursor-ide-browser","sanitizedId":"cursor-ide-browser","toolCount":16}],"removedServerCount":0,"removedServerSanitizedIds":[],"unchangedServerCount":0,"totalServerCount":2,"leaseServerCount":2,"coldStartReconcile":true,"projectDirHash":"a6d09b7e1a2652e1ab5d6c0fb77e5598157522164385e5ea43d534296a30cebc","mcpFsStructuredLogOptIn":true}
+2026-11-14 20:10:36.148 [info] Constructor: scheduling initial write
+2026-11-14 20:10:36.149 [info] fetchAndWrite: lease returned 36 tools across 1 clients
+2026-11-14 20:10:36.155 [info] Incremental write: 1 changed, 0 removed, 0 unchanged {"changedServerCount":1,"changedServers":[{"serverIdentifier":"cursor-origin","sanitizedId":"cursor-origin","toolCount":36}],"removedServerCount":0,"removedServerSanitizedIds":[],"unchangedServerCount":0,"totalServerCount":1,"leaseServerCount":1,"coldStartReconcile":true,"projectDirHash":"b4785591929daa44d6fe683a64486d8c73279b7946e7d6e3284412a5bf1721bf","mcpFsStructuredLogOptIn":true}
+2026-11-14 20:10:37.575 [info] Lease change event received {"reason":"cursor_mcp_lease_providers"}
+2026-11-14 20:10:37.576 [info] Lease change event received {"serverIdentifiers":["cursor-ide-browser"],"reason":"cursor_mcp_lease_server_status"}
+2026-11-14 20:10:37.579 [info] Lease change event received {"serverIdentifiers":["cursor-ide-browser"],"reason":"cursor_mcp_lease_snapshot_store"}
+2026-11-14 20:10:37.683 [info] fetchAndWrite: lease returned 52 tools across 2 clients
+2026-11-14 20:10:37.685 [info] Incremental write: 1 changed, 0 removed, 1 unchanged {"changedServerCount":1,"changedServers":[{"serverIdentifier":"cursor-ide-browser","sanitizedId":"cursor-ide-browser","toolCount":16}],"removedServerCount":0,"removedServerSanitizedIds":[],"unchangedServerCount":1,"totalServerCount":2,"leaseServerCount":2,"coldStartReconcile":false,"projectDirHash":"b4785591929daa44d6fe683a64486d8c73279b7946e7d6e3284412a5bf1721bf","mcpFsStructuredLogOptIn":true}
+2026-11-14 20:13:02.836 [info] Lease change event received {"serverIdentifiers":["user-eamodio.gitlens-extension-GitKraken"],"reason":"cursor_mcp_lease_snapshot_store"}
+2026-11-14 20:13:02.836 [info] Lease change event received {"serverIdentifiers":["user-eamodio.gitlens-extension-GitKraken"],"reason":"cursor_mcp_lease_server_status"}
+2026-11-14 20:13:02.839 [info] Lease change event received {"serverIdentifiers":["plugin-shadcn-shadcn"],"reason":"cursor_mcp_lease_snapshot_store"}
+2026-11-14 20:13:02.839 [info] Lease change event received {"serverIdentifiers":["plugin-shadcn-shadcn"],"reason":"cursor_mcp_lease_server_status"}
+2026-11-14 20:13:02.839 [info] Lease change event received {"serverIdentifiers":["plugin-figma-figma"],"reason":"cursor_mcp_lease_snapshot_store"}
+2026-11-14 20:13:02.839 [info] Lease change event received {"serverIdentifiers":["plugin-figma-figma"],"reason":"cursor_mcp_lease_server_status"}
+2026-11-14 20:13:02.850 [info] Lease change event received {"serverIdentifiers":["plugin-shadcn-shadcn"],"reason":"cursor_mcp_lease_snapshot_store"}
+2026-11-14 20:13:02.850 [info] Lease change event received {"serverIdentifiers":["plugin-figma-figma"],"reason":"cursor_mcp_lease_snapshot_store"}
+2026-11-14 20:13:02.856 [info] Lease change event received {"serverIdentifiers":["plugin-shadcn-shadcn"],"reason":"cursor_mcp_lease_snapshot_store"}
+2026-11-14 20:13:02.856 [info] Lease change event received {"serverIdentifiers":["plugin-shadcn-shadcn"],"reason":"cursor_mcp_lease_server_status"}
+2026-11-14 20:13:02.957 [info] fetchAndWrite: refreshing 3 targeted servers {"serverIdentifiers":["user-eamodio.gitlens-extension-GitKraken","plugin-shadcn-shadcn","plugin-figma-figma"]}
+2026-11-14 20:13:02.969 [info] Incremental write: 3 changed, 0 removed, 2 unchanged {"changedServerCount":3,"changedServers":[{"serverIdentifier":"user-eamodio.gitlens-extension-GitKraken","sanitizedId":"user-eamodio.gitlens-extension-GitKraken","toolCount":35},{"serverIdentifier":"plugin-shadcn-shadcn","sanitizedId":"plugin-shadcn-shadcn","toolCount":0},{"serverIdentifier":"plugin-figma-figma","sanitizedId":"plugin-figma-figma","toolCount":0}],"removedServerCount":0,"removedServerSanitizedIds":[],"unchangedServerCount":2,"totalServerCount":5,"leaseServerCount":5,"coldStartReconcile":false,"projectDirHash":"b4785591929daa44d6fe683a64486d8c73279b7946e7d6e3284412a5bf1721bf","mcpFsStructuredLogOptIn":true}
+2026-11-14 20:13:26.130 [info] Lease change event received {"serverIdentifiers":["plugin-figma-figma"],"reason":"cursor_mcp_lease_snapshot_store"}
+2026-11-14 20:13:26.131 [info] Lease change event received {"serverIdentifiers":["plugin-figma-figma"],"reason":"cursor_mcp_lease_server_status"}
+2026-11-14 20:13:26.232 [info] fetchAndWrite: refreshing 1 targeted servers {"serverIdentifiers":["plugin-figma-figma"]}
+2026-11-14 20:13:26.240 [info] Server "plugin-figma-figma" fingerprint changed: tools=1, status=needsAuth
+2026-11-14 20:13:26.240 [info] Incremental write: 1 changed, 0 removed, 4 unchanged {"changedServerCount":1,"changedServers":[{"serverIdentifier":"plugin-figma-figma","sanitizedId":"plugin-figma-figma","toolCount":1}],"removedServerCount":0,"removedServerSanitizedIds":[],"unchangedServerCount":4,"totalServerCount":5,"leaseServerCount":5,"coldStartReconcile":false,"projectDirHash":"b4785591929daa44d6fe683a64486d8c73279b7946e7d6e3284412a5bf1721bf","mcpFsStructuredLogOptIn":true}

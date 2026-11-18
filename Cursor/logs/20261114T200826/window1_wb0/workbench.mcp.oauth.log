@@ -1,0 +1,5 @@
+2026-11-14 20:08:28.816 [info] [MCPService] State transition: cursor-app-control none → connected
+2026-11-14 20:08:30.232 [info] [MCPService] State transition: cursor-ide-browser none → error
+2026-11-14 20:08:39.784 [info] [MCPService] State transition: cursor-ide-browser none → error
+2026-11-14 20:09:50.900 [info] [MCPService] State transition: cursor-ide-browser error → connected
+2026-11-14 20:09:52.716 [info] [MCPService] State transition: cursor-subscriptions none → connected

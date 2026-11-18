@@ -1,0 +1,54 @@
+2026-11-17 21:09:33.052 [info] 	crepectlPath: /usr/share/cursor/resources/app/resources/helpers/crepectl
+2026-11-17 21:09:33.052 [info] Initializing GrepClient
+2026-11-17 21:09:50.956 [info] 	crepectlPath: /usr/share/cursor/resources/app/resources/helpers/crepectl
+2026-11-17 21:09:50.956 [info] Initializing GrepClient
+2026-11-17 21:09:50.984 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 21:09:50.984 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 21:09:53.577 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 21:09:53.577 [info] Initializing GrepClient
+2026-11-17 21:09:53.580 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 21:09:53.580 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 21:10:00.852 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 21:10:00.852 [info] Initializing GrepClient
+2026-11-17 21:10:00.855 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 21:10:00.855 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 21:10:07.521 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 21:10:07.521 [info] Initializing GrepClient
+2026-11-17 21:10:07.526 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 21:10:07.526 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 21:25:23.198 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 21:25:23.198 [info] Initializing GrepClient
+2026-11-17 21:25:23.202 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 21:25:23.202 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 21:30:55.745 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 21:30:55.745 [info] Initializing GrepClient
+2026-11-17 21:30:55.753 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 21:30:55.753 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 21:52:29.957 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 21:52:29.957 [info] Initializing GrepClient
+2026-11-17 21:52:29.963 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 21:52:29.963 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 21:58:28.178 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 21:58:28.178 [info] Initializing GrepClient
+2026-11-17 21:58:28.182 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 21:58:28.182 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 22:03:31.525 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 22:03:31.525 [info] Initializing GrepClient
+2026-11-17 22:03:31.529 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 22:03:31.529 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 22:08:33.278 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 22:08:33.278 [info] Initializing GrepClient
+2026-11-17 22:08:33.283 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 22:08:33.283 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 22:31:53.763 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 22:31:53.763 [info] Initializing GrepClient
+2026-11-17 22:31:53.768 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 22:31:53.768 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 22:59:31.440 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 22:59:31.440 [info] Initializing GrepClient
+2026-11-17 22:59:31.443 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 22:59:31.443 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'
+2026-11-17 23:05:55.489 [info] git_repo_info_coverage arm changed, re-initializing GrepClient...
+2026-11-17 23:05:55.489 [info] Initializing GrepClient
+2026-11-17 23:05:55.495 [error] Failed to initialize GrepClient cannot index repository without Git
+2026-11-17 23:05:55.496 [info] using external crepectl binary at '/usr/share/cursor/resources/app/resources/helpers/crepectl'

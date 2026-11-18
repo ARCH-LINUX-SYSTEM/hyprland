@@ -7,6 +7,9 @@
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
 
+-- Caelestia: thu muc hinh nen (tinh: assets/pictures, dong: assets/pictures/Animated -> assets/videos)
+hl.env("CAELESTIA_WALLPAPERS_DIR", os.getenv("HOME") .. "/caelestia/assets/pictures")
+
 -- Fcitx5 (bo go tieng Viet)
 hl.env("GTK_IM_MODULE", "fcitx")
 hl.env("QT_IM_MODULE", "fcitx")
@@ -67,29 +70,25 @@ hl.config({
     },
 })
 
+-- 4 ngon trai/phai: chuyen workspace
 hl.gesture({
-    fingers = 3,
+    fingers = 4,
     direction = "horizontal",
     action = "workspace"
 })
 
+-- 3 ngon trai/phai: chuyen giua cac cua so ("tab") trong cung workspace (cael_cycle, minimize.lua)
+-- vuot sang trai = cua so ke tiep, sang phai = cua so truoc (giong lat trang)
+hl.gesture({ fingers = 3, direction = "left",  action = function() cael_cycle(1) end })
+hl.gesture({ fingers = 3, direction = "right", action = function() cael_cycle(-1) end })
 
-----------------
----- CURSOR ----
-----------------
+-- 3 ngon len/xuong (Quantum Shell, Shell.swipe):
+--   len   = dong Launchpad neu dang mo, neu khong thi mo Mission Control
+--   xuong = dong Mission Control neu dang mo, neu khong thi mo Launchpad (danh sach app)
+local quantum = require("variable").quantum
+local function swipe(dir)
+    return function() hl.dispatch(quantum("shell swipe " .. dir)) end
+end
+hl.gesture({ fingers = 3, direction = "up",   action = swipe("up") })
+hl.gesture({ fingers = 3, direction = "down", action = swipe("down") })
 
--- Prevents the mouse cursor from jumping to the center of a window whenever
--- it gets focused via a dispatcher (e.g. clicking a running app's icon in
--- the Caelestia dock, or the window switcher).
-hl.config({
-    cursor = {
-        no_warps = true,
-    },
-})
-
--- Example per-device config
--- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
-hl.device({
-    name        = "epic-mouse-v1",
-    sensitivity = -0.5,
-})

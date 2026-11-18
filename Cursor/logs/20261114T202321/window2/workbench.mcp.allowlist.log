@@ -1,0 +1,26 @@
+2026-11-14 20:24:04.824 [info] [MCPService] MCP Allowlist logger initialized.
+2026-11-14 20:24:05.113 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:24:07.053 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:24:07.054 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:24:07.626 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:24:07.631 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:24:07.677 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:24:08.624 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:24:08.624 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:24:08.625 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:24:09.382 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:24:09.388 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:24:11.925 [info] [MCPService] MCP Allowlist logger initialized.
+2026-11-14 20:24:12.187 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:24:13.503 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:24:13.504 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:24:14.591 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:24:14.600 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:24:16.640 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:24:25.358 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:24:25.358 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:24:25.358 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:24:26.350 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:24:26.358 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 23:56:27.542 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 23:56:27.551 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass

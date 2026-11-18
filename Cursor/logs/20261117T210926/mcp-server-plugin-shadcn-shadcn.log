@@ -1,0 +1,5 @@
+2026-11-17 21:09:36.739 [info] connecting stdio for "shadcn" (plugin-shadcn-shadcn)
+2026-11-17 21:09:36.739 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-17 21:09:36.742 [info] MCP stdio spawn policy decision: sandboxed=false, sandboxReason=controls_disabled, networkControlsEnabled=false, mcpNetworkMode=unset, mcpNetworkAllowlistCount=0, mcpNetworkDenylistCount=0, localAgentNetworkAllowlistCount=0, sandboxPolicyHash=dbad6ab7a53b8aaa3269e0c907d30e5e1483298ffc76de0456eeb31b7d11df5e
+2026-11-17 21:09:36.748 [warning] Connection failed: spawn npx ENOENT
+2026-11-17 21:09:36.748 [warning] [V2 FSM] connection:connect_failure: conn=connecting,auth=unknown -> conn=failed,auth=unknown

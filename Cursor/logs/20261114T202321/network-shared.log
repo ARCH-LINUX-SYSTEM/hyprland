@@ -1,0 +1,3 @@
+2026-11-14 20:49:15.960 [error] #6: https://api2.cursor.sh/extensions-control - error GET net::ERR_NAME_NOT_RESOLVED
+2026-11-14 22:29:37.835 [error] #26: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2026-11-14 23:14:51.054 [error] #35: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms

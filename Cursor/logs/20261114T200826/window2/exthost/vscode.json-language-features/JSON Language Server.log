@@ -1,0 +1,4 @@
+2026-11-14 20:10:37.608 [error] (node:26481) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///usr/share/cursor/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain.js is not specified and it doesn't parse as CommonJS.
+2026-11-14 20:10:37.608 [error] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+2026-11-14 20:10:37.608 [error] To eliminate this warning, add "type": "module" to /usr/share/cursor/resources/app/extensions/json-language-features/server/package.json.
+2026-11-14 20:10:37.608 [error] (Use `electron --trace-warnings ...` to show where the warning was created)

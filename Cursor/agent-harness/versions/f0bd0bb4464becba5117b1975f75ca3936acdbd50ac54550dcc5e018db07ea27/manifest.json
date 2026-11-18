@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "generation": "f0bd0bb4464becba5117b1975f75ca3936acdbd50ac54550dcc5e018db07ea27",
+  "label": "fc9681d2e171 from 934b6cfd0c99",
+  "commit": "fc9681d2e171e023370ad18edb64d17b32fcd24e",
+  "mainVersion": "3.31.0-pre.18",
+  "kind": "rollback",
+  "builtAt": "2026-11-14T03:53:10.052Z",
+  "entry": "agent-harness.cjs",
+  "workers": [
+    "diff-worker.js",
+    "diff-patch-worker.js",
+    "pdf-worker.js"
+  ],
+  "natives": [
+    "@anysphere/tree-chunk-napi",
+    "@napi-rs/canvas",
+    "tree-sitter",
+    "tree-sitter-bash"
+  ],
+  "requiredRevision": 2,
+  "capabilities": [
+    "managed-local-run",
+    "seam-run-options",
+    "turn-prewarm"
+  ],
+  "engines": {
+    "cursor": ">=3.23.0-pre.17"
+  },
+  "files": {
+    "agent-harness.cjs": {
+      "bytes": 6382789,
+      "sha256": "b4031f83e918188d743f31f7e889b0fdd59c007984491d3425880c651d1f2fc5"
+    },
+    "diff-patch-worker.js": {
+      "bytes": 6844,
+      "sha256": "9ac55f6cbb351dfdb69302547e05c5d52a82a6b3675cc1d9fcb1064355b835e6"
+    },
+    "diff-worker.js": {
+      "bytes": 8078,
+      "sha256": "7273f2b1b9a92a4809b21ed8fc91797b9f3a5651da7c04e25a1c2ae2bb1ffe5e"
+    },
+    "pdf-worker.js": {
+      "bytes": 477629,
+      "sha256": "3c1c48a42fbfd929870b899e61a1c35ea3d074ab28dc26c8e09375f977f234a1"
+    },
+    "pdf.worker.mjs": {
+      "bytes": 1099167,
+      "sha256": "90b49a1bf7b6c4d689d7d7bc0a52869bb3b1bc5935a0fa0ea6413b49f85ac8de"
+    },
+    "worker.js": {
+      "bytes": 8533,
+      "sha256": "66eb21f9cc41d780d0cefc65212ebbe3d2af91ba04cb194e89e5dd48c00d10da"
+    }
+  },
+  "pack": {
+    "esbuild": "0.27.7",
+    "inputs": 2204,
+    "inputBytes": 33407465,
+    "bundledPackages": [
+      "..",
+      "@ai-sdk/provider",
+      "@ai-sdk/provider-utils",
+      "@ai-sdk/ui-utils",
+      "@bufbuild/protobuf",
+      "@connectrpc/connect",
+      "@jimp/core",
+      "@jimp/file-ops",
+      "@jimp/js-bmp",
+      "@jimp/js-gif",
+      "@jimp/js-jpeg",
+      "@jimp/js-png",
+      "@jimp/js-tiff",
+      "@jimp/plugin-resize",
+      "@jimp/types",
+      "@jimp/utils",
+      "@opentelemetry/api",
+      "@streamparser/json",
+      "ai",
+      "await-to-js",
+      "balanced-match",
+      "bmp-ts",
+      "brace-expansion",
+      "diff",
+      "exif-parser",
+      "extend-shallow",
+      "file-type",
+      "gifwrap",
+      "gray-matter",
+      "ieee754",
+      "image-q",
+      "image-type",
+      "is-extendable",
+      "jpeg-js",
+      "js-yaml",
+      "jsonc-parser",
+      "kind-of",
+      "mime",
+      "mime-db",
+      "mime-types",
+      "minimatch",
+      "nanoid",
+      "omggif",
+      "packages/agent",
+      "packages/agent-client",
+      "packages/agent-host",
+      "pako",
+      "pdf-parse",
+      "pdfjs-dist",
+      "peek-readable",
+      "piscina",
+      "pngjs",
+      "re2js",
+      "rxjs",
+      "section-matter",
+      "secure-json-parse",
+      "strip-bom-string",
+      "strtok3",
+      "tinycolor2",
+      "token-types",
+      "utif2",
+      "zod",
+      "zod-to-json-schema"
+    ],
+    "ms": 1773
+  }
+}

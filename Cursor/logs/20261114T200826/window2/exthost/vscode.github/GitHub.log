@@ -1,0 +1,5 @@
+2026-11-14 20:10:07.147 [info] Log level: Info
+2026-11-14 20:10:35.350 [info] Log level: Info
+2026-11-14 20:13:49.894 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-11-14 20:14:33.446 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for TUTOR-SYSTEM/gateway: Error: No GitHub authentication session available.
+2026-11-14 20:17:31.696 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

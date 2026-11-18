@@ -1,0 +1,661 @@
+2026-11-14 20:10:07.023 [info] Extension host with pid 23215 started
+2026-11-14 20:10:07.023 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-11-14 20:10:07.023 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-11-14 20:10:07.023 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2026-11-14 20:10:07.023 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.023 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron43/resources
+2026-11-14 20:10:07.023 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron43/electron
+2026-11-14 20:10:07.023 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg
+2026-11-14 20:10:07.023 [info] [ExtHostShellExec] No local workspace folder to probe from (folders=0); probing from the ext host cwd, which may not reflect where commands run
+2026-11-14 20:10:07.023 [info] [ExtHostShellExec] Probing sandbox support from /home/haidangphan
+2026-11-14 20:10:07.023 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.023 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-11-14 20:10:07.023 [info] [shell-exec:sandbox] [sandboxPreflight] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.023 [info] [shell-exec:sandbox] [sandboxPreflight] CWD: /home/haidangphan
+2026-11-14 20:10:07.026 [info] [ExtHostShellExec] Default shell changed: 
+2026-11-14 20:10:07.032 [info] [shell-exec:sandbox] [primeSandboxHelperSupport] Preflight rooted at /home/haidangphan succeeded in 13ms, sandbox supported!
+2026-11-14 20:10:07.032 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 7.2.14-arch1-1
+2026-11-14 20:10:07.043 [info] [ExtHostShellExec] Default shell changed: /usr/bin/fish
+2026-11-14 20:10:07.044 [info] ExtensionService#_doActivateExtension anysphere.cursor-polyfills-remote, startup: false, activationEvent: '*'
+2026-11-14 20:10:07.099 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-11-14 20:10:07.104 [info] Extension activated success: anysphere.cursor-polyfills-remote — 55ms (code loading: 55ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:07.104 [info] Extension activated success: vscode.git-base — 4ms (code loading: 4ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:07.110 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-11-14 20:10:07.129 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-11-14 20:10:07.137 [info] Extension activated success: vscode.github — 7ms (code loading: 6ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:10:07.159 [info] Extension activated success: vscode.git — 43ms (code loading: 19ms, activate call: 1ms, activate resolved: 23ms)
+2026-11-14 20:10:07.160 [info] Eager extensions activated
+2026-11-14 20:10:07.173 [info] Extension host with pid 23242 started
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron43/resources
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron43/electron
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] No local workspace folder to probe from (folders=0); probing from the ext host cwd, which may not reflect where commands run
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] Probing sandbox support from /home/haidangphan
+2026-11-14 20:10:07.174 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.174 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-11-14 20:10:07.174 [info] [shell-exec:sandbox] [sandboxPreflight] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.174 [info] [shell-exec:sandbox] [sandboxPreflight] CWD: /home/haidangphan
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] Default shell changed: /usr/bin/fish
+2026-11-14 20:10:07.174 [info] [shell-exec:sandbox] [primeSandboxHelperSupport] Preflight rooted at /home/haidangphan succeeded in 7ms, sandbox supported!
+2026-11-14 20:10:07.174 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 7.2.14-arch1-1
+2026-11-14 20:10:07.179 [info] Eager extensions activated
+2026-11-14 20:10:07.182 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.185 [info] ExtensionService#_doActivateExtension anysphere.cursor-commits, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.196 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.207 [info] Extension host with pid 23243 started
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron43/resources
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron43/electron
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] No local workspace folder to probe from (folders=0); probing from the ext host cwd, which may not reflect where commands run
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] Probing sandbox support from /home/haidangphan
+2026-11-14 20:10:07.207 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.207 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-11-14 20:10:07.207 [info] [shell-exec:sandbox] [sandboxPreflight] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.207 [info] [shell-exec:sandbox] [sandboxPreflight] CWD: /home/haidangphan
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] Default shell changed: 
+2026-11-14 20:10:07.207 [info] [ExtHostShellExec] Default shell changed: /usr/bin/fish
+2026-11-14 20:10:07.208 [info] [shell-exec:sandbox] [primeSandboxHelperSupport] Preflight rooted at /home/haidangphan succeeded in 9ms, sandbox supported!
+2026-11-14 20:10:07.208 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 7.2.14-arch1-1
+2026-11-14 20:10:07.212 [info] Eager extensions activated
+2026-11-14 20:10:07.216 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.219 [info] ExtensionService#_doActivateExtension cursor.cursor-computer-use, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.234 [info] Extension host with pid 23244 started
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron43/resources
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron43/electron
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] No local workspace folder to probe from (folders=0); probing from the ext host cwd, which may not reflect where commands run
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] Probing sandbox support from /home/haidangphan
+2026-11-14 20:10:07.234 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.234 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-11-14 20:10:07.234 [info] [shell-exec:sandbox] [sandboxPreflight] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:07.234 [info] [shell-exec:sandbox] [sandboxPreflight] CWD: /home/haidangphan
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] Default shell changed: /usr/bin/fish
+2026-11-14 20:10:07.234 [info] [shell-exec:sandbox] [primeSandboxHelperSupport] Preflight rooted at /home/haidangphan succeeded in 8ms, sandbox supported!
+2026-11-14 20:10:07.234 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 7.2.14-arch1-1
+2026-11-14 20:10:07.239 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: false, activationEvent: '*'
+2026-11-14 20:10:07.268 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.286 [info] ExtensionService#_doActivateExtension anysphere.cursor-explorer, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.288 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.303 [info] Extension activated success: anysphere.cursor-retrieval — 106ms (code loading: 100ms, activate call: 1ms, activate resolved: 5ms)
+2026-11-14 20:10:07.335 [info] ExtensionService#_doActivateExtension anysphere.cursor-resolver-helper, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.361 [info] ExtensionService#_doActivateExtension anysphere.cursor-socket, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.365 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.374 [info] Extension activated success: anysphere.cursor-always-local — 152ms (code loading: 141ms, activate call: 5ms, activate resolved: 6ms)
+2026-11-14 20:10:07.375 [info] Extension activated success: anysphere.cursor-socket — 2ms (code loading: 2ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:07.378 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.380 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.382 [info] ExtensionService#_doActivateExtension anysphere.remote-ssh, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:07.446 [info] Extension activated success: cursor.cursor-browser-automation — 10ms (code loading: 3ms, activate call: 1ms, activate resolved: 6ms)
+2026-11-14 20:10:07.447 [info] Extension activated success: anysphere.cursor-commits — 35ms (code loading: 34ms, activate call: 0ms, activate resolved: 1ms)
+2026-11-14 20:10:07.448 [info] Extension activated success: cursor.cursor-computer-use — 49ms (code loading: 49ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:07.448 [info] Extension activated success: anysphere.cursor-deeplink — 18ms (code loading: 18ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:07.448 [info] [ExtHostCursorExplorerProviderService] ExplorerProvider registered in ext host
+2026-11-14 20:10:07.448 [info] Extension activated success: anysphere.cursor-explorer — 2ms (code loading: 2ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:07.449 [info] Extension activated success: anysphere.cursor-resolver-helper — 31ms (code loading: 30ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:10:07.449 [info] Extension activated success: anysphere.cursor-shadow-workspace — 13ms (code loading: 13ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:07.449 [info] Extension activated success: vscode.debug-auto-launch — 2ms (code loading: 2ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:07.450 [info] Extension activated success: vscode.merge-conflict — 3ms (code loading: 2ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:10:07.452 [info] Extension activated success: anysphere.remote-ssh — 59ms (code loading: 57ms, activate call: 2ms, activate resolved: 0ms)
+2026-11-14 20:10:07.453 [info] [ExtHostCursorExplorerProviderService] Main thread provider registration acknowledged
+2026-11-14 20:10:07.463 [info] Extension activated success: anysphere.cursor-mcp — 61ms (code loading: 47ms, activate call: 0ms, activate resolved: 14ms)
+2026-11-14 20:10:07.483 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-host, startup: false, activationEvent: '*'
+2026-11-14 20:10:07.654 [info] ExtensionService#_doActivateExtension anysphere.cursor-checkout, startup: false, activationEvent: '*'
+2026-11-14 20:10:07.658 [info] Extension activated success: anysphere.cursor-agent-exec — 246ms (code loading: 244ms, activate call: 1ms, activate resolved: 1ms)
+2026-11-14 20:10:07.662 [info] Extension activated success: anysphere.cursor-checkout — 2ms (code loading: 2ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:07.892 [info] Extension activated success: anysphere.cursor-agent-host — 405ms (code loading: 171ms, activate call: 3ms, activate resolved: 231ms)
+2026-11-14 20:10:07.892 [info] Eager extensions activated
+2026-11-14 20:10:11.689 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:cursor-github'
+2026-11-14 20:10:11.693 [info] Extension activated success: vscode.github-authentication — 3ms (code loading: 3ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:33.856 [info] Extension host terminating: renderer closed the MessagePort
+2026-11-14 20:10:33.861 [info] Extension host terminating: renderer closed the MessagePort
+2026-11-14 20:10:33.863 [info] Extension host with pid 23242 exiting with code 0
+2026-11-14 20:10:33.865 [info] Extension host terminating: renderer closed the MessagePort
+2026-11-14 20:10:33.866 [info] Extension host terminating: renderer closed the MessagePort
+2026-11-14 20:10:33.867 [info] [ExtHostCursorExplorerProviderService] ExplorerProvider unregistered in ext host
+2026-11-14 20:10:33.869 [error] [ExtHostCursorExplorerProviderService] Main thread provider unregistration failed Canceled
+2026-11-14 20:10:33.869 [info] Extension host with pid 23215 exiting with code 0
+2026-11-14 20:10:33.870 [info] Extension host with pid 23244 exiting with code 0
+2026-11-14 20:10:35.277 [info] Extension host with pid 26184 started
+2026-11-14 20:10:35.277 [info] Skipping acquiring lock for /home/haidangphan/.config/Cursor/User/workspaceStorage/42f0dcfc9d44b98841e1faf622ae9c74.
+2026-11-14 20:10:35.277 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-11-14 20:10:35.277 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-11-14 20:10:35.277 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2026-11-14 20:10:35.277 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.277 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron43/resources
+2026-11-14 20:10:35.277 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron43/electron
+2026-11-14 20:10:35.277 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg
+2026-11-14 20:10:35.277 [info] [ExtHostShellExec] Probing sandbox support from /home/haidangphan/Documents/tutor
+2026-11-14 20:10:35.277 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.277 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-11-14 20:10:35.277 [info] [shell-exec:sandbox] [sandboxPreflight] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.277 [info] [shell-exec:sandbox] [sandboxPreflight] CWD: /home/haidangphan/Documents/tutor
+2026-11-14 20:10:35.277 [info] [ExtHostShellExec] Default shell changed: 
+2026-11-14 20:10:35.278 [info] [shell-exec:sandbox] [primeSandboxHelperSupport] Preflight rooted at /home/haidangphan/Documents/tutor succeeded in 14ms, sandbox supported!
+2026-11-14 20:10:35.278 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 7.2.14-arch1-1
+2026-11-14 20:10:35.284 [info] [ExtHostShellExec] Default shell changed: /usr/bin/fish
+2026-11-14 20:10:35.299 [info] ExtensionService#_doActivateExtension anysphere.cursor-polyfills-remote, startup: false, activationEvent: '*'
+2026-11-14 20:10:35.315 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-11-14 20:10:35.319 [info] Extension activated success: anysphere.cursor-polyfills-remote — 16ms (code loading: 16ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:35.319 [info] Extension activated success: vscode.git-base — 3ms (code loading: 3ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:35.324 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-11-14 20:10:35.338 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-11-14 20:10:35.347 [info] Extension activated success: vscode.github — 6ms (code loading: 6ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:35.468 [info] ExtHostSearch [cursorIgnore] internal fileSearch start reason=cursorIgnoreCheck roots=1 include=**/.cursorignore maxResults=0 numThreads=(default) folderQueries=[{"cwd":"/home/haidangphan/Documents/tutor","disregardIgnoreFiles":false,"disregardParentIgnoreFiles":true,"disregardGlobalIgnoreFiles":true,"ignoreSymlinks":false,"rgNoIgnore":false,"rgNoIgnoreParent":true,"rgNoIgnoreGlobal":true,"rgFollow":true}]
+2026-11-14 20:10:35.473 [info] ExtHostSearch /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg --files --hidden --case-sensitive --no-require-git -g '**/.cursorignore' -g '!**/.git' -g '!**/.svn' -g '!**/.hg' -g '!**/.DS_Store' -g '!**/Thumbs.db' -g '!**/node_modules' -g '!**/bower_components' -g '!**/*.code-search' --no-ignore-parent --follow --no-config --no-ignore-global
+ - cwd: /home/haidangphan/Documents/tutor
+ - Sibling clauses: {}
+2026-11-14 20:10:35.478 [info] Extension host with pid 26207 started
+2026-11-14 20:10:35.478 [info] Skipping acquiring lock for /home/haidangphan/.config/Cursor/User/workspaceStorage/42f0dcfc9d44b98841e1faf622ae9c74.
+2026-11-14 20:10:35.478 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-11-14 20:10:35.478 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-11-14 20:10:35.478 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2026-11-14 20:10:35.478 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.478 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron43/resources
+2026-11-14 20:10:35.478 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron43/electron
+2026-11-14 20:10:35.478 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg
+2026-11-14 20:10:35.478 [info] [ExtHostShellExec] Probing sandbox support from /home/haidangphan/Documents/tutor
+2026-11-14 20:10:35.478 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.478 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-11-14 20:10:35.478 [info] [shell-exec:sandbox] [sandboxPreflight] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.478 [info] [shell-exec:sandbox] [sandboxPreflight] CWD: /home/haidangphan/Documents/tutor
+2026-11-14 20:10:35.478 [info] [ExtHostShellExec] Default shell changed: /usr/bin/fish
+2026-11-14 20:10:35.479 [info] [shell-exec:sandbox] [primeSandboxHelperSupport] Preflight rooted at /home/haidangphan/Documents/tutor succeeded in 11ms, sandbox supported!
+2026-11-14 20:10:35.479 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 7.2.14-arch1-1
+2026-11-14 20:10:35.481 [info] ExtHostSearch Search finished. Stats: {"cmdTime":12,"fileWalkTime":12,"directoriesWalked":0,"filesWalked":0,"cmdResultCount":0}
+2026-11-14 20:10:35.481 [info] ExtHostSearch [cursorIgnore] internal fileSearch done in 13ms limitHit=false failed=false resultCount=0 cmdTime=12 fileWalkTime=12 providerTime=(unknown)
+2026-11-14 20:10:35.490 [info] Extension host with pid 26206 started
+2026-11-14 20:10:35.490 [info] Skipping acquiring lock for /home/haidangphan/.config/Cursor/User/workspaceStorage/42f0dcfc9d44b98841e1faf622ae9c74.
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron43/resources
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron43/electron
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] Probing sandbox support from /home/haidangphan/Documents/tutor
+2026-11-14 20:10:35.490 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.490 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-11-14 20:10:35.490 [info] [shell-exec:sandbox] [sandboxPreflight] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.490 [info] [shell-exec:sandbox] [sandboxPreflight] CWD: /home/haidangphan/Documents/tutor
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] Default shell changed: 
+2026-11-14 20:10:35.490 [info] [ExtHostShellExec] Default shell changed: /usr/bin/fish
+2026-11-14 20:10:35.490 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: false, activationEvent: '*'
+2026-11-14 20:10:35.491 [info] [shell-exec:sandbox] [primeSandboxHelperSupport] Preflight rooted at /home/haidangphan/Documents/tutor succeeded in 12ms, sandbox supported!
+2026-11-14 20:10:35.491 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 7.2.14-arch1-1
+2026-11-14 20:10:35.496 [info] Eager extensions activated
+2026-11-14 20:10:35.497 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:35.511 [info] Extension host with pid 26205 started
+2026-11-14 20:10:35.511 [info] Skipping acquiring lock for /home/haidangphan/.config/Cursor/User/workspaceStorage/42f0dcfc9d44b98841e1faf622ae9c74.
+2026-11-14 20:10:35.511 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-11-14 20:10:35.511 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-11-14 20:10:35.511 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2026-11-14 20:10:35.511 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.511 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron43/resources
+2026-11-14 20:10:35.511 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron43/electron
+2026-11-14 20:10:35.511 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg
+2026-11-14 20:10:35.511 [info] [ExtHostShellExec] Probing sandbox support from /home/haidangphan/Documents/tutor
+2026-11-14 20:10:35.511 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.511 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-11-14 20:10:35.511 [info] [shell-exec:sandbox] [sandboxPreflight] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:10:35.511 [info] [shell-exec:sandbox] [sandboxPreflight] CWD: /home/haidangphan/Documents/tutor
+2026-11-14 20:10:35.511 [info] [ExtHostShellExec] Default shell changed: /usr/bin/fish
+2026-11-14 20:10:35.512 [info] [shell-exec:sandbox] [primeSandboxHelperSupport] Preflight rooted at /home/haidangphan/Documents/tutor succeeded in 11ms, sandbox supported!
+2026-11-14 20:10:35.512 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 7.2.14-arch1-1
+2026-11-14 20:10:35.518 [info] Eager extensions activated
+2026-11-14 20:10:35.522 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:35.628 [info] Extension activated success: anysphere.cursor-retrieval — 105ms (code loading: 96ms, activate call: 1ms, activate resolved: 8ms)
+2026-11-14 20:10:35.642 [info] ExtensionService#_doActivateExtension anysphere.cursor-socket, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:35.664 [info] Extension activated success: anysphere.cursor-always-local — 157ms (code loading: 145ms, activate call: 6ms, activate resolved: 6ms)
+2026-11-14 20:10:35.665 [info] Extension activated success: anysphere.cursor-socket — 4ms (code loading: 3ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:10:35.749 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-host, startup: false, activationEvent: '*'
+2026-11-14 20:10:35.897 [info] Extension host with pid 23243 exiting with code 0
+2026-11-14 20:10:35.926 [info] ExtensionService#_doActivateExtension anysphere.cursor-checkout, startup: false, activationEvent: '*'
+2026-11-14 20:10:35.930 [info] Extension activated success: anysphere.cursor-agent-exec — 259ms (code loading: 258ms, activate call: 0ms, activate resolved: 1ms)
+2026-11-14 20:10:35.935 [info] Extension activated success: anysphere.cursor-checkout — 3ms (code loading: 2ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:10:36.173 [info] Extension activated success: anysphere.cursor-agent-host — 420ms (code loading: 177ms, activate call: 4ms, activate resolved: 239ms)
+2026-11-14 20:10:36.173 [info] Eager extensions activated
+2026-11-14 20:10:37.253 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-11-14 20:10:37.257 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-11-14 20:10:37.287 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-11-14 20:10:37.306 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-11-14 20:10:37.313 [info] Extension activated success: vscode.configuration-editing — 4ms (code loading: 4ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:37.320 [info] Extension activated success: vscode.typescript-language-features — 22ms (code loading: 16ms, activate call: 4ms, activate resolved: 2ms)
+2026-11-14 20:10:37.324 [info] Extension activated success: vscode.emmet — 10ms (code loading: 7ms, activate call: 3ms, activate resolved: 0ms)
+2026-11-14 20:10:37.332 [info] Extension activated success: vscode.git — 2001ms (code loading: 14ms, activate call: 1ms, activate resolved: 1986ms)
+2026-11-14 20:10:37.332 [info] Eager extensions activated
+2026-11-14 20:10:37.346 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.349 [info] ExtensionService#_doActivateExtension anysphere.cursor-commits, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.377 [info] ExtensionService#_doActivateExtension cursor.cursor-computer-use, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.427 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.440 [info] ExtensionService#_doActivateExtension anysphere.cursor-explorer, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.441 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.482 [info] ExtensionService#_doActivateExtension anysphere.cursor-resolver-helper, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.512 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.523 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.524 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.526 [info] ExtensionService#_doActivateExtension anysphere.remote-ssh, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:10:37.578 [info] Extension activated success: cursor.cursor-browser-automation — 8ms (code loading: 3ms, activate call: 0ms, activate resolved: 5ms)
+2026-11-14 20:10:37.580 [info] Extension activated success: anysphere.cursor-commits — 29ms (code loading: 28ms, activate call: 0ms, activate resolved: 1ms)
+2026-11-14 20:10:37.580 [info] Extension activated success: cursor.cursor-computer-use — 50ms (code loading: 50ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:37.580 [info] Extension activated success: anysphere.cursor-deeplink — 13ms (code loading: 13ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:37.580 [info] [ExtHostCursorExplorerProviderService] ExplorerProvider registered in ext host
+2026-11-14 20:10:37.580 [info] Extension activated success: anysphere.cursor-explorer — 1ms (code loading: 1ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:37.581 [info] Extension activated success: anysphere.cursor-resolver-helper — 30ms (code loading: 30ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:37.581 [info] Extension activated success: anysphere.cursor-shadow-workspace — 11ms (code loading: 11ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:37.582 [info] Extension activated success: vscode.debug-auto-launch — 2ms (code loading: 1ms, activate call: 0ms, activate resolved: 1ms)
+2026-11-14 20:10:37.582 [info] Extension activated success: vscode.merge-conflict — 1ms (code loading: 1ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:10:37.584 [info] Extension activated success: anysphere.remote-ssh — 40ms (code loading: 38ms, activate call: 2ms, activate resolved: 0ms)
+2026-11-14 20:10:37.587 [info] [ExtHostCursorExplorerProviderService] Main thread provider registration acknowledged
+2026-11-14 20:10:37.596 [info] Extension activated success: anysphere.cursor-mcp — 56ms (code loading: 41ms, activate call: 0ms, activate resolved: 15ms)
+2026-11-14 20:10:37.633 [info] Extension activated success: vscode.json-language-features — 349ms (code loading: 30ms, activate call: 0ms, activate resolved: 319ms)
+2026-11-14 20:10:40.077 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:cursor-github'
+2026-11-14 20:10:40.079 [info] Extension activated success: vscode.github-authentication — 2ms (code loading: 2ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:11:36.555 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:11:36.566 [info] Extension activated success: PKief.material-icon-theme — 10ms (code loading: 7ms, activate call: 0ms, activate resolved: 3ms)
+2026-11-14 20:11:40.337 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:11:40.363 [info] Extension activated success: esbenp.prettier-vscode — 26ms (code loading: 6ms, activate call: 12ms, activate resolved: 8ms)
+2026-11-14 20:11:41.090 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:11:41.290 [info] Extension activated success: dsznajder.es7-react-js-snippets — 200ms (code loading: 199ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:12:09.466 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:12:09.472 [info] Extension activated success: aaron-bond.better-comments — 5ms (code loading: 4ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:12:33.292 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:12:33.452 [info] Extension activated success: eamodio.gitlens — 158ms (code loading: 71ms, activate call: 2ms, activate resolved: 85ms)
+2026-11-14 20:12:45.040 [error] TypeError: fetch failed
+2026-11-14 20:12:45.622 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:12:45.641 [info] Extension activated success: dbaeumer.vscode-eslint — 19ms (code loading: 18ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:14:02.744 [error] TypeError: fetch failed
+2026-11-14 20:17:33.493 [warning] TextEditor is closed/disposed
+2026-11-14 20:17:35.081 [warning] TextEditor is closed/disposed
+2026-11-14 20:17:38.731 [warning] TextEditor is closed/disposed
+2026-11-14 20:20:11.490 [info] Extension host terminating: renderer closed the MessagePort
+2026-11-14 20:20:11.497 [info] Extension host terminating: renderer closed the MessagePort
+2026-11-14 20:20:11.498 [info] Extension host terminating: renderer closed the MessagePort
+2026-11-14 20:20:11.498 [info] Extension host with pid 26205 exiting with code 0
+2026-11-14 20:20:11.501 [info] [ExtHostCursorExplorerProviderService] ExplorerProvider unregistered in ext host
+2026-11-14 20:20:11.503 [info] Extension host terminating: renderer closed the MessagePort
+2026-11-14 20:20:11.514 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2026-11-14 20:20:11.514 [error] Error: Channel has been closed
+	at s (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:3770)
+	at Object.info (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:4157)
+	at Logger.info (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:772:126961)
+	at GkCliService.stopIpc (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1295:65416)
+	at GkCliService.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1295:63250)
+	at /home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1153:71824
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1153:71805)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 23)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128)
+2026-11-14 20:20:11.517 [error] [ExtHostCursorExplorerProviderService] Main thread provider unregistration failed Canceled
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at i.updateContext (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:43:15596)
+	at i.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:43:15401)
+	at /usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:43:16320
+	at Array.forEach (<anonymous>)
+	at ze.<anonymous> (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:43:16307)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at Sr.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Ta.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:11:11504)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 18)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at e (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:23:19339)
+	at ze.<anonymous> (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:23:19517)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at ze.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9907)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at ui.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at un.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at Sr.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Ta.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:11:11504)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 18)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at e (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:26:41589)
+	at ze.<anonymous> (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:26:41767)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at ze.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9907)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at ui.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at un.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at Sr.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Ta.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:11:11504)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 18)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at e (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:23:19339)
+	at ze.<anonymous> (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:23:19517)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at ze.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9907)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at ui.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at un.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at Sr.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Ta.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:11:11504)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 18)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at e (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:26:41589)
+	at ze.<anonymous> (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:26:41767)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at ze.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9907)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at ui.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at un.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Is (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:729)
+	at Sr.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:1:1017)
+	at Ta.dispose (/usr/share/cursor/resources/app/extensions/typescript-language-features/dist/extension.js:11:11504)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 18)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at y (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1460:63149)
+	at h (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1460:68731)
+	at ActionRunners._updateContextKeys (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:65973)
+	at n (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64258)
+	at RegisteredActionRunner.unregister (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64401)
+	at RegisteredActionRunner.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:62828)
+	at Object.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64497)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 23)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at y (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1460:63149)
+	at h (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1460:68731)
+	at ActionRunners._updateContextKeys (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:65973)
+	at n (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64258)
+	at RegisteredActionRunner.unregister (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64401)
+	at RegisteredActionRunner.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:62828)
+	at Object.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64497)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 23)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at y (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1460:63149)
+	at h (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1460:68731)
+	at ActionRunners._updateContextKeys (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:65973)
+	at n (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64258)
+	at RegisteredActionRunner.unregister (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64401)
+	at RegisteredActionRunner.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:62828)
+	at Object.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64497)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 23)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at y (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1460:63149)
+	at h (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:1460:68731)
+	at ActionRunners._updateContextKeys (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:65973)
+	at n (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64258)
+	at RegisteredActionRunner.unregister (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64401)
+	at RegisteredActionRunner.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:62828)
+	at Object.dispose (/home/haidangphan/.cursor/extensions/eamodio.gitlens-19.6.0-universal/dist/gitlens.js:777:64497)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 23)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at Hm.G [as value] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:105:13057)
+	at L._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:3749)
+	at L._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:3840)
+	at L.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:4176)
+	at Object.G [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:35:42123)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:35:48187
+	at Array.forEach (<anonymous>)
+	at Ht.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:35:48174)
+	at ze.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9907)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at ze.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:106:1341)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 12)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.518 [error] Canceled: Canceled
+	at new YQ (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:5678)
+	at Ze._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:28453)
+	at s.<computed>.i.charCodeAt.ee.DollarSign.s.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:48:19620)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51291)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:49993)
+	at B0._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:51858)
+	at B0._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50862)
+	at B0.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:50729)
+	at Zpe._task (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149058)
+	at Zpe.queue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:22029)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:204:149885)
+	at Hm.G [as value] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:105:13057)
+	at L._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:3749)
+	at L._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:3840)
+	at L.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:4176)
+	at Object.G [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:35:42123)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:35:48187
+	at Array.forEach (<anonymous>)
+	at Ht.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:35:48174)
+	at ze.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9907)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at ze.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:106:1341)
+	at ze.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:9984)
+	at fo (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:752)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:25306
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1084
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:12:1272)
+	at Zle (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:14483)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async nke._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:20440)
+	at async Promise.all (index 12)
+	at async nke._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:18128) setContext undefined
+2026-11-14 20:20:11.520 [info] Extension host with pid 26184 exiting with code 0
+2026-11-14 20:20:11.572 [info] Extension host with pid 26207 exiting with code 0
+2026-11-14 20:20:11.867 [info] Extension host with pid 26206 exiting with code 0

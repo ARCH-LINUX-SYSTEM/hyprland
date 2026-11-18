@@ -1,0 +1,1 @@
+function o(o,t){const e=o=>{for(const n of Object.keys(o))if("object"==typeof o[n])e(o[n]);else if("match"===n||"begin"===n||"end"===n||"while"===n)for(const[e,i]of t)o[n].includes(e)&&(o[n]=o[n].split(e).join(i))};e(o.repository),e(o.patterns),e(o.injections??{})}export{o as t};

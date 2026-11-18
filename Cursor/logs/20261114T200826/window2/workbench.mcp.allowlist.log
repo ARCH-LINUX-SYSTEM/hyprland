@@ -1,0 +1,24 @@
+2026-11-14 20:10:06.552 [info] [MCPService] MCP Allowlist logger initialized.
+2026-11-14 20:10:06.903 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:10:09.398 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:10:09.399 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:10:10.418 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:10:10.424 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:10:12.229 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:10:12.235 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:10:34.773 [info] [MCPService] MCP Allowlist logger initialized.
+2026-11-14 20:10:35.161 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:11:14.121 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:11:14.121 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:11:27.161 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:11:27.170 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:11:29.568 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:11:29.575 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass
+2026-11-14 20:13:00.464 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:13:02.835 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:13:02.835 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:13:02.835 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:13:02.840 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:13:02.840 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:16:19.100 [info] [MCPService] Admin MCP settings changed; evaluating MCP runtime policy
+2026-11-14 20:16:19.101 [info] [MCPService] Admin MCP runtime policy unchanged; skipping MCP respawn pass

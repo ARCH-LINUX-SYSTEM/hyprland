@@ -1,0 +1,13 @@
+{
+  "window.autoDetectColorScheme": true,
+  "cursor.composer.queueMessageDefaultBehavior": "steer",
+  "cursor.composer.queueManualSendBehavior2": "steer",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "explorer.confirmDelete": false,
+  "workbench.preferredDarkColorTheme": "Dracula Theme Soft",
+}

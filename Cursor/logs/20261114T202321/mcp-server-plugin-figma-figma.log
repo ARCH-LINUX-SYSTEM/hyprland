@@ -1,0 +1,5 @@
+2026-11-14 20:23:31.244 [info] connecting streamableHttp for "figma" (plugin-figma-figma)
+2026-11-14 20:23:31.244 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:23:32.967 [info] MCP OAuth redirect
+2026-11-14 20:23:32.967 [info] Connect failed after auth_required; returning needsAuth (streamableHttp)
+2026-11-14 20:23:32.968 [info] MCP OAuth needsAuth (v2)

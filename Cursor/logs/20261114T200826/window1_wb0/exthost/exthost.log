@@ -1,0 +1,57 @@
+2026-11-14 20:08:28.929 [info] Extension host with pid 21188 started
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron43/resources
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron43/electron
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@cursor/ripgrep-linux-x64/bin/rg
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] No local workspace folder to probe from (folders=0); probing from the ext host cwd, which may not reflect where commands run
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] Probing sandbox support from /home/haidangphan
+2026-11-14 20:08:28.929 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:08:28.929 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-11-14 20:08:28.929 [info] [shell-exec:sandbox] [sandboxPreflight] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursorsandbox
+2026-11-14 20:08:28.929 [info] [shell-exec:sandbox] [sandboxPreflight] CWD: /home/haidangphan
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] Default shell changed: 
+2026-11-14 20:08:28.929 [info] [ExtHostShellExec] Default shell changed: /usr/bin/fish
+2026-11-14 20:08:28.936 [info] [shell-exec:sandbox] [primeSandboxHelperSupport] Preflight rooted at /home/haidangphan succeeded in 12ms, sandbox supported!
+2026-11-14 20:08:28.936 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 7.2.14-arch1-1
+2026-11-14 20:08:28.936 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2026-11-14 20:08:28.939 [info] ExtensionService#_doActivateExtension anysphere.cursor-checkout, startup: true, activationEvent: '*'
+2026-11-14 20:08:28.941 [info] Extension activated success: vscode.git-base — 3ms (code loading: 3ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:08:28.942 [info] Extension activated success: anysphere.cursor-checkout — 3ms (code loading: 2ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:08:28.942 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2026-11-14 20:08:28.967 [info] Extension activated success: vscode.git — 25ms (code loading: 11ms, activate call: 1ms, activate resolved: 13ms)
+2026-11-14 20:08:28.970 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2026-11-14 20:08:29.054 [info] Extension activated success: anysphere.cursor-retrieval — 83ms (code loading: 76ms, activate call: 0ms, activate resolved: 7ms)
+2026-11-14 20:08:29.065 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2026-11-14 20:08:29.870 [info] Extension activated success: anysphere.cursor-agent-exec — 804ms (code loading: 223ms, activate call: 6ms, activate resolved: 575ms)
+2026-11-14 20:08:29.870 [info] Eager extensions activated
+2026-11-14 20:08:29.890 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-worker, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:08:29.947 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:08:30.086 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:08:30.088 [info] ExtensionService#_doActivateExtension cursor.cursor-computer-use, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:08:30.144 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:08:30.157 [info] ExtensionService#_doActivateExtension anysphere.cursor-explorer, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:08:30.158 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:08:30.197 [info] ExtensionService#_doActivateExtension anysphere.cursor-resolver-helper, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:08:30.222 [info] ExtensionService#_doActivateExtension anysphere.cursor-socket, startup: false, activationEvent: 'onStartupFinished'
+2026-11-14 20:08:30.225 [info] Extension activated success: anysphere.cursor-agent-worker — 56ms (code loading: 56ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:08:30.230 [info] Extension activated success: anysphere.cursor-always-local — 144ms (code loading: 139ms, activate call: 4ms, activate resolved: 1ms)
+2026-11-14 20:08:30.231 [info] Extension activated success: cursor.cursor-browser-automation — 3ms (code loading: 2ms, activate call: 0ms, activate resolved: 1ms)
+2026-11-14 20:08:30.232 [info] Extension activated success: cursor.cursor-computer-use — 56ms (code loading: 55ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:08:30.232 [info] Extension activated success: anysphere.cursor-deeplink — 13ms (code loading: 13ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:08:30.232 [info] [ExtHostCursorExplorerProviderService] ExplorerProvider registered in ext host
+2026-11-14 20:08:30.232 [info] Extension activated success: anysphere.cursor-explorer — 1ms (code loading: 1ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:08:30.233 [info] Extension activated success: anysphere.cursor-resolver-helper — 26ms (code loading: 25ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:08:30.233 [info] Extension activated success: anysphere.cursor-socket — 1ms (code loading: 1ms, activate call: 0ms, activate resolved: 0ms)
+2026-11-14 20:08:30.245 [info] [ExtHostCursorExplorerProviderService] Main thread provider registration acknowledged
+2026-11-14 20:08:30.245 [info] [ExtHostCursorExplorerProviderService] findRepositories request {"maxDepth":4}
+2026-11-14 20:08:30.258 [info] Extension activated success: anysphere.cursor-mcp — 65ms (code loading: 39ms, activate call: 0ms, activate resolved: 26ms)
+2026-11-14 20:08:30.274 [info] [ExtHostCursorExplorerProviderService] findRepositories response {"count":10}
+2026-11-14 20:08:33.642 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:cursor-github'
+2026-11-14 20:08:33.645 [info] Extension activated success: vscode.github-authentication — 3ms (code loading: 2ms, activate call: 1ms, activate resolved: 0ms)
+2026-11-14 20:10:08.511 [info] Extension host terminating: renderer closed the MessagePort
+2026-11-14 20:10:08.520 [info] [ExtHostCursorExplorerProviderService] ExplorerProvider unregistered in ext host
+2026-11-14 20:10:08.522 [error] [ExtHostCursorExplorerProviderService] Main thread provider unregistration failed Canceled
+2026-11-14 20:10:08.820 [info] Extension host with pid 21188 exiting with code 0

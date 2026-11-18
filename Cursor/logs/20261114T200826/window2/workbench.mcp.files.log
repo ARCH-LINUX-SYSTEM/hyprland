@@ -1,0 +1,19 @@
+2026-11-14 20:10:06.903 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:10:06.910 [info] [MCPService] createClient completed for server: cursor-origin, connected=true, statusType=connected
+2026-11-14 20:10:33.863 [info] [MCPService] Plugin MCP census: {"trigger":"plugins_changed","providerOutcome":"error","descriptorsReceived":0,"pluginServersAssigned":0,"defaultServers":1,"userServers":0,"projectServers":0,"extensionServers":0,"providerServers":1,"effectiveTotal":2,"enabledTotal":2,"remoteAuthorityPrefix":"local"}
+2026-11-14 20:10:35.162 [info] [MCPService] createClient: identifier="cursor-origin", serverName="Origin"
+2026-11-14 20:10:35.169 [info] [MCPService] createClient completed for server: cursor-origin, connected=true, statusType=connected
+2026-11-14 20:11:06.031 [info] [MCPService] Plugin MCP census: {"trigger":"plugins_changed","providerOutcome":"timeout","descriptorsReceived":0,"pluginServersAssigned":0,"defaultServers":1,"userServers":0,"projectServers":0,"extensionServers":0,"providerServers":1,"effectiveTotal":2,"enabledTotal":2,"remoteAuthorityPrefix":"local"}
+2026-11-14 20:13:00.464 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:13:00.464 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, statusType=initializing, success=true
+2026-11-14 20:13:02.832 [info] [MCPService] Plugin MCP census: {"trigger":"plugins_changed","providerOutcome":"ok","descriptorsReceived":2,"pluginServersAssigned":2,"defaultServers":1,"userServers":0,"projectServers":0,"extensionServers":1,"providerServers":1,"effectiveTotal":5,"enabledTotal":5,"remoteAuthorityPrefix":"local"}
+2026-11-14 20:13:02.835 [info] [MCPService] createClient: identifier="user-eamodio.gitlens-extension-GitKraken", serverName="extension-GitKraken"
+2026-11-14 20:13:02.835 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:13:02.835 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:13:02.839 [info] [MCPService] createClient completed for server: user-eamodio.gitlens-extension-GitKraken, connected=true, statusType=connected
+2026-11-14 20:13:02.839 [info] [MCPService] createClient completed for server: plugin-shadcn-shadcn, statusType=initializing, success=true
+2026-11-14 20:13:02.839 [info] [MCPService] createClient completed for server: plugin-figma-figma, statusType=initializing, success=true
+2026-11-14 20:13:02.840 [info] [MCPService] createClient: identifier="plugin-shadcn-shadcn", serverName="shadcn"
+2026-11-14 20:13:02.840 [info] [MCPService] createClient: identifier="plugin-figma-figma", serverName="figma"
+2026-11-14 20:13:02.845 [info] [MCPService] createClient completed for server: plugin-shadcn-shadcn, statusType=initializing, success=true
+2026-11-14 20:13:02.845 [info] [MCPService] createClient completed for server: plugin-figma-figma, statusType=initializing, success=true

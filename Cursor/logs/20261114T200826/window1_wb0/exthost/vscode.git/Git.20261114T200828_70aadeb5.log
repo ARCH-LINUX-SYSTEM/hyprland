@@ -1,0 +1,27 @@
+2026-11-14 20:08:28.958 [info] [main] Log level: Info
+2026-11-14 20:08:28.958 [info] [main] Validating found git in: "/usr/bin/git"
+2026-11-14 20:08:28.967 [info] [main] Using git "2.56.0" from "/usr/bin/git"
+2026-11-14 20:08:28.967 [info] [Model][doInitialScan] Initial repository scan started
+2026-11-14 20:08:28.967 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-11-14 20:08:29.054 [info] > git config --get remote.origin.url [3ms] 
+2026-11-14 20:08:29.065 [info] > git config --get remote.origin.url [3ms] 
+2026-11-14 20:08:29.289 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [226ms] 
+2026-11-14 20:08:29.289 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:08:29.289 [info] > git log --no-ext-diff --no-textconv --skip=0 --max-count=1 --pretty=format:%H [230ms] 
+2026-11-14 20:08:29.289 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:08:29.300 [info] > git rev-parse --verify origin/main [1ms] 
+2026-11-14 20:08:29.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:08:29.304 [info] > git rev-parse --verify origin/master [2ms] 
+2026-11-14 20:08:29.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:08:29.306 [info] > git rev-parse --verify origin/develop [1ms] 
+2026-11-14 20:08:29.306 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:08:29.307 [info] > git branch -r [0ms] 
+2026-11-14 20:08:29.307 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:08:29.310 [info] > git config --get init.defaultBranch [1ms] 
+2026-11-14 20:08:30.233 [info] > git rev-parse --show-toplevel [347ms] (findGitRoot)
+2026-11-14 20:08:30.233 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-11-14 20:08:38.973 [info] > git config --global user.name [2ms] 
+2026-11-14 20:08:38.975 [info] > git config --global user.email [0ms] 
+2026-11-14 20:08:38.976 [info] [main] Stored git author name in global state: Phan Đăng Hải <chienbinhthephai@gmail.com>
+2026-11-14 20:09:48.568 [info] > git remote get-url --push origin [1ms] 
+2026-11-14 20:09:48.568 [info] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,45 @@
+["INFO" - 9:09:51 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 9:09:51 PM] Extension Version: 12.4.0.
+["INFO" - 9:09:51 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 9:09:51 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:09:51 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:09:57 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:09:57 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:10:08 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 9:10:08 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:10:08 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}
+["INFO" - 9:24:59 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:24:59 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 9:49:57 PM] Using config file at /home/haidangphan/Documents/tutor/gateway/.prettierrc
+["INFO" - 9:49:57 PM] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 9:49:57 PM] Resolved config:
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}

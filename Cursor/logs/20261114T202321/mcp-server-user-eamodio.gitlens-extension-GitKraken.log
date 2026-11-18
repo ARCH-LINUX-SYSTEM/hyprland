@@ -1,0 +1,6 @@
+2026-11-14 20:24:07.681 [info] connecting stdio for "extension-GitKraken" (user-eamodio.gitlens-extension-GitKraken)
+2026-11-14 20:24:07.681 [info] [V2 FSM] connection:connect_start: conn=idle,auth=unknown -> conn=connecting,auth=unknown
+2026-11-14 20:24:07.683 [info] MCP stdio spawn policy decision: sandboxed=false, sandboxReason=controls_disabled, networkControlsEnabled=false, mcpNetworkMode=unset, mcpNetworkAllowlistCount=0, mcpNetworkDenylistCount=0, localAgentNetworkAllowlistCount=0, sandboxPolicyHash=dbad6ab7a53b8aaa3269e0c907d30e5e1483298ffc76de0456eeb31b7d11df5e
+2026-11-14 20:24:07.704 [info] Successfully connected to stdio server
+2026-11-14 20:24:07.704 [info] [V2 FSM] connection:connect_success: conn=connecting,auth=unknown -> conn=connected,auth=unknown
+2026-11-14 20:24:07.708 [info] Subscribed to 4 resources

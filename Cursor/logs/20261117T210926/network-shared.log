@@ -1,0 +1,10 @@
+2026-11-17 21:19:50.471 [error] #7: https://api2.cursor.sh/extensions-control - error GET net::ERR_NAME_NOT_RESOLVED
+2026-11-17 21:24:52.514 [error] #8: https://api2.cursor.sh/extensions-control - error GET net::ERR_NETWORK_CHANGED
+2026-11-17 21:40:00.008 [error] #11: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2026-11-17 22:10:10.997 [error] #17: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2026-11-17 22:15:12.864 [error] #18: https://api2.cursor.sh/extensions-control - error GET net::ERR_NETWORK_CHANGED
+2026-11-17 22:35:20.858 [error] #22: https://api2.cursor.sh/extensions-control - error GET net::ERR_NETWORK_CHANGED
+2026-11-17 22:45:25.218 [error] #24: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2026-11-17 23:00:29.823 [error] #27: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2026-11-17 23:05:32.827 [error] #28: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2026-11-17 23:20:37.574 [error] #31: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
