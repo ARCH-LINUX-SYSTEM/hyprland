@@ -69,26 +69,9 @@ vars.keybinds = {
     { key = mainMod .. " + P", action = hl.dsp.window.pseudo() },
     { key = mainMod .. " + J", action = hl.dsp.layout("togglesplit") }, -- dwindle only
 
-    -- Caelestia Shell global shortcuts (requires xdg-desktop-portal-hyprland)
-    -- See README.md "Phim tat va IPC" for the full list of shortcut names.
-    { key = mainMod .. " + SUPER_L", action = hl.dsp.global("caelestia:launcher"), opts = { release = true } }, -- Tap SUPER alone
-    { key = mainMod .. " + SPACE",   action = hl.dsp.global("caelestia:utilities") }, -- Utilities popup (toggles, incl. wallpaper)
-    { key = mainMod .. " + W",       action = hl.dsp.global("caelestia:wallpaperToggle") }, -- Toggle wallpaper on/off
-    { key = mainMod .. " + SHIFT + W", action = hl.dsp.exec_cmd("caelestia wallpaper -r") }, -- Random wallpaper
-    { key = mainMod .. " + SHIFT + E", action = hl.dsp.global("caelestia:nexus") },
-    { key = mainMod .. " + TAB",         action = hl.dsp.global("caelestia:spaceSwitcher") }, -- Switch workspace (island)
-    { key = mainMod .. " + SHIFT + TAB", action = hl.dsp.global("caelestia:appSwitcher") },
-    { key = mainMod .. " + A",       action = hl.dsp.global("caelestia:sidebar") },
-    { key = mainMod .. " + X",       action = hl.dsp.global("caelestia:session") },
-    { key = mainMod .. " + L",       action = hl.dsp.global("caelestia:lock") },
-    { key = mainMod .. " + T",       action = hl.dsp.global("caelestia:themeToggle") }, -- Toggle dark/light
-
-    -- Caelestia profile (caelth): SUPER+SHIFT+S doi qua lai upstream <-> dev, CTRL+SUPER+ALT+P chon bang menu
-    -- Dung duong dan day du vi PATH cua phien Hyprland co the khong co ~/.local/bin
-    { key = mainMod .. " + SHIFT + S",         action = hl.dsp.exec_cmd(CAELTH .. " next") },
-    { key = "CTRL + " .. mainMod .. " + ALT + P", action = hl.dsp.exec_cmd(CAELTH .. " pick") },
-
-    -- Quantum Shell (profile dev): cung phim voi caelestia de dung giong nhau o 2 profile
+    -- Quantum Shell (qs -c caelestia): cac phim shell. Da bo cac phim caelestia:* / caelth
+    -- (shell hien tai khong dang ky global shortcut do, caelth khong co tren may).
+    { key = mainMod .. " + SHIFT + W", action = hl.dsp.exec_cmd("caelestia wallpaper -r") }, -- Hinh nen ngau nhien (CLI caelestia)
     { key = mainMod .. " + SUPER_L", action = quantum("shell launcher"), opts = { release = true } }, -- Menu app
     { key = mainMod .. " + A",         action = quantum("shell controlCenter") },  -- Trung tam dieu khien
     { key = mainMod .. " + N",         action = quantum("shell controlCenter") },  -- Thong bao
