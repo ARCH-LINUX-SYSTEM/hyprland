@@ -10,19 +10,14 @@ local function exists(p) local f = io.open(p, "r"); if f then f:close(); return 
 vars.terminal    = "kitty fish"
 -- thunar-themed la wrapper rieng (neu co), khong thi dung thunar
 vars.fileManager = exists(HOME .. "/.local/bin/thunar-themed") and (HOME .. "/.local/bin/thunar-themed") or "thunar"
-vars.menu        = "hyprlauncher"
 
 -- KEYBINDINGS
 vars.mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 local mainMod = vars.mainMod
 
--- Phim cho profile "dev" (Quantum Shell): chi chay khi caelth dang o profile dev,
--- o profile upstream thi khong lam gi (phim caelestia:* lo phan do).
--- Khong co caelth (profile switcher) thi goi thang IPC cua shell: qs -c caelestia ipc call <args>
-local CAELTH = HOME .. "/.local/bin/caelth"
+-- Phim dieu khien Quantum Shell: goi thang IPC cua shell (qs -c caelestia ipc call <args>)
 local function quantum(args)
-    if exists(CAELTH) then return hl.dsp.exec_cmd(CAELTH .. " ipc-if dev " .. args) end
     return hl.dsp.exec_cmd("qs -c caelestia ipc call " .. args)
 end
 vars.quantum = quantum
@@ -43,13 +38,15 @@ vars.keybinds = {
     { key = "CTRL + ALT + T",               action = hl.dsp.exec_cmd(vars.terminal) },
     { key = mainMod .. " + SHIFT + RETURN", action = hl.dsp.exec_cmd(vars.terminal .. " -e btop") }, -- terminal chay btop
     { key = mainMod .. " + Q", action = hl.dsp.exec_cmd(vars.terminal) },   -- SUPER+Q: mo terminal
-    { key = mainMod .. " + C", action = hl.dsp.window.close() },             -- SUPER+C: dong rieng cua so dang focus (kill se giet ca tien trinh, dong het cua so Brave)
-    -- (Da bo copy/paste kieu macOS SUPER+C/V; ham cael_clip() ben tren van con de gan phim khac neu can,
-    --  vd: { key = mainMod .. " + SHIFT + C", action = function() cael_clip("c") end })
+    -- Copy/paste kieu macOS: cael_clip() gui CTRL+C/V (CTRL+SHIFT+C/V trong terminal)
+    { key = mainMod .. " + C", action = function() cael_clip("c") end },   -- SUPER+C: copy
+    { key = mainMod .. " + V", action = function() cael_clip("v") end },   -- SUPER+V: paste
+    { key = mainMod .. " + X", action = hl.dsp.window.close() },           -- SUPER+X: dong rieng cua so dang focus (kill se giet ca tien trinh, dong het cua so Brave)
     { key = mainMod .. " + M", action = hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'") },
     { key = mainMod .. " + E", action = hl.dsp.exec_cmd(vars.fileManager) },
-    { key = "CTRL + SHIFT + Escape", action = hl.dsp.exec_cmd(HOME .. "/.local/bin/quantum-taskmgr") }, -- Task Manager (nhu Windows)
-    { key = mainMod .. " + R", action = hl.dsp.exec_cmd(vars.menu) },
+    { key = "CTRL + SHIFT + Escape", action = quantum("shell activityMonitor") }, -- Activity Monitor (thay Task Manager)
+    { key = mainMod .. " + R", action = quantum("shell spotlight") }, -- Spotlight (thay hyprlauncher)
+    { key = mainMod .. " + SPACE", action = quantum("shell spotlight") }, -- Spotlight (nhu Cmd+Space cua macOS)
     -- Esc: dang fullscreen -> thoat va dua cua so ve full vung lam viec (cael_esc trong minimize.lua).
     -- non_consuming = app van nhan Esc (vim, hop thoai...); khong fullscreen thi khong lam gi.
     { key = "Escape", action = function() if cael_esc then cael_esc() end end, opts = { non_consuming = true } },
@@ -71,11 +68,10 @@ vars.keybinds = {
 
     -- Quantum Shell (qs -c caelestia): cac phim shell. Da bo cac phim caelestia:* / caelth
     -- (shell hien tai khong dang ky global shortcut do, caelth khong co tren may).
-    { key = mainMod .. " + SHIFT + W", action = hl.dsp.exec_cmd("caelestia wallpaper -r") }, -- Hinh nen ngau nhien (CLI caelestia)
-    { key = mainMod .. " + SUPER_L", action = quantum("shell launcher"), opts = { release = true } }, -- Menu app
+    { key = mainMod .. " + SUPER_L", action = quantum("launchpad toggle"), opts = { release = true } }, -- Tap SUPER: Launchpad
     { key = mainMod .. " + A",         action = quantum("shell controlCenter") },  -- Trung tam dieu khien
     { key = mainMod .. " + N",         action = quantum("shell controlCenter") },  -- Thong bao
-    { key = mainMod .. " + X",         action = quantum("shell session") },        -- Menu tat may
+    { key = mainMod .. " + SHIFT + X", action = quantum("shell session") },        -- Menu tat may (SUPER+X da dung de dong app)
     { key = mainMod .. " + L",         action = quantum("lock lock") },            -- Khoa man hinh
     { key = mainMod .. " + W",         action = quantum("shell wallpapers") },     -- Chon hinh nen
     { key = mainMod .. " + I",         action = quantum("shell personalize") },    -- Personalizar
@@ -102,11 +98,9 @@ vars.keybinds = {
     -- Screenshot vung chon (SUPER+S). Scratchpad "magic" cu da bo phim nay.
     { key = mainMod .. " + S", action = hl.dsp.exec_cmd("~/.config/hypr/scripts/screenshot-region.sh") },
 
-    -- Quay man hinh: nhan de bat dau, nhan lai de dung (toggle)
-    { key = mainMod .. " + SHIFT + R", action = hl.dsp.exec_cmd("caelestia record") },
-
-    -- Quay 1 vung man hinh: dung slurp de chon vung truoc khi quay
-    { key = mainMod .. " + ALT + R", action = hl.dsp.exec_cmd("caelestia record -r") },
+    -- Quay man hinh (gpu-screen-recorder): bam de bat dau, bam lai de dung va luu ~/Videos/Recordings
+    { key = mainMod .. " + SHIFT + R", action = hl.dsp.exec_cmd("~/.config/hypr/scripts/screen-record.sh") },            -- toan man hinh
+    { key = mainMod .. " + ALT + R",   action = hl.dsp.exec_cmd("~/.config/hypr/scripts/screen-record.sh --region") },   -- chon vung
 
     -- Scroll through existing workspaces with mainMod + scroll
     { key = mainMod .. " + mouse_down", action = hl.dsp.focus({ workspace = "e+1" }) },

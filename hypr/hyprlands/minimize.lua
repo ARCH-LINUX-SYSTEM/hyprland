@@ -383,17 +383,32 @@ end
 
 -- Dock bam vao app dang mo (khong thu nho): focus + dua len tren cung, KHONG keo con tro.
 -- (wlr-foreign-toplevel activate cua Hyprland luon warp chuot nen dock goi ham nay thay the)
--- Cua so fullscreen (video) ve de len MOI cua so khac, ke ca cua so float duoc focus sau do ->
--- app khac bi che. Truoc khi chuyen sang cua so khac: thoat fullscreen cua cac cua so con lai cung workspace.
-local function leave_fullscreen_others(target)
+-- Cua so fullscreen (video YouTube...) che moi cua so khac cung workspace. Alt+Tab / dock sang app khac:
+-- KHONG thoat fullscreen; app do noi len TREN video (alter_zorder top -> allowed_over_fullscreen). Phai goi
+-- truoc focus, neu khong misc:on_focus_under_fullscreen = 2 se bo fullscreen cua video.
+-- Quay lai cua so fullscreen: day cac cua so dang noi tren no xuong (alter_zorder bottom xoa
+-- allowed_over_fullscreen) -> video lai phu kin man hinh. Rieng maximized (1) van bo maximized nhu cu.
+local function prepare_fullscreen_stack(target)
+    local sel = "address:" .. target.address
+    -- Cua so app van dang fullscreen nhung Hyprland da nha man hinh (internal 0, client 2): tra lai fullscreen that
+    -- (ban sua cu goi fullscreen_state lech internal/client -> Hyprland tat sync_fullscreen cua cua so, tu do
+    --  YouTube bam F chi doi trang thai phia app; bat lai sync de fullscreen cua app lai phu kin man hinh)
+    if (target.fullscreen or 0) == 0 and (target.fullscreen_client or 0) == 2 then
+        dsp(hl.dsp.window.set_prop({ prop = "sync_fullscreen", value = "1", window = sel }))
+        dsp(hl.dsp.window.fullscreen_state({ internal = 2, client = 2, action = "set", window = sel }))
+    end
+    local target_fs = (target.fullscreen or 0) == 2 or (target.fullscreen_client or 0) == 2
     local ws = target.workspace and target.workspace.id
     for _, v in ipairs(hl.get_windows()) do
-        if v.address ~= target.address and v.fullscreen and v.fullscreen ~= 0
-            and not in_min(v) and v.workspace and v.workspace.id == ws then
-            local mode = (v.fullscreen == 1) and "maximized" or "fullscreen"
-            dsp(hl.dsp.window.fullscreen({ mode = mode, action = "toggle", window = "address:" .. v.address }))
+        if v.address ~= target.address and not in_min(v) and v.workspace and v.workspace.id == ws then
+            if v.fullscreen == 1 then
+                dsp(hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle", window = "address:" .. v.address }))
+            elseif target_fs and (v.fullscreen or 0) == 0 and v.allowed_over_fullscreen then
+                dsp(hl.dsp.window.alter_zorder({ mode = "bottom", window = "address:" .. v.address }))
+            end
         end
     end
+    if not target_fs then dsp(hl.dsp.window.alter_zorder({ mode = "top", window = sel })) end
 end
 
 function cael_activate(addr)
@@ -401,10 +416,9 @@ function cael_activate(addr)
     if not w then return end
     if in_min(w) then return restore(w) end
     local sel = "address:" .. w.address
-    leave_fullscreen_others(w)
+    prepare_fullscreen_stack(w)   -- zorder truoc focus: giu fullscreen cua video cung workspace
     no_warp(function()
         dsp(hl.dsp.focus({ window = sel }))   -- tu chuyen sang workspace cua cua so neu can
-        dsp(hl.dsp.window.alter_zorder({ mode = "top", window = sel }))
     end)
 end
 
